@@ -1,0 +1,60 @@
+# Netlify: build settings + caching. No API keys are needed here: all data is
+# built by `npm run data` (locally or by the weekly GitHub workflow) and committed.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Single-page app: every unknown path serves index.html (real files win first).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Fingerprinted build files never change: cache them for a year.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Art, models and fonts change rarely: cache for a week, refresh in the background.
+[[headers]]
+  for = "/covers/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+[[headers]]
+  for = "/thumbs/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+[[headers]]
+  for = "/heroes/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+[[headers]]
+  for = "/logos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+[[headers]]
+  for = "/models/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+[[headers]]
+  for = "/brand/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=86400"
+
+# Data refreshes weekly: always revalidate, so visitors get new videos right away.
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
