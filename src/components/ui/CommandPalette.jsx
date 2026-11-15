@@ -9,7 +9,7 @@ const PAGES = [
   { label: "The shelf", href: "/shelf" },
   { label: "Journey timeline", href: "/journey" },
   { label: "Search by feeling", href: "/#feel" },
-  { label: "About and credits", href: "/about" },
+  { label: "About the channel", href: "/about" },
 ];
 
 /** Ranks how well `q` matches `text` (0 = no match). */

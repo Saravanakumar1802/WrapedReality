@@ -19,7 +19,7 @@ export default function SiteFooter() {
           <nav aria-label="Footer" className={styles.links}>
             <Link to="/shelf">The shelf</Link>
             <Link to="/journey">Journey</Link>
-            <Link to="/about">About and credits</Link>
+            <Link to="/about">About the channel</Link>
             {CHANNEL && (
               <a href={CHANNEL} rel="noreferrer" target="_blank">
                 YouTube channel

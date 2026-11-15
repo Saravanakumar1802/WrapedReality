@@ -1,0 +1,45 @@
+.section {
+  padding-block: clamp(60px, 10vw, 120px);
+}
+.grid {
+  margin: 0;
+  display: grid;
+  gap: clamp(28px, 4vw, 48px);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr));
+}
+.stat {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 6px;
+  padding-top: 22px;
+}
+.line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-channel), transparent);
+  transform-origin: left;
+}
+.value {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 7vw, 5.6rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+  font-variant-numeric: tabular-nums;
+  background: linear-gradient(180deg, var(--color-text) 30%, color-mix(in srgb, var(--color-channel-glow) 70%, var(--color-text)));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}

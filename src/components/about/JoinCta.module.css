@@ -1,0 +1,60 @@
+.section {
+  position: relative;
+  padding-block: clamp(100px, 16vw, 200px);
+  overflow: hidden;
+  background: radial-gradient(50% 60% at 50% 60%, color-mix(in srgb, var(--color-channel) 22%, transparent), transparent 70%);
+}
+.inner {
+  display: grid;
+  justify-items: center;
+  gap: 22px;
+  text-align: center;
+}
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-channel);
+  box-shadow: 0 0 0 8px color-mix(in srgb, var(--color-channel) 18%, transparent);
+}
+.h2 {
+  margin: 0;
+  max-width: 14ch;
+  font-size: clamp(2.6rem, 8.5vw, 7rem);
+  line-height: 0.95;
+  letter-spacing: -0.055em;
+}
+.meta {
+  margin: 0;
+  max-width: 46ch;
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+}
+.subscribe {
+  min-height: 56px;
+  padding-inline: 28px;
+  font-size: 1.05rem;
+  background: var(--color-channel);
+  border-color: var(--color-channel);
+  color: var(--color-text);
+  animation: glow 2.4s ease-in-out infinite;
+}
+.subscribe:hover {
+  background: var(--color-channel-glow);
+  border-color: var(--color-channel-glow);
+}
+@keyframes glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-channel) 55%, transparent);
+  }
+  50% {
+    box-shadow: 0 0 40px 6px color-mix(in srgb, var(--color-channel) 45%, transparent);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .subscribe {
+    animation: none;
+  }
+}

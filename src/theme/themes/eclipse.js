@@ -16,6 +16,10 @@ const eclipse = {
   colorScheme: "dark",
 
   colors: {
+    // the YouTube channel's own brand (banner red), used by the About page
+    channel: "#E8203A",
+    channelDeep: "#7A0B18",
+    channelGlow: "#FF4D5E",
     void: "#04040C", // deepest background (canvas clear colour, page base)
     ink: "#080818", // page surface
     panel: "#0F1026", // raised surfaces

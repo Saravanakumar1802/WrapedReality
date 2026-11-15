@@ -22,6 +22,7 @@ import { mergeMoments, momentText, quantize } from "../src/lib/momentIndex.js";
 import { GameSeedSchema } from "./schema.mjs";
 import { readContent } from "./content.mjs";
 import { fetchYouTube } from "./youtube.mjs";
+import { buildChannel } from "./channel.mjs";
 import { fetchTranscripts } from "./transcripts.mjs";
 import { indexMoments } from "./moments.mjs";
 import { fetchIgdb } from "./igdb.mjs";
@@ -58,6 +59,9 @@ async function main() {
 
   log.step("YouTube");
   const videos = await fetchYouTube(games, content);
+
+  log.step("Channel");
+  await buildChannel();
 
   log.step("Transcripts");
   const allVideos = [

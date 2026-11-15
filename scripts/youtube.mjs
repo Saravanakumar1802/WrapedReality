@@ -103,7 +103,8 @@ export async function fetchYouTube(games, content) {
       for (const id of c.videoIds ?? []) add(slug, uploadById.get(id) ?? { id, title: "", publishedAt: null });
     }
 
-    const allIds = [...new Set(Object.values(bySlug).flatMap((m) => [...m.keys()]))];
+    // every upload (not only matched ones): the About page shows total hours and the latest videos
+    const allIds = [...new Set([...uploads.map((v) => v.id), ...Object.values(bySlug).flatMap((m) => [...m.keys()])])];
     const lengths = await durations(allIds);
     const result = Object.fromEntries(
       Object.entries(bySlug).map(([slug, m]) => [
@@ -113,7 +114,13 @@ export async function fetchYouTube(games, content) {
           .sort((a, b) => String(a.publishedAt).localeCompare(String(b.publishedAt))),
       ]),
     );
-    await writeJson(CACHE, { fetchedAt: new Date().toISOString(), bySlug: result });
+    const channelUploads = uploads.map((v) => ({
+      id: v.id,
+      title: v.title,
+      publishedAt: v.publishedAt ?? null,
+      duration: lengths.get(v.id) ?? null,
+    }));
+    await writeJson(CACHE, { fetchedAt: new Date().toISOString(), bySlug: result, uploads: channelUploads });
     const matched = Object.values(result).filter((v) => v.length).length;
     log.ok(`YouTube: matched videos to ${matched}/${games.length} games`);
     return result;

@@ -1,0 +1,124 @@
+.section {
+  position: relative;
+  min-height: 110svh;
+  display: grid;
+  align-items: center;
+  padding-block: 120px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* the tilted wall of covers */
+.wall {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  perspective: 1600px;
+  -webkit-mask-image: radial-gradient(70% 70% at 70% 50%, black 30%, transparent 85%);
+  mask-image: radial-gradient(70% 70% at 70% 50%, black 30%, transparent 85%);
+}
+.plane {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  display: flex;
+  gap: 14px;
+  width: 1300px;
+  transform: translate(-50%, -50%) rotateX(48deg) rotateZ(-24deg);
+  opacity: 0.55;
+}
+.col {
+  display: grid;
+  gap: 14px;
+  flex: 1;
+}
+.col img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 18px 30px -12px var(--color-void);
+}
+.section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(180deg, var(--color-void), transparent 18%, transparent 78%, var(--color-void)),
+    linear-gradient(90deg, var(--color-void) 18%, color-mix(in srgb, var(--color-void) 55%, transparent) 55%, transparent);
+}
+
+.content {
+  display: grid;
+  gap: 18px;
+  justify-items: start;
+}
+.eyebrow {
+  color: var(--color-channel-glow);
+}
+.h2 {
+  margin: 0;
+  font-size: clamp(2.6rem, 8vw, 6.2rem);
+  line-height: 0.92;
+  letter-spacing: -0.055em;
+}
+.lede {
+  margin: 0;
+  max-width: 40ch;
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+}
+
+.bars {
+  display: grid;
+  gap: 14px;
+  width: min(520px, 100%);
+  margin: 10px 0 8px;
+  padding: 0;
+  list-style: none;
+}
+.bars li {
+  display: grid;
+  grid-template-columns: 74px 1fr 36px;
+  align-items: center;
+  gap: 14px;
+}
+.platform {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  font-weight: 700;
+}
+.platform img {
+  height: 16px;
+  width: auto;
+}
+.track {
+  height: 6px;
+  border-radius: var(--radius-pill);
+  background: var(--color-line);
+  overflow: hidden;
+}
+.bar {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--color-channel-deep), var(--color-channel-glow));
+  transform-origin: left;
+}
+.count {
+  text-align: right;
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 760px) {
+  .plane {
+    left: 50%;
+    width: 900px;
+    opacity: 0.35;
+  }
+  .section::after {
+    background: linear-gradient(180deg, color-mix(in srgb, var(--color-void) 50%, transparent), var(--color-void) 85%);
+  }
+}

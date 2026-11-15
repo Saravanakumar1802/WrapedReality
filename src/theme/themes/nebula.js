@@ -15,6 +15,10 @@ const nebula = {
   colorScheme: "dark",
 
   colors: {
+    // the YouTube channel's own brand (banner red), used by the About page
+    channel: "#E8203A",
+    channelDeep: "#7A0B18",
+    channelGlow: "#FF4D5E",
     void: "#03050B", // deepest background (canvas clear colour, page base)
     ink: "#060A15", // page surface
     panel: "#0B1224", // raised surfaces

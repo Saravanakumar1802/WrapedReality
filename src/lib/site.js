@@ -6,6 +6,8 @@ export const SITE = Object.freeze({
   name: "WrapedReality",
   /** The wordmark in two tones: "Wraped" (bold) + "Reality" (accent). */
   wordmark: Object.freeze(["Wraped", "Reality"]),
+  /** The creator, as on the channel banner. */
+  creator: "SK Logan",
   tagline: "every game I've played, and every moment worth finding",
   description:
     "The WrapedReality game library: every game from the channel as its real PS5, PS4 and PC case. Pull one off a 3D shelf, read what it left me, and jump straight to any moment in the playthroughs.",

@@ -12,7 +12,7 @@ const NAV = [
   // only once the moment index exists (videos connected + `npm run data`)
   ...(meta.momentCount > 0 ? [{ to: "/moments", label: "Moments", note: "Jump to any scene in the playthroughs" }] : []),
   { to: "/journey", label: "Journey", note: "The games in the order I played them" },
-  { to: "/about", label: "About", note: "Why this exists, and the credits" },
+  { to: "/about", label: "About", note: "The WrapedReality channel" },
 ];
 
 const HIDE_AFTER = 420; // px scrolled before the bar may tuck away
