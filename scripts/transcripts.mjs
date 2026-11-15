@@ -142,6 +142,21 @@ async function ownerAccessToken() {
 }
 
 /**
+ * Picks the caption track to download: a working ("serving") track only, the
+ * creator's own before YouTube's automatic one. Videos often list a "failed"
+ * track first, which can't be downloaded. Exported for tests.
+ */
+export function pickCaptionTrack(tracks) {
+  const serving = tracks.filter((t) => (t.snippet?.status ?? "serving") === "serving");
+  return serving.find((t) => t.snippet?.trackKind !== "asr") ?? serving[0] ?? null;
+}
+
+/** Shorts are too short to hold findable moments, and captions cost quota: skip them. */
+export const MIN_VIDEO_SECONDS = 90;
+/** A video without captions is checked again after this long (YouTube adds automatic captions later). */
+const RECHECK_MS = 7 * 24 * 3600 * 1000;
+
+/**
  * Downloads the owner's own captions (manual track preferred, else auto-generated).
  * Costs 50 + 200 quota units per video, so results are cached forever.
  */
@@ -149,7 +164,7 @@ async function downloadCaptions(videoId, token) {
   const auth = { headers: { authorization: `Bearer ${token}` } };
   const list = await fetchJson(`https://www.googleapis.com/youtube/v3/captions?part=snippet&videoId=${videoId}`, auth);
   const tracks = list.items ?? [];
-  const pick = tracks.find((t) => t.snippet?.trackKind !== "asr") ?? tracks[0];
+  const pick = pickCaptionTrack(tracks);
   if (!pick) return null;
   const res = await fetch(`https://www.googleapis.com/youtube/v3/captions/${pick.id}?tfmt=srt`, auth);
   if (!res.ok) throw new Error(`captions.download HTTP ${res.status}`);
@@ -174,7 +189,9 @@ export async function fetchTranscripts(videos) {
   let quotaHit = false;
 
   for (const v of videos) {
+    if (v.duration != null && v.duration < MIN_VIDEO_SECONDS) continue;
     const chapters = parseChapters(v.description);
+    const noneFile = `${cacheDir}/${v.id}.none`;
     let raw = await readLocal(v.id);
     let source = raw ? "file" : null;
     if (!raw) {
@@ -185,14 +202,24 @@ export async function fetchTranscripts(videos) {
         /* not cached yet */
       }
     }
-    if (!raw && token && !quotaHit) {
+    // known to have no captions recently: don't spend quota asking again yet
+    const checkedRecently =
+      !raw &&
+      Date.now() -
+        (await fs.stat(noneFile).then(
+          (st) => st.mtimeMs,
+          () => 0,
+        )) <
+        RECHECK_MS;
+    if (!raw && token && !quotaHit && !checkedRecently) {
       try {
         raw = await downloadCaptions(v.id, token);
         if (raw) {
           await fs.writeFile(`${cacheDir}/${v.id}.srt`, raw);
+          await fs.rm(noneFile, { force: true });
           source = "youtube";
           downloaded++;
-        }
+        } else await fs.writeFile(noneFile, new Date().toISOString());
       } catch (err) {
         if (/HTTP 403/.test(err.message))
           quotaHit = true; // daily quota: the rest go next run

@@ -78,3 +78,14 @@ describe("chapters and durations", () => {
     expect(clock(3723)).toBe("1:02:03");
   });
 });
+
+describe("caption track choice", () => {
+  const track = (id, trackKind, status) => ({ id, snippet: { trackKind, status } });
+  it("skips failed tracks and prefers the creator's own over automatic", async () => {
+    const { pickCaptionTrack } = await import("../../scripts/transcripts.mjs");
+    expect(pickCaptionTrack([track("a", "standard", "failed"), track("b", "asr", "serving")]).id).toBe("b");
+    expect(pickCaptionTrack([track("a", "asr", "serving"), track("b", "standard", "serving")]).id).toBe("b");
+    expect(pickCaptionTrack([track("a", "standard", "failed")])).toBeNull();
+    expect(pickCaptionTrack([])).toBeNull();
+  });
+});

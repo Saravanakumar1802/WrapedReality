@@ -1,0 +1,614 @@
+{
+  "items": {
+    "2|ay48pafcaR8|1337628067": {
+      "summary": "Spider-Man discusses tracking down Devil's Breath and triggers a trap.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Talking with MJ",
+          "detail": "Spider-Man talks with MJ about finding Oscorp's lab before Martin Lee gets there.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "mj",
+            "devil's breath",
+            "martin lee"
+          ]
+        },
+        {
+          "t": 35,
+          "title": "Trap Failed",
+          "detail": "The trap fails, but it softens up the enemy for plan B.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "trap",
+            "spider-man"
+          ]
+        }
+      ],
+      "videoId": "ay48pafcaR8"
+    },
+    "2|g2QCTplBsY0|2837227483": {
+      "summary": "Spider-Man engages in a tense encounter before attempting a backup plan.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Spider-Man's Trap Fails",
+          "detail": "Spider-Man assesses a chaotic traffic situation and discusses the anti-serum.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "spider-man",
+            "traffic",
+            "anti-serum",
+            "lab"
+          ]
+        },
+        {
+          "t": 35,
+          "title": "Plan B",
+          "detail": "Spider-Man's initial trap fails, leaving him to resort to a second plan.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "trap",
+            "plan b",
+            "combat",
+            "action"
+          ]
+        }
+      ],
+      "videoId": "g2QCTplBsY0"
+    },
+    "2|vxwGhEHXfnE|3950971991": {
+      "summary": "Spider-Man arrives to assist Yuri Watanabe and assesses the chaotic aftermath at the Raft prison break.",
+      "moments": [
+        {
+          "t": 13,
+          "title": "Assisting Yuri Watanabe",
+          "detail": "Spider-Man arrives to help Yuri and discuss the Raft prison break.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "yuri",
+            "raft",
+            "prison break",
+            "spider-man"
+          ]
+        }
+      ],
+      "videoId": "vxwGhEHXfnE"
+    },
+    "2|Lb1-4BkkbUk|1504188031": {
+      "summary": "A very brief gameplay clip of Spider-Man: Miles Morales.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Gameplay Action",
+          "detail": "Miles Morales swings or moves in the city",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "action",
+            "gameplay",
+            "miles morales"
+          ]
+        }
+      ],
+      "videoId": "Lb1-4BkkbUk"
+    },
+    "2|nZB5hfbodkY|87726968": {
+      "summary": "Miles Morales trains as Spider-Man and defends New York from a massive prison break.",
+      "moments": [
+        {
+          "t": 377,
+          "title": "Prison Convoy Escort",
+          "detail": "Help Peter Parker protect the prison convoy transporting escapees.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "rhino",
+            "convoy",
+            "inmates"
+          ]
+        },
+        {
+          "t": 513,
+          "title": "Rhino's Escape",
+          "detail": "Fight Rhino after he breaks out of the transport payload.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "spider-man",
+            "rhino",
+            "boss",
+            "fight"
+          ]
+        },
+        {
+          "t": 855,
+          "title": "Chaos in the Mall",
+          "detail": "Battle escaping criminals through the mall with Peter Parker.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "rhino",
+            "combat",
+            "mall"
+          ]
+        },
+        {
+          "t": 1133,
+          "title": "Peter is Injured",
+          "detail": "Peter gets pinned under debris by Rhino during the fierce battle.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "spider-man",
+            "rhino",
+            "peter parker",
+            "injured"
+          ]
+        },
+        {
+          "t": 1170,
+          "title": "Unlocking Bioelectricity",
+          "detail": "Miles discovers a new bioelectric power while facing Rhino.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "spider-man",
+            "rhino",
+            "bioelectricity",
+            "power"
+          ]
+        },
+        {
+          "t": 1253,
+          "title": "Stopping Rhino",
+          "detail": "Defeat Rhino and prevent further destruction in the city.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "rhino",
+            "defeat",
+            "ending"
+          ]
+        },
+        {
+          "t": 1859,
+          "title": "Holodeck Training",
+          "detail": "Learn new moves and techniques in the holographic training challenges.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "training",
+            "hologram",
+            "skills"
+          ]
+        },
+        {
+          "t": 2045,
+          "title": "Tech Thieves Ambush",
+          "detail": "Defeat the invisible tech thieves trying to steal Spider-Man gear.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "combat",
+            "thieves",
+            "tech"
+          ]
+        },
+        {
+          "t": 2349,
+          "title": "Roxxon Plaza Incident",
+          "detail": "Investigate a break-in at Roxxon Plaza and discover the new reactor.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "roxxon",
+            "plaza",
+            "reactor"
+          ]
+        },
+        {
+          "t": 2505,
+          "title": "Roxxon Security Fight",
+          "detail": "Fight Roxxon security guards while investigating the plaza break-in.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "roxxon",
+            "combat",
+            "guards"
+          ]
+        },
+        {
+          "t": 2919,
+          "title": "Christmas Dinner Arrives",
+          "detail": "Enjoy Christmas dinner at home with family and friends like Ganke and Finn.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "miles morales",
+            "ganke lee",
+            "finn",
+            "christmas"
+          ]
+        },
+        {
+          "t": 3234,
+          "title": "Restoring Power",
+          "detail": "Use bioelectricity to jumpstart the circuit breaker and fix the blackout.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "miles morales",
+            "puzzle",
+            "power",
+            "christmas"
+          ]
+        },
+        {
+          "t": 3429,
+          "title": "Mom's Campaign Speech",
+          "detail": "Listen to Rio's campaign plans and discuss Simon Krieger and Roxxon.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "rio morales",
+            "ganke lee",
+            "simon krieger",
+            "campaign"
+          ]
+        },
+        {
+          "t": 3553,
+          "title": "Ganke's App Upgrade",
+          "detail": "Ganke works on a custom operating system app for Miles's new suit.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "miles morales",
+            "ganke lee",
+            "suit",
+            "upgrade"
+          ]
+        }
+      ],
+      "videoId": "nZB5hfbodkY"
+    },
+    "2|7S166LI0AxQ|4156473030": {
+      "summary": "Miles Morales swings through Harlem in a brief gameplay clip.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Harlem Swing",
+          "detail": "Miles Morales swings through the snowy streets of Harlem",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "swinging",
+            "miles morales",
+            "harlem",
+            "ps5"
+          ]
+        }
+      ],
+      "videoId": "7S166LI0AxQ"
+    },
+    "2|sqxfp0of1ds|4119349188": {
+      "summary": "Miles Morales is rescued and looks for a way out after being captured by Roxxon.",
+      "moments": [
+        {
+          "t": 27,
+          "title": "Rescue Miles",
+          "detail": "Miles is found and checks if he is okay after almost being killed",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "roxxon",
+            "rescue",
+            "miles morales"
+          ]
+        }
+      ],
+      "videoId": "sqxfp0of1ds"
+    },
+    "2|bqBlRBlx2eE|974746867": {
+      "summary": "Spider-Man engages in combat against a group of thugs.",
+      "moments": [
+        {
+          "t": 3,
+          "title": "Thug Encounter",
+          "detail": "Spider-Man fights off enemies in a quick encounter",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "combat",
+            "fight",
+            "action"
+          ]
+        }
+      ],
+      "videoId": "bqBlRBlx2eE"
+    },
+    "2|SF42lFEGWO0|1516045999": {
+      "summary": "Spider-Man swings through the city and performs tricks.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Swinging through the city",
+          "detail": "Spider-Man swings through the urban environment",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "swinging",
+            "exploration",
+            "gameplay"
+          ]
+        }
+      ],
+      "videoId": "SF42lFEGWO0"
+    },
+    "2|bQMnNKWGzgU|1061232151": {
+      "summary": "Peter Parker battles enemies and contemplates his skills in a short gameplay clip.",
+      "moments": [
+        {
+          "t": 1,
+          "title": "Battle Engagement",
+          "detail": "Peter Parker engages in a fast-paced combat encounter against enemies.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "spider-man",
+            "action"
+          ]
+        },
+        {
+          "t": 41,
+          "title": "Self Reflection",
+          "detail": "Peter Parker makes a brief comment about seeing himself during the events.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "dialogue",
+            "reflection"
+          ]
+        },
+        {
+          "t": 109,
+          "title": "Skill Upgrade Thought",
+          "detail": "Peter Parker considers adding crowd control to his skills tree.",
+          "kind": "tip",
+          "spoiler": false,
+          "tags": [
+            "skills",
+            "upgrade",
+            "tip"
+          ]
+        }
+      ],
+      "videoId": "bQMnNKWGzgU"
+    },
+    "2|R-Rul0d_u_g|2255713379": {
+      "summary": "Peter Parker engages in a brief musical moment with music playing.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Musical Moment",
+          "detail": "Peter Parker sings and dances briefly to the music.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "peter parker",
+            "music",
+            "singing",
+            "short"
+          ]
+        }
+      ],
+      "videoId": "R-Rul0d_u_g"
+    },
+    "2|NcFTRBT1RjM|3026783278": {
+      "summary": "Spider-Man confronts Kraven the Hunter and witnesses the fate of Scorpion.",
+      "moments": [
+        {
+          "t": 9,
+          "title": "Kraven's Hunt Begins",
+          "detail": "Spider-Man investigates and faces the dangerous threat of Kraven.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "kraven",
+            "spider-man",
+            "story",
+            "confrontation"
+          ]
+        },
+        {
+          "t": 72,
+          "title": "Scorpion's Fate",
+          "detail": "Scorpion suffers a brutal end at the hands of Kraven the Hunter.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "scorpion",
+            "kraven",
+            "death",
+            "boss"
+          ]
+        }
+      ],
+      "videoId": "NcFTRBT1RjM"
+    },
+    "2|_QDBFzNQk28|3288990496": {
+      "summary": "Spider-Man investigates a mysterious situation involving Kraven and Scorpion.",
+      "moments": [
+        {
+          "t": 9,
+          "title": "Investigation Begins",
+          "detail": "Spider-Man discusses a situation while investigating a location.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "story",
+            "investigation"
+          ]
+        },
+        {
+          "t": 72,
+          "title": "Kraven Kills Scorpion",
+          "detail": "Kraven confronts Scorpion and defeats him in a brutal encounter.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "kraven",
+            "scorpion",
+            "boss fight",
+            "death"
+          ]
+        }
+      ],
+      "videoId": "_QDBFzNQk28"
+    },
+    "2|gk1oQ8GTSC4|775573820": {
+      "summary": "Jin Sakai and Yuna infiltrate a Mongol camp to rescue Taka, facing difficult choices about the samurai code.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Scouting the Mongol Camp",
+          "detail": "Jin and Yuna discuss their past and approach the camp where Taka is held.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "brother",
+            "camp",
+            "rescue",
+            "stealth"
+          ]
+        },
+        {
+          "t": 539,
+          "title": "Finding a Way In",
+          "detail": "Jin and Yuna inspect the camp defenses and look for a way inside.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "infiltration",
+            "wall",
+            "breach",
+            "stealth"
+          ]
+        },
+        {
+          "t": 690,
+          "title": "An Unexpected Encounter",
+          "detail": "Jin and Lord Shimura track a wounded bear and discover a dead assassin.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "bear",
+            "assassin",
+            "samurai",
+            "code"
+          ]
+        },
+        {
+          "t": 961,
+          "title": "Rescuing the Slaves",
+          "detail": "Jin slips into the camp and frees the prisoners being held by Mongols.",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "prisoner",
+            "stealth",
+            "rescue",
+            "slaves"
+          ]
+        },
+        {
+          "t": 1117,
+          "title": "Lord Shimura's Captivity",
+          "detail": "Lord Shimura refuses to surrender to the Mongol leader despite being imprisoned.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "shimura",
+            "prisoner",
+            "captive",
+            "resolve"
+          ]
+        },
+        {
+          "t": 1850,
+          "title": "Hiding in the Sake Cart",
+          "detail": "Kenji helps Jin smuggle himself into Azumo Bay hidden in a cart of sake.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "kenji",
+            "sake",
+            "cart",
+            "infiltration"
+          ]
+        },
+        {
+          "t": 2250,
+          "title": "Saving Taka from the Slaver",
+          "detail": "Jin confronts the slaver threatening Taka and rescues the blacksmith.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "taka",
+            "slaver",
+            "boss",
+            "rescue"
+          ]
+        },
+        {
+          "t": 2793,
+          "title": "Escaping Azumo Bay",
+          "detail": "Jin, Yuna, Taka, and Kenji flee the burning town and regroup safely.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "escape",
+            "azumo bay",
+            "regroup",
+            "horses"
+          ]
+        },
+        {
+          "t": 3161,
+          "title": "Looking for Sensei Ishikawa",
+          "detail": "Jin arrives in the forest and asks a villager for directions to Sensei Ishikawa's dojo.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "ishikawa",
+            "dojo",
+            "forest",
+            "archer"
+          ]
+        }
+      ],
+      "videoId": "gk1oQ8GTSC4"
+    }
+  }
+}
