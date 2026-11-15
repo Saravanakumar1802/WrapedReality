@@ -1,0 +1,346 @@
+/*
+ * Global styles. Colours, fonts, radii and motion come ONLY from CSS variables
+ * generated from the central theme (src/theme). Never hardcode colours here.
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: clip; /* never let a stray element widen the mobile layout viewport */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scrollbar-color: var(--color-line-strong) var(--color-void);
+  scrollbar-width: thin;
+}
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: var(--color-void);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip; /* not hidden: that would make <body> a scroll container and break position: sticky */
+}
+
+/* The backdrop is the WebGL star field (components/space/SpaceField.jsx), fixed
+   behind everything; --color-void on <body> stands in until it paints. */
+#root {
+  position: relative;
+  isolation: isolate; /* keeps the star field's z-index: -1 above the body background */
+}
+
+img,
+canvas,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: var(--color-line-strong);
+  text-underline-offset: 0.22em;
+}
+a:hover {
+  text-decoration-color: currentColor;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* ── Type ───────────────────────────────────────────────────────────────── */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  margin: 0;
+  text-wrap: balance;
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 1.04;
+}
+/* Unbounded is a wide face: sizes run smaller than a normal grotesque would. */
+h1 {
+  font-size: clamp(2.1rem, 5vw, 4.4rem);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+}
+h2 {
+  font-size: clamp(1.7rem, 3.4vw, 3rem);
+}
+h3 {
+  font-size: clamp(1.05rem, 1.4vw, 1.25rem);
+  letter-spacing: -0.02em;
+}
+p {
+  margin: 0;
+  text-wrap: pretty;
+}
+
+.lede {
+  font-size: clamp(1.05rem, 1.4vw, 1.22rem);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  max-width: 54ch;
+}
+.muted {
+  color: var(--color-text-muted);
+}
+
+/* HUD micro-label: used only for data readouts in the console-style UI */
+.hud {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+}
+
+/* ── Layout ─────────────────────────────────────────────────────────────── */
+.container {
+  width: min(1320px, 100% - 32px);
+  margin-inline: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: min(1320px, 100% - 80px);
+  }
+}
+.section {
+  padding-block: clamp(72px, 10vw, 150px);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: fixed;
+  left: 16px;
+  top: -100px;
+  z-index: 1000;
+  padding: 10px 16px;
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 16px;
+}
+
+/* ── Buttons ────────────────────────────────────────────────────────────── */
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0 24px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-line-strong);
+  background: var(--color-glass);
+  backdrop-filter: blur(14px);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.98rem;
+  letter-spacing: 0;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background var(--dur-fast) var(--ease-out),
+    border-color var(--dur-fast) var(--ease-out),
+    box-shadow var(--dur-fast) var(--ease-out),
+    transform var(--dur-fast) var(--ease-out);
+}
+.btn:hover {
+  background: var(--color-panel-high);
+  border-color: var(--color-text-muted);
+}
+.btn:active {
+  transform: scale(0.97);
+}
+/* SplitText line masks (data-fx="lines"): descenders must not be clipped */
+[data-fx="lines"] > div {
+  padding-bottom: 0.08em;
+}
+.btn-primary {
+  background: var(--color-accent);
+  border-color: transparent;
+  color: var(--color-on-accent);
+  box-shadow: var(--shadow-glow);
+}
+.btn-primary:hover {
+  background: var(--color-accent-hover);
+  border-color: transparent;
+}
+.btn[disabled] {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.btn svg {
+  flex: none;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 34px;
+  padding: 0 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-line);
+  background: transparent;
+  color: var(--color-text-muted);
+  font-size: 0.86rem;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    color var(--dur-fast),
+    border-color var(--dur-fast),
+    background var(--dur-fast);
+}
+.chip:hover {
+  color: var(--color-text);
+  border-color: var(--color-line-strong);
+}
+.chip[aria-current="page"],
+.chip[aria-pressed="true"],
+.chip[data-active="true"] {
+  color: var(--color-text);
+  border-color: var(--chip-color, var(--color-accent));
+  background: color-mix(in srgb, var(--chip-color, var(--color-accent)) 16%, transparent);
+}
+.chip .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--chip-color, var(--color-accent));
+  box-shadow: 0 0 10px var(--chip-color, var(--color-accent));
+}
+.chip .count {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-text-dim);
+}
+
+.kbd {
+  display: inline-grid;
+  place-items: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--color-line-strong);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+}
+
+/* ── Surfaces ───────────────────────────────────────────────────────────── */
+.panel {
+  background: var(--color-glass);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-panel);
+  backdrop-filter: blur(20px) saturate(1.3);
+}
+
+.holo-text {
+  background: var(--holo-linear);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Platform logo as a flat white mark (logos ship black) */
+.ps-mark {
+  display: block;
+  height: 1em;
+  width: auto;
+  filter: brightness(0) invert(1);
+}
+.ps-mark[data-tone="dark"] {
+  filter: brightness(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Thin progress bar while a lazily-loaded page downloads */
+.route-progress {
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 2px;
+  z-index: 100;
+  background: var(--holo-linear);
+  transform: scaleX(0);
+  transform-origin: left;
+  opacity: 0;
+  pointer-events: none;
+}
+.route-progress[data-active="true"] {
+  opacity: 1;
+  animation: progress 1.2s var(--ease-out) forwards;
+}
+@keyframes progress {
+  to {
+    transform: scaleX(0.85);
+  }
+}

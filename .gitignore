@@ -1,0 +1,35 @@
+# ── dependencies ───────────────────────────
+node_modules/
+
+# ── build output (rebuilt by `npm run build`) ──
+dist/
+.vite/
+
+# ── secrets: never commit keys ─────────────
+.env
+.env.local
+.env.*.local
+
+# ── test output ────────────────────────────
+playwright-report/
+blob-report/
+test-results/
+coverage/
+
+# ── caches that are cheap to rebuild ───────
+# (cache/*.json, cache/brand and cache/transcripts ARE committed: they hold
+#  downloaded art, YouTube captions and AI results that cost time, quota or money)
+cache/models/
+.eslintcache
+
+# ── logs ───────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── OS / editor files ──────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json

@@ -1,0 +1,242 @@
+.section {
+  position: relative;
+}
+/* scroll distance: one screen, plus most of a screen per extra console */
+.track {
+  height: calc(100svh + (var(--n) - 1) * 90svh);
+}
+.stage {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: hidden;
+  isolation: isolate;
+  touch-action: pan-y; /* vertical swipes still scroll the page; horizontal ones spin the console */
+  cursor: grab;
+}
+.stage:active {
+  cursor: grabbing;
+}
+
+/* soft pool of the console's colour behind it */
+.stage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: radial-gradient(46% 52% at 68% 50%, color-mix(in srgb, var(--accent-console) 20%, transparent), transparent 70%);
+  transition: opacity 0.6s;
+}
+
+/* ── the year, huge and outlined, behind everything ───────────────────── */
+.years {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  display: grid;
+  place-items: center end;
+  padding-right: 1vw;
+  /* fades toward the copy on the left, so the numerals never fight the text */
+  -webkit-mask-image: linear-gradient(to right, transparent 34%, black 62%);
+  mask-image: linear-gradient(to right, transparent 34%, black 62%);
+  pointer-events: none;
+}
+.years span {
+  grid-area: 1 / 1;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(7rem, 24vw, 24rem);
+  line-height: 0.8;
+  letter-spacing: -0.07em;
+  color: transparent;
+  -webkit-text-stroke: 1.5px color-mix(in srgb, var(--accent-console) 45%, transparent);
+  opacity: 0;
+  transform: translateY(18%) scale(0.92);
+  transition:
+    opacity 0.7s var(--ease-out),
+    transform 0.9s var(--ease-out);
+}
+.years span[data-active] {
+  opacity: 1;
+  transform: none;
+}
+
+.canvas {
+  position: absolute;
+  inset: 0;
+}
+
+/* ── copy ─────────────────────────────────────────────────────────────── */
+.copy {
+  position: relative;
+  display: grid;
+  align-content: center;
+  gap: 18px;
+  height: 100%;
+  pointer-events: none;
+}
+.copy a,
+.copy button {
+  pointer-events: auto;
+}
+.kicker {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--accent-console);
+  transition: color 0.5s;
+}
+.panels {
+  display: grid;
+  max-width: min(520px, 100%);
+}
+.panel {
+  grid-area: 1 / 1;
+  display: grid;
+  gap: 20px;
+  justify-items: start;
+  visibility: hidden;
+  transition: visibility 0s 0.5s;
+}
+.panel[data-active] {
+  visibility: visible;
+  transition-delay: 0s;
+}
+/* children slide up one after another when a console takes the stage */
+.panel > * {
+  opacity: 0;
+  transform: translateY(26px);
+  transition:
+    opacity 0.45s var(--ease-out),
+    transform 0.6s var(--ease-out);
+}
+.panel[data-active] > * {
+  opacity: 1;
+  transform: none;
+}
+.panel[data-active] > :nth-child(2) {
+  transition-delay: 0.07s;
+}
+.panel[data-active] > :nth-child(3) {
+  transition-delay: 0.14s;
+}
+.panel[data-active] > :nth-child(4) {
+  transition-delay: 0.21s;
+}
+
+.name {
+  font-size: clamp(2.2rem, 5.4vw, 4.6rem);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+.line {
+  font-size: clamp(1.02rem, 1.3vw, 1.18rem);
+  color: var(--color-text-muted);
+  max-width: 44ch;
+}
+.facts {
+  display: flex;
+  gap: 36px;
+  margin: 0;
+}
+.facts dt {
+  font-size: 0.85rem;
+  color: var(--color-text-dim);
+}
+.facts dd {
+  margin: 2px 0 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: -0.03em;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.power[aria-pressed="true"] {
+  border-color: var(--accent-console);
+  color: var(--color-text);
+  box-shadow: 0 0 24px -6px var(--accent-console);
+}
+
+/* ── bottom dock ──────────────────────────────────────────────────────── */
+.dock {
+  position: absolute;
+  inset: auto max(16px, calc((100vw - 1320px) / 2 + 40px)) 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  pointer-events: none;
+}
+.hint {
+  font-size: 0.9rem;
+  color: var(--color-text-dim);
+}
+.pager {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-line);
+  background: var(--color-glass-strong);
+  backdrop-filter: blur(12px);
+  pointer-events: auto;
+}
+.pager button {
+  min-width: 56px;
+  min-height: 36px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: none;
+  color: var(--color-text-muted);
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition:
+    background var(--dur-fast),
+    color var(--dur-fast);
+}
+.pager button:hover {
+  color: var(--color-text);
+}
+.pager button[aria-current="true"] {
+  background: var(--accent-console);
+  color: var(--color-void);
+}
+
+@media (max-width: 900px) {
+  .stage::before {
+    background: radial-gradient(70% 36% at 50% 30%, color-mix(in srgb, var(--accent-console) 22%, transparent), transparent 70%);
+  }
+  .years {
+    place-items: start center;
+    padding: 96px 0 0;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+  /* console on top, copy below it */
+  .copy {
+    align-content: end;
+    padding-bottom: 96px;
+    gap: 10px;
+  }
+  .panel {
+    gap: 12px;
+  }
+  .line {
+    font-size: 0.98rem;
+  }
+  .hint {
+    display: none;
+  }
+  .dock {
+    justify-content: center;
+    bottom: 22px;
+  }
+}

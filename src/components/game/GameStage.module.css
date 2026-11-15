@@ -1,0 +1,46 @@
+.stage {
+  position: relative;
+  height: min(74svh, 760px);
+  min-height: 460px;
+}
+.stage::before {
+  content: "";
+  position: absolute;
+  inset: 18% 12% 6%;
+  background: radial-gradient(closest-side, color-mix(in srgb, var(--accent-game, var(--color-accent)) 34%, transparent), transparent);
+  filter: blur(36px);
+  z-index: -1;
+}
+
+.controls {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  translate: -50% 0;
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  width: max-content;
+  max-width: 100%;
+}
+.hint {
+  font-size: 0.86rem;
+  color: var(--color-text-muted);
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 32px;
+}
+.fallback > * {
+  width: min(300px, 64%);
+}

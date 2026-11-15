@@ -1,0 +1,19 @@
+.text,
+.pending {
+  display: grid;
+  gap: 1em;
+  max-width: 62ch;
+}
+
+.lead {
+  font-family: var(--font-body);
+  font-size: clamp(1.4rem, 2.3vw, 2rem);
+  font-weight: 450;
+  line-height: 1.32;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.text p:not(.lead) {
+  color: var(--color-text-muted);
+}

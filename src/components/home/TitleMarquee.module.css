@@ -1,0 +1,43 @@
+.marquee {
+  display: grid;
+  gap: clamp(8px, 1.4vw, 20px);
+  padding-block: clamp(40px, 6vw, 90px);
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
+}
+.row {
+  display: flex;
+}
+.track {
+  display: flex;
+  flex: none;
+  will-change: transform;
+}
+.word {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2rem, 5.4vw, 5rem);
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+  white-space: nowrap;
+  color: var(--color-text);
+}
+.word[data-outline] {
+  color: transparent;
+  -webkit-text-stroke: 1px var(--color-line-strong);
+}
+/* a small holographic disc between titles */
+.disc {
+  flex: none;
+  width: 0.42em;
+  height: 0.42em;
+  margin-inline: 0.5em;
+  border-radius: 50%;
+  background: var(--holo-gradient);
+  -webkit-mask-image: radial-gradient(circle, transparent 22%, black 24%);
+  mask-image: radial-gradient(circle, transparent 22%, black 24%);
+}

@@ -1,0 +1,213 @@
+/* Scroll track: one screen, plus most of a screen for every extra shelf row. */
+.wrap {
+  --rows: 1;
+  position: relative;
+  height: calc(100svh + (var(--rows) - 1) * 85svh);
+}
+/* The pinned screen: toolbar on top, the 3D stage fills the rest. */
+.pin {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100svh;
+  padding-top: 104px;
+}
+/* list view scrolls normally */
+.wrap[data-view="list"] {
+  height: auto;
+}
+.wrap[data-view="list"] .pin {
+  position: static;
+  height: auto;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px 16px;
+  margin-bottom: 8px;
+}
+.titleBlock {
+  max-width: 60ch;
+  flex: 1 1 320px;
+}
+/* filters sit on their own row under the title and the view controls */
+.toolbar > nav {
+  order: 3;
+}
+.h1 {
+  font-size: clamp(1.5rem, 3vw, 2.4rem);
+  margin-bottom: 4px;
+}
+.titleBlock p {
+  font-size: 0.95rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.viewToggle {
+  display: flex;
+  gap: 6px;
+}
+.sort select {
+  height: 36px;
+  padding: 0 12px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-line);
+  background: var(--color-panel);
+  color: var(--color-text);
+  font: inherit;
+  font-size: 0.9rem;
+}
+
+.stage {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  /* the cabinet fades into the page instead of ending on a hard edge */
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black 5%);
+  mask-image: linear-gradient(to bottom, transparent, black 5%);
+}
+
+/* while a case is out, touches belong to the case (swipe / turn), not to page scroll */
+.stage[data-selected="true"] {
+  touch-action: none;
+}
+
+.peek {
+  position: absolute;
+  left: 50%;
+  bottom: max(20px, env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: max-content;
+  max-width: calc(100% - 32px);
+  padding: 10px 18px;
+  border-radius: var(--radius-pill);
+  background: var(--color-glass);
+  border: 1px solid var(--color-line);
+  backdrop-filter: blur(14px);
+  font-size: 0.92rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+
+.noGl {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 16px;
+  text-align: center;
+  padding: 16px;
+}
+
+/* ── List view ─────────────────────────────── */
+.list {
+  display: grid;
+  gap: 48px;
+  padding-block: 24px 96px;
+}
+.listHead {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 20px 16px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
+}
+.card {
+  display: grid;
+  gap: 8px;
+  text-decoration: none;
+}
+.card canvas {
+  transition: transform var(--dur-base) var(--ease-out);
+}
+.card:hover canvas {
+  transform: translateY(-4px);
+}
+.cardTitle {
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+.cardMeta {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.hintCoarse {
+  display: none;
+}
+@media (pointer: coarse) {
+  .hintFine {
+    display: none;
+  }
+  .hintCoarse {
+    display: inline;
+  }
+}
+
+/* ── phones: a tighter header so the cabinet gets most of the screen ── */
+@media (max-width: 640px) {
+  .pin {
+    padding-top: 88px;
+  }
+  .toolbar {
+    gap: 8px 10px;
+    margin-bottom: 4px;
+  }
+  .titleBlock {
+    flex-basis: 100%;
+  }
+  .h1 {
+    font-size: 1.45rem;
+    margin-bottom: 2px;
+  }
+  .intro {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+  .controls {
+    order: 2;
+    width: 100%;
+  }
+  .sort {
+    flex: 1;
+  }
+  .sort select {
+    width: 100%;
+  }
+  .toolbar > nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-inline: -16px;
+    padding-inline: 16px;
+    mask-image: linear-gradient(90deg, transparent, black 16px, black calc(100% - 24px), transparent);
+  }
+  .peek {
+    font-size: 0.85rem;
+    padding: 8px 14px;
+    white-space: normal;
+    text-align: center;
+    justify-content: center;
+  }
+}

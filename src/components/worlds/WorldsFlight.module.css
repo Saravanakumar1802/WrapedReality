@@ -1,0 +1,317 @@
+/* The tall element whose scroll distance drives the flight. */
+.track {
+  position: relative;
+}
+
+/* Pinned viewport: everything below happens inside this one screen. */
+.stage {
+  --vx: 50%;
+  --vy: 50%;
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.tunnel {
+  position: absolute;
+  inset: 0;
+  perspective: 900px;
+  perspective-origin: var(--vx) var(--vy);
+  transition: perspective-origin 0.5s var(--ease-out);
+}
+.layer {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* Depth cue: the world's colour glows at the vanishing point, edges fall to black. */
+.vignette {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(38% 42% at var(--vx) var(--vy), color-mix(in srgb, var(--world) 22%, transparent), transparent 70%),
+    radial-gradient(120% 90% at 50% 50%, transparent 55%, var(--color-void) 100%);
+  transition: background 0.8s var(--ease-out);
+  pointer-events: none;
+}
+
+/* ── Gates: the entrance to each world ────────────────────────────────── */
+.gate {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: grid;
+  justify-items: center;
+  gap: 1.2vmin;
+  width: max-content;
+  text-align: center;
+  visibility: hidden;
+  will-change: transform, opacity;
+  pointer-events: none !important;
+}
+.ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 118vmin;
+  aspect-ratio: 1;
+  translate: -50% -50%;
+  border-radius: 50%;
+  border: 1.5px solid color-mix(in srgb, var(--c) 70%, transparent);
+  box-shadow:
+    0 0 60px color-mix(in srgb, var(--c) 35%, transparent),
+    inset 0 0 90px color-mix(in srgb, var(--c) 16%, transparent);
+}
+.ring::after {
+  /* a second, dashed orbit just inside the first */
+  content: "";
+  position: absolute;
+  inset: 5%;
+  border-radius: 50%;
+  border: 1px dashed color-mix(in srgb, var(--c) 40%, transparent);
+}
+.gateTitle {
+  font-size: clamp(3.4rem, 15vw, 15rem);
+  font-weight: 800;
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+  white-space: nowrap;
+  background: linear-gradient(180deg, var(--color-text) 30%, var(--c) 130%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 50px color-mix(in srgb, var(--c) 45%, transparent));
+}
+.gateCount {
+  font-family: var(--font-mono);
+  font-size: clamp(0.9rem, 1.6vw, 1.5rem);
+  color: var(--c);
+}
+
+/* ── Cases ────────────────────────────────────────────────────────────── */
+.item {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: grid;
+  gap: 14px;
+  width: clamp(170px, 21vw, 300px);
+  text-decoration: none;
+  visibility: hidden;
+  will-change: transform, opacity;
+  -webkit-user-drag: none;
+}
+.case {
+  display: block;
+  border-radius: 4% / 3%;
+  box-shadow:
+    0 30px 70px -20px var(--color-void),
+    0 0 70px -10px color-mix(in srgb, var(--c) 50%, transparent);
+  transition:
+    transform var(--dur-base) var(--ease-out),
+    box-shadow var(--dur-base) var(--ease-out);
+}
+.item:hover .case,
+.item:focus-visible .case {
+  transform: scale(1.06) rotate(-1.5deg);
+  box-shadow:
+    0 30px 70px -20px var(--color-void),
+    0 0 110px -6px var(--c);
+}
+.caption {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+.captionTitle {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: var(--color-text);
+}
+.captionYear {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--c);
+}
+
+/* ── HUD ──────────────────────────────────────────────────────────────── */
+.hudTop {
+  position: absolute;
+  inset: 96px max(16px, calc((100vw - 1320px) / 2 + 40px)) auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  z-index: 2;
+}
+.modes {
+  display: flex;
+  gap: 6px;
+}
+.modes :global(.chip) {
+  background: var(--color-glass);
+  backdrop-filter: blur(12px);
+}
+.skip {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+/* Bottom dock: where you are (left) and where you can jump to (right). */
+.dock {
+  position: absolute;
+  inset: auto 0 0 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 90px max(16px, calc((100vw - 1320px) / 2 + 40px)) 30px;
+  background: linear-gradient(to top, var(--color-void) 12%, transparent);
+  z-index: 2;
+  pointer-events: none;
+}
+.dock > * {
+  pointer-events: auto;
+}
+.readout {
+  display: grid;
+  gap: 2px;
+  flex: none;
+}
+.readout strong {
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 2.6vw, 2.2rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+.readout span {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--world);
+}
+
+.rail {
+  display: flex;
+  gap: 2px;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.railItem {
+  position: relative;
+  flex: none;
+  padding: 16px 12px 6px;
+  border: 0;
+  background: none;
+  color: var(--color-text-dim);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color var(--dur-fast);
+}
+.railItem:hover {
+  color: var(--color-text);
+}
+/* a tick above each label; the current world's tick grows and lights up */
+.railDot {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  top: 4px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--color-line-strong);
+  transform-origin: left;
+  transition:
+    background var(--dur-fast),
+    box-shadow var(--dur-fast);
+}
+.railItem[aria-current="true"] {
+  color: var(--color-text);
+}
+.railItem[aria-current="true"] .railDot {
+  background: var(--c);
+  box-shadow: 0 0 14px var(--c);
+}
+
+.progress {
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 3px;
+  background: var(--color-line);
+  z-index: 2;
+}
+.bar {
+  height: 100%;
+  background: var(--world);
+  box-shadow: 0 0 16px var(--world);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: background 0.6s;
+}
+
+@media (max-width: 900px) {
+  .hudTop {
+    top: 84px;
+  }
+  .dock {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding-bottom: 22px;
+  }
+  .rail {
+    margin-inline: -16px;
+    padding-inline: 16px;
+  }
+  .railItem {
+    padding-inline: 10px;
+    font-size: 0.85rem;
+  }
+  .railDot {
+    left: 10px;
+    right: 10px;
+  }
+  .item {
+    width: 46vw;
+  }
+}
+
+/* ── Reduced motion: grouped grid ─────────────────────────────────────── */
+.grid {
+  display: grid;
+  gap: 56px;
+}
+.gridTitle {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 20px;
+  color: var(--c);
+}
+.gridTitle span {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--color-text-dim);
+}
+.gridList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 24px 16px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
+}
+.gridCard {
+  display: grid;
+  gap: 10px;
+  text-decoration: none;
+}

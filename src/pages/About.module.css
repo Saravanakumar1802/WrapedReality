@@ -1,0 +1,64 @@
+.page {
+  display: grid;
+  gap: 18px;
+  padding-block: 140px 110px;
+}
+.h1 {
+  margin-bottom: 28px;
+}
+.cols {
+  display: grid;
+  gap: 48px;
+}
+@media (min-width: 960px) {
+  .cols {
+    grid-template-columns: minmax(0, 1.5fr) minmax(260px, 1fr);
+    gap: 80px;
+    align-items: start;
+  }
+}
+.prose {
+  display: grid;
+  gap: 1.2em;
+  max-width: 64ch;
+}
+.prose p:not(:global(.lede)) {
+  color: var(--color-text-muted);
+}
+.facts {
+  margin: 0;
+  padding: 28px;
+  display: grid;
+  gap: 22px;
+}
+.facts div {
+  display: grid;
+  gap: 2px;
+}
+.facts dt {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+}
+.facts dd {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-variation-settings: "wdth" 112;
+}
+.credits {
+  margin-top: 80px;
+  display: grid;
+  gap: 16px;
+  max-width: 76ch;
+}
+.credits ul {
+  margin: 0;
+  padding-left: 1.2em;
+  display: grid;
+  gap: 10px;
+  color: var(--color-text-muted);
+}

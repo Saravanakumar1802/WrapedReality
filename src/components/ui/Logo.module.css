@@ -1,0 +1,106 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mark {
+  flex: none;
+  width: var(--size);
+  height: var(--size);
+  overflow: visible;
+  filter: drop-shadow(0 4px 10px color-mix(in srgb, var(--color-void) 80%, transparent))
+    drop-shadow(0 0 14px color-mix(in srgb, var(--color-accent) 22%, transparent));
+  transition: transform 0.7s var(--ease-out);
+}
+
+/* ── the disc's parts (markup from logoMark.js) ───────────────────────── */
+.mark :global(.lm-spin) {
+  transform-origin: 24px 24px;
+  animation: spin 16s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mark :global(.lm-groove) {
+  fill: none;
+  stroke: var(--color-void);
+  stroke-opacity: 0.16;
+  stroke-width: 0.35;
+}
+.mark :global(.lm-glint) {
+  fill: var(--color-text);
+  opacity: 0.55;
+  mix-blend-mode: screen;
+}
+.mark :global(.lm-w-edge) {
+  fill: none;
+  stroke: var(--color-void);
+  stroke-opacity: 0.45;
+  stroke-width: 0.7;
+  stroke-linejoin: round;
+}
+.mark :global(.lm-stack) {
+  fill: none;
+  stroke: var(--color-text);
+  stroke-opacity: 0.55;
+  stroke-width: 0.5;
+}
+.mark :global(.lm-hole) {
+  fill: var(--color-void);
+}
+.mark :global(.lm-rim) {
+  fill: none;
+  stroke: var(--color-text);
+  stroke-opacity: 0.35;
+  stroke-width: 0.6;
+}
+
+/* hover: the disc spins up and tilts toward you */
+:global(a:hover) > .logo .mark,
+:global(a:focus-visible) > .logo .mark,
+.logo:hover .mark {
+  transform: rotate(-8deg) scale(1.06);
+}
+:global(a:hover) > .logo .mark :global(.lm-spin),
+.logo:hover .mark :global(.lm-spin) {
+  animation-duration: 1.4s;
+}
+
+/* ── wordmark: Wraped·Reality ─────────────────────────────────────────── */
+.text {
+  display: grid;
+  gap: 1px;
+  line-height: 1;
+}
+.word {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.06rem;
+  letter-spacing: -0.045em;
+  color: var(--color-text);
+  white-space: nowrap;
+}
+.wordRest {
+  font-weight: 400;
+  color: var(--color-accent);
+}
+.caption {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--color-text-dim);
+}
+
+@media (max-width: 760px) {
+  .text {
+    display: none; /* on phones the mark stands alone */
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mark :global(.lm-spin) {
+    animation: none;
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "PS5": {
+    "url": "/models/ps5.glb",
+    "triangles": 12572,
+    "trianglesBefore": 12572,
+    "drawCalls": 5,
+    "textures": 0,
+    "bounds": {
+      "min": [
+        -0.3045,
+        -199.1353,
+        196.8032
+      ],
+      "max": [
+        0.4378,
+        -197.1162,
+        198.1047
+      ]
+    },
+    "bytes": 91088,
+    "view": {
+      "size": 3.6,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "yaw": -0.55,
+      "tilt": 0.04,
+      "lift": 0.05
+    },
+    "credit": {
+      "title": "PS5",
+      "author": "rtql8d",
+      "authorUrl": "https://sketchfab.com/rtql8d",
+      "sourceUrl": "https://sketchfab.com/3d-models/ps5-d788de3735964151a3e24fd59c0f1956",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "PS2": {
+    "url": "/models/ps2.glb",
+    "triangles": 131521,
+    "trianglesBefore": 186743,
+    "drawCalls": 11,
+    "textures": 1,
+    "bounds": {
+      "min": [
+        0.0229,
+        0.4959,
+        -0.0819
+      ],
+      "max": [
+        0.2536,
+        0.5232,
+        0.1962
+      ]
+    },
+    "bytes": 1460092,
+    "view": {
+      "size": 3.6,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "yaw": -0.5,
+      "tilt": 0.45,
+      "lift": -0.2
+    },
+    "credit": {
+      "title": "A Playstation 2 Slim",
+      "author": "DemoDove99",
+      "authorUrl": "https://sketchfab.com/DemoDove99",
+      "sourceUrl": "https://sketchfab.com/3d-models/a-playstation-2-slim-1d0d69f1cdbd4e80838c6ac19c0b0c2f",
+      "license": "Sketchfab Free Standard",
+      "licenseUrl": "https://sketchfab.com/licenses"
+    }
+  },
+  "ROG": {
+    "url": "/models/rog.glb",
+    "triangles": 150500,
+    "trianglesBefore": 245379,
+    "drawCalls": 20,
+    "textures": 6,
+    "bounds": {
+      "min": [
+        -1.7718,
+        2.189,
+        -1.9223
+      ],
+      "max": [
+        1.7731,
+        4.7283,
+        0.9315
+      ]
+    },
+    "bytes": 1469564,
+    "view": {
+      "size": 3.5,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "yaw": -0.5,
+      "tilt": 0.28,
+      "lift": -0.15,
+      "screen": "/heroes/black-myth-wukong.webp"
+    },
+    "credit": {
+      "title": "Asus ROG Strix Scar 17 (2023) G733 Gaming Laptop",
+      "author": "Ranaha Creative Studio",
+      "authorUrl": "https://sketchfab.com/ranahacs",
+      "sourceUrl": "https://sketchfab.com/3d-models/asus-rog-strix-scar-17-2023-g733-gaming-laptop-51eca7b2e5884c4087f3499e523d5184",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  }
+}

@@ -1,0 +1,127 @@
+.wrap {
+  display: grid;
+  gap: 10px;
+}
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+}
+.title {
+  font-size: 1.1rem;
+  margin: 0;
+}
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+.toggle input {
+  accent-color: var(--color-accent);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 4px;
+  max-height: min(560px, 70vh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.moment {
+  position: relative;
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 12px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  background: none;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  transition:
+    background var(--dur-fast),
+    color var(--dur-fast);
+}
+.moment:hover {
+  background: var(--color-panel);
+  color: var(--color-text);
+}
+.moment[data-active="true"] {
+  color: var(--color-text);
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
+}
+.time {
+  color: var(--color-focus);
+  padding-top: 1px;
+}
+.body {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+  transition: filter var(--dur-base);
+}
+.body[data-spoiler] {
+  filter: blur(6px);
+  user-select: none;
+}
+.label {
+  font-weight: 600;
+  color: var(--color-text);
+}
+.kind {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 1px 7px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-line-strong);
+  font-size: 0.72rem;
+  font-weight: 600;
+  vertical-align: 1px;
+  color: var(--color-text-muted);
+}
+.kind[data-kind="boss"],
+.kind[data-kind="ending"] {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+.detail {
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+.reveal {
+  position: absolute;
+  inset: 0 12px 0 96px;
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+.note {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--color-text-dim);
+}
+
+@media (max-width: 560px) {
+  .moment {
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: 8px;
+    padding: 10px 8px;
+  }
+  .reveal {
+    inset: 0 8px 0 74px;
+  }
+}

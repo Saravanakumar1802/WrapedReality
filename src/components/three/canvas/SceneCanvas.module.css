@@ -1,0 +1,13 @@
+.wrap {
+  position: absolute;
+  inset: 0;
+  background: var(--color-void);
+}
+.wrap[data-transparent="true"] {
+  background: transparent;
+}
+
+.wrap canvas {
+  display: block;
+  touch-action: pan-y;
+}

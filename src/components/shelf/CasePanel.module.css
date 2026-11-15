@@ -1,0 +1,291 @@
+/* Desktop: a card to the right of the case. Phones: a compact bottom sheet. */
+.panel {
+  position: absolute;
+  right: max(16px, calc((100vw - 1240px) / 2));
+  top: 50%;
+  transform: translateY(-50%);
+  width: min(400px, 100% - 32px);
+  max-height: calc(100% - 24px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 22px 24px 18px;
+  animation: slideIn var(--dur-base) var(--ease-out);
+}
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translate(24px, -50%);
+  }
+}
+
+.head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 12px;
+  margin: 0 0 10px;
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+.badge {
+  padding: 2px 10px;
+  border-radius: var(--radius-sm);
+  background: var(--platform-ps5-band);
+  color: var(--platform-ps5-band-text);
+  font-weight: 800;
+}
+.badge[data-platform="PS4"] {
+  background: var(--platform-ps4-band);
+  color: var(--platform-ps4-band-text);
+}
+.badge[data-platform="PS2"] {
+  background: var(--platform-ps2-band);
+  color: var(--platform-ps2-band-text);
+}
+.badge[data-platform="PC"] {
+  background: var(--platform-pc-band);
+  color: var(--platform-pc-band-text);
+}
+
+.close {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  margin: -6px -8px 0 0;
+  border: 1px solid var(--color-line);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition:
+    color var(--dur-fast),
+    border-color var(--dur-fast),
+    transform var(--dur-fast) var(--ease-out);
+}
+.close:hover {
+  color: var(--color-text);
+  border-color: var(--color-text-muted);
+  transform: rotate(90deg);
+}
+
+.title {
+  font-size: clamp(1.2rem, 2vw, 1.65rem);
+  line-height: 1.15;
+  margin: 0 0 8px;
+}
+.summary {
+  color: var(--color-text-muted);
+  margin: 0 0 16px;
+  font-size: 0.95rem;
+}
+
+/* ── stepper: Case · Open · Disc, every stage one tap away ── */
+.steps {
+  --n: 3;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(var(--n), 1fr);
+  padding: 4px;
+  margin-bottom: 12px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-pill);
+  background: var(--color-panel);
+}
+.stepTrack {
+  position: absolute;
+  inset: 4px auto 4px 4px;
+  width: calc((100% - 8px) / var(--n));
+  border-radius: var(--radius-pill);
+  background: var(--color-accent);
+  transform: translateX(calc(var(--step) * 100%));
+  transition: transform var(--dur-base) var(--ease-out);
+}
+.step {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 0 8px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: none;
+  color: var(--color-text-muted);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color var(--dur-fast);
+}
+.step:hover {
+  color: var(--color-text);
+}
+.step[aria-pressed="true"] {
+  color: var(--color-on-accent);
+}
+.stepNum {
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  font-size: 0.7rem;
+  opacity: 0.8;
+}
+.step[data-done] .stepNum {
+  background: currentColor;
+  box-shadow: inset 0 0 0 4px var(--color-panel);
+}
+.step:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.hint {
+  font-size: 0.86rem;
+  color: var(--color-focus);
+  margin: 0 0 14px;
+}
+.coarse {
+  display: none;
+}
+@media (pointer: coarse) {
+  .fine {
+    display: none;
+  }
+  .coarse {
+    display: inline;
+  }
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+/* ── prev / next ── */
+.browse {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 8px;
+  padding-top: 12px;
+  margin-bottom: 10px;
+  border-top: 1px solid var(--color-line);
+}
+.navBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  min-height: 40px;
+  padding: 0 4px;
+  border: 0;
+  background: none;
+  color: var(--color-text-muted);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-align: left;
+}
+.navBtn svg {
+  flex: none;
+}
+.navBtn:hover:not(:disabled) {
+  color: var(--color-text);
+}
+.navBtn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.navNext {
+  justify-content: flex-end;
+  text-align: right;
+}
+.navTitle {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.count {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.backBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.88rem;
+}
+.backBtn:hover {
+  color: var(--color-text);
+}
+
+/* ── phones / narrow windows: bottom sheet ── */
+@media (max-width: 900px) {
+  .panel {
+    top: auto;
+    right: 12px;
+    left: 12px;
+    bottom: max(12px, env(safe-area-inset-bottom));
+    width: auto;
+    max-height: 52%;
+    transform: none;
+    padding: 14px 16px 12px;
+    border-radius: var(--radius-lg, 20px);
+    animation: sheetIn var(--dur-base) var(--ease-out);
+  }
+  @keyframes sheetIn {
+    from {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+  }
+  .meta {
+    margin-bottom: 4px;
+    font-size: 0.8rem;
+  }
+  .mood,
+  .summary,
+  .hint,
+  .backBtn {
+    display: none;
+  }
+  .title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  .steps {
+    margin-bottom: 10px;
+  }
+  .actions {
+    margin-bottom: 8px;
+  }
+  .actions :global(.btn) {
+    flex: 1;
+    justify-content: center;
+  }
+  .browse {
+    padding-top: 8px;
+    margin-bottom: 0;
+  }
+}

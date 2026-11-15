@@ -1,0 +1,1003 @@
+{
+  "spider-man-miles-morales": {
+    "source": "steam",
+    "steamAppId": 1817190,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#6E4948",
+      "#0B0F19"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "marvels-spider-man-2": {
+    "source": "steam",
+    "steamAppId": 2651280,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#930403",
+      "#2B0404"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "ghost-of-tsushima": {
+    "source": "steam",
+    "steamAppId": 2215430,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#D9CA9B",
+      "#1F1E1C"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "red-dead-redemption-2": {
+    "source": "steam",
+    "steamAppId": 1174180,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#E57305",
+      "#110303"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "grand-theft-auto-v": {
+    "source": "steam",
+    "steamAppId": 3240220,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#AA7E50",
+      "#000000"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "god-of-war": {
+    "source": "steam",
+    "steamAppId": 1593500,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#3D5B8F",
+      "#222A2A"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "god-of-war-ragnarok": {
+    "source": "steam",
+    "steamAppId": 2322010,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#99B6DB",
+      "#282A2F"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "black-myth-wukong": {
+    "source": "steam",
+    "steamAppId": 2358720,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#554C45",
+      "#070605"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "uncharted-the-nathan-drake-collection": {
+    "source": "wikipedia",
+    "file": "Nathan Drake Collection cover art.png",
+    "croppedBand": false,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#BAA175",
+      "#896C47"
+    ]
+  },
+  "mad-max": {
+    "source": "steam",
+    "steamAppId": 234140,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#B6957B",
+      "#292220"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "shadow-of-the-tomb-raider": {
+    "source": "steam",
+    "steamAppId": 750920,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#DF7629",
+      "#0E1313"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "ratchet-and-clank": {
+    "source": "wikipedia",
+    "file": "Ratchet and Clank cover.jpg",
+    "croppedBand": false,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#6091BC",
+      "#19171F"
+    ]
+  },
+  "hogwarts-legacy": {
+    "source": "steam",
+    "steamAppId": 990080,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#969E96",
+      "#18282A"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "alan-wake-remastered": {
+    "source": "wikipedia",
+    "file": "Alan Wake Game Cover.jpg",
+    "croppedBand": false,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#5A7488",
+      "#000000"
+    ]
+  },
+  "watch-dogs-2": {
+    "source": "steam",
+    "steamAppId": 447040,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#10569C",
+      "#292827"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "assassins-creed-odyssey": {
+    "source": "steam",
+    "steamAppId": 812140,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#717062",
+      "#403C36"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "assassins-creed-syndicate": {
+    "source": "steam",
+    "steamAppId": 368500,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#7B644F",
+      "#25201A"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "resident-evil-2": {
+    "source": "steam",
+    "steamAppId": 883710,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#808787",
+      "#121011"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "resident-evil-3": {
+    "source": "steam",
+    "steamAppId": 952060,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#7C625E",
+      "#020306"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "resident-evil-6": {
+    "source": "steam",
+    "steamAppId": 221040,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#556D90",
+      "#000001"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "call-of-duty-black-ops-iii": {
+    "source": "steam",
+    "steamAppId": 311210,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#6E4B3E",
+      "#010101"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "call-of-duty-modern-warfare": {
+    "source": "wikipedia",
+    "file": "Call of Duty Modern Warfare (2019) cover.jpg",
+    "croppedBand": false,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#817369",
+      "#191314"
+    ]
+  },
+  "call-of-duty-hq": {
+    "source": "steam",
+    "steamAppId": 1938090,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#66323C",
+      "#060504"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "pubg-battlegrounds": {
+    "source": "steam",
+    "steamAppId": 578080,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#958878",
+      "#25221C"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "ghost-recon-wildlands": {
+    "source": "steam",
+    "steamAppId": 460930,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#4D5F68",
+      "#150904"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "ghost-recon-breakpoint": {
+    "source": "steam",
+    "steamAppId": 2231380,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#4A7785",
+      "#191713"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "warframe": {
+    "source": "steam",
+    "steamAppId": 230410,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#596644",
+      "#1A1F1D"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "tekken-7": {
+    "source": "steam",
+    "steamAppId": 389730,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#940302",
+      "#190405"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "mortal-kombat-11": {
+    "source": "steam",
+    "steamAppId": 976310,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#FFDF4B",
+      "#6D4310"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "dragon-ball-sparking-zero": {
+    "source": "steam",
+    "steamAppId": 1790600,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#4A2D91",
+      "#140E4D"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "wwe-2k19": {
+    "source": "wikipedia",
+    "file": "WWE 2K19 cover art.jpg",
+    "croppedBand": false,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#C02915",
+      "#260C0D"
+    ]
+  },
+  "need-for-speed-payback": {
+    "source": "wikipedia",
+    "file": "Need_for_Speed_Payback_standard_edition_cover_art.jpg",
+    "croppedBand": false,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#E95D78",
+      "#724F5B"
+    ]
+  },
+  "cricket-19": {
+    "source": "steam",
+    "steamAppId": 1028630,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#3D477A",
+      "#1A202D"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "the-witcher-3-wild-hunt": {
+    "source": "steam",
+    "steamAppId": 292030,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#805956",
+      "#29181F"
+    ],
+    "logoDark": true,
+    "logoCheck": 2
+  },
+  "the-last-of-us-part-ii": {
+    "source": "steam",
+    "steamAppId": 2531310,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#6C6975",
+      "#141317"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "marvels-spider-man": {
+    "source": "steam",
+    "steamAppId": 1817070,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#9F0000",
+      "#520608"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "god-of-war-iii-remastered": {
+    "source": "wikipedia",
+    "file": "God of War III cover art.jpg",
+    "croppedBand": true,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#8B0402",
+      "#32110D"
+    ]
+  },
+  "uncharted-legacy-of-thieves-collection": {
+    "source": "steam",
+    "steamAppId": 1659420,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#354657",
+      "#171C25"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "horizon-zero-dawn": {
+    "source": "steam",
+    "steamAppId": 1151640,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#8C93BD",
+      "#443631"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "horizon-forbidden-west": {
+    "source": "steam",
+    "steamAppId": 2420110,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#C2725F",
+      "#5E292F"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "batman-arkham-knight": {
+    "source": "steam",
+    "steamAppId": 208650,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#685444",
+      "#100D09"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "infamous-second-son": {
+    "source": "wikipedia",
+    "file": "Infamous second son boxart.jpg",
+    "croppedBand": true,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#884E22",
+      "#1B110D"
+    ]
+  },
+  "middle-earth-shadow-of-mordor": {
+    "source": "steam",
+    "steamAppId": 241930,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#6C767B",
+      "#0B0C0E"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "astros-playroom": {
+    "source": "wikipedia",
+    "file": "Astro's Playroom.jpg",
+    "croppedBand": false,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#012A78",
+      "#0B0D22"
+    ]
+  },
+  "control": {
+    "source": "steam",
+    "steamAppId": 870780,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#982824",
+      "#000000"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "assassins-creed-iv-black-flag": {
+    "source": "steam",
+    "steamAppId": 242050,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#9C8E88",
+      "#3A3532"
+    ],
+    "logoDark": true,
+    "logoCheck": 2
+  },
+  "battlefield-1": {
+    "source": "steam",
+    "steamAppId": 1238840,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#D8774F",
+      "#250F15"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "battlefield-4": {
+    "source": "steam",
+    "steamAppId": 1238860,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#B79183",
+      "#1C0909"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "apex-legends": {
+    "source": "steam",
+    "steamAppId": 1172470,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#C4D867",
+      "#3C4040"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "fortnite": {
+    "source": null,
+    "checkedAt": "2026-11-09T16:35:07.216Z"
+  },
+  "ufc-5": {
+    "source": "wikipedia",
+    "file": "EA Sports UFC 5 cover art.jpeg",
+    "croppedBand": false,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#AB1A20",
+      "#140B0D"
+    ]
+  },
+  "need-for-speed-heat": {
+    "source": "steam",
+    "steamAppId": 1222680,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#520594",
+      "#0F0446"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "rocket-league": {
+    "source": "steam",
+    "steamAppId": 252950,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#664663",
+      "#131123"
+    ],
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "fifa-18": {
+    "source": "wikipedia",
+    "file": "FIFA18cover.png",
+    "croppedBand": true,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#336E91",
+      "#0D1329"
+    ]
+  },
+  "detroit-become-human": {
+    "source": "steam",
+    "steamAppId": 1222140,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#88809F",
+      "#332D4D"
+    ],
+    "checkedAt": "2026-11-11T03:07:59.252Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "grand-theft-auto-v-pc": {
+    "source": "steam",
+    "steamAppId": 271590,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#B88A53",
+      "#231A16"
+    ],
+    "checkedAt": "2026-11-11T03:08:02.278Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "need-for-speed-most-wanted": {
+    "source": "wikipedia",
+    "file": "Nfsmw-win-cover.jpg",
+    "croppedBand": false,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#8B8950",
+      "#0F0E0B"
+    ],
+    "checkedAt": "2026-11-11T03:08:07.259Z"
+  },
+  "resident-evil-4": {
+    "source": "steam",
+    "steamAppId": 254700,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#1F5986",
+      "#101922"
+    ],
+    "checkedAt": "2026-11-11T03:08:13.584Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "resident-evil-5": {
+    "source": "steam",
+    "steamAppId": 21690,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#A05F21",
+      "#000000"
+    ],
+    "checkedAt": "2026-11-11T03:08:17.410Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "resident-evil-6-pc": {
+    "source": "steam",
+    "steamAppId": 221040,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#556D90",
+      "#000001"
+    ],
+    "checkedAt": "2026-11-11T03:08:21.435Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "resident-evil-7-biohazard": {
+    "source": "steam",
+    "steamAppId": 418370,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#CEA77F",
+      "#745743"
+    ],
+    "checkedAt": "2026-11-11T03:08:24.060Z",
+    "logoDark": true,
+    "logoCheck": 2
+  },
+  "resident-evil-village": {
+    "source": "steam",
+    "steamAppId": 1196590,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#747C75",
+      "#0A0D0F"
+    ],
+    "checkedAt": "2026-11-11T03:08:28.330Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "resident-evil-4-remake": {
+    "source": "steam",
+    "steamAppId": 2050650,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#646360",
+      "#040303"
+    ],
+    "checkedAt": "2026-11-11T03:08:33.290Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "just-cause-3": {
+    "source": "steam",
+    "steamAppId": 225540,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#A29392",
+      "#342121"
+    ],
+    "checkedAt": "2026-11-11T03:08:37.281Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "call-of-duty-modern-warfare-2": {
+    "source": "steam",
+    "steamAppId": 10180,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#AC6C3B",
+      "#200C04"
+    ],
+    "checkedAt": "2026-11-11T03:08:42.070Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "sifu": {
+    "source": "steam",
+    "steamAppId": 2138710,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#840804",
+      "#290404"
+    ],
+    "checkedAt": "2026-11-11T03:08:46.714Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "cyberpunk-2077": {
+    "source": "steam",
+    "steamAppId": 1091500,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#FEFB04",
+      "#170E0E"
+    ],
+    "checkedAt": "2026-11-11T03:08:51.271Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "watch-dogs-2-pc": {
+    "source": "steam",
+    "steamAppId": 447040,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#10569C",
+      "#292827"
+    ],
+    "checkedAt": "2026-11-11T03:08:55.874Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "assassins-creed-origins": {
+    "source": "steam",
+    "steamAppId": 582160,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#CCAB7B",
+      "#263339"
+    ],
+    "checkedAt": "2026-11-11T03:09:00.400Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "assassins-creed-valhalla": {
+    "source": "steam",
+    "steamAppId": 2208920,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#7D7E83",
+      "#373233"
+    ],
+    "checkedAt": "2026-11-11T03:09:05.116Z",
+    "logoDark": true,
+    "logoCheck": 2
+  },
+  "prototype-2": {
+    "source": "wikipedia",
+    "file": "Prototype 2 game.jpg",
+    "croppedBand": true,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#673E3C",
+      "#291817"
+    ],
+    "checkedAt": "2026-11-11T03:09:09.979Z"
+  },
+  "crysis-2": {
+    "source": "steam",
+    "steamAppId": 108800,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#7B2D15",
+      "#0E0302"
+    ],
+    "checkedAt": "2026-11-11T03:09:17.143Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "disneys-hercules": {
+    "source": "wikipedia",
+    "file": "Hercposter.jpg",
+    "croppedBand": true,
+    "hero": false,
+    "logo": false,
+    "palette": [
+      "#846564",
+      "#313A52"
+    ],
+    "checkedAt": "2026-11-11T03:09:22.086Z"
+  },
+  "grand-theft-auto-vice-city": {
+    "source": "steam",
+    "steamAppId": 12110,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#5F7483",
+      "#1E242B"
+    ],
+    "checkedAt": "2026-11-11T03:09:27.281Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "grand-theft-auto-san-andreas": {
+    "source": "steam",
+    "steamAppId": 12120,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#B5825D",
+      "#27221D"
+    ],
+    "checkedAt": "2026-11-11T03:09:31.829Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "deathloop": {
+    "source": "steam",
+    "steamAppId": 1252330,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#BE470B",
+      "#21130E"
+    ],
+    "checkedAt": "2026-11-11T03:09:37.622Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "hitman-2": {
+    "source": "steam",
+    "steamAppId": 863550,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#99072B",
+      "#0F0A22"
+    ],
+    "checkedAt": "2026-11-11T03:09:42.130Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "pubg-battlegrounds-pc": {
+    "source": "steam",
+    "steamAppId": 578080,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#635346",
+      "#1D1616"
+    ],
+    "checkedAt": "2026-11-11T03:09:45.607Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "tomb-raider": {
+    "source": "steam",
+    "steamAppId": 203160,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#772E26",
+      "#2C2825"
+    ],
+    "checkedAt": "2026-11-11T03:09:49.785Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "rise-of-the-tomb-raider": {
+    "source": "steam",
+    "steamAppId": 391220,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#93C5DA",
+      "#2E3A39"
+    ],
+    "checkedAt": "2026-11-11T03:09:52.793Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "shadow-of-the-tomb-raider-pc": {
+    "source": "steam",
+    "steamAppId": 750920,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#DF7629",
+      "#0E1313"
+    ],
+    "checkedAt": "2026-11-11T03:09:56.131Z",
+    "logoDark": false,
+    "logoCheck": 2
+  },
+  "game-of-thrones-kingsroad": {
+    "source": "steam",
+    "steamAppId": 4214820,
+    "hero": true,
+    "logo": false,
+    "palette": [
+      "#A66E36",
+      "#0A0401"
+    ],
+    "checkedAt": "2026-11-11T03:10:04.227Z"
+  },
+  "the-callisto-protocol": {
+    "source": "steam",
+    "steamAppId": 1544020,
+    "hero": true,
+    "logo": true,
+    "palette": [
+      "#576F77",
+      "#1F1814"
+    ],
+    "checkedAt": "2026-11-11T03:10:08.691Z",
+    "logoDark": false,
+    "logoCheck": 2
+  }
+}

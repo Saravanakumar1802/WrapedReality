@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="%THEME_BG%" />
+    <meta name="description" content="%SITE_DESCRIPTION%" />
+    <link rel="icon" href="/brand/favicon.svg" type="image/svg+xml" />
+    <title>%SITE_TITLE%</title>
+    <!--theme-tokens-->
+    <style>
+      html, body { background: %THEME_BG%; }
+
+      /* ── Boot loader ───────────────────────────────────────────────────
+         Inline so it paints on the very first frame, before any JavaScript.
+         Colours and fonts are the theme's CSS variables (injected above).
+         The page renders underneath; src/lib/boot.js reports real progress. */
+      @property --hole { syntax: "<length>"; inherits: false; initial-value: 0px; }
+      html.is-booting { overflow: hidden; }
+      html.boot-handoff [data-logo-mark] { opacity: 0; }
+      #boot { position: fixed; inset: 0; z-index: 9999; display: grid; place-items: center; color: var(--color-text); font-family: var(--font-body, system-ui, sans-serif); }
+      .boot-bg {
+        position: absolute; inset: 0;
+        background:
+          radial-gradient(1px 1px at 12% 22%, var(--color-text) 50%, transparent 51%),
+          radial-gradient(1px 1px at 68% 14%, var(--color-text-muted) 50%, transparent 51%),
+          radial-gradient(1.5px 1.5px at 82% 64%, var(--color-text) 50%, transparent 51%),
+          radial-gradient(1px 1px at 26% 78%, var(--color-text-muted) 50%, transparent 51%),
+          radial-gradient(1px 1px at 46% 36%, var(--color-text-dim) 50%, transparent 51%),
+          radial-gradient(1px 1px at 91% 31%, var(--color-text-dim) 50%, transparent 51%),
+          radial-gradient(56vmax 56vmax at 50% 44%, color-mix(in srgb, var(--color-accent) 11%, transparent), transparent 62%),
+          radial-gradient(40vmax 30vmax at 80% 100%, color-mix(in srgb, var(--holo-2) 9%, transparent), transparent 70%),
+          var(--color-void);
+        -webkit-mask: radial-gradient(circle at 50% 44%, transparent var(--hole), black calc(var(--hole) + 2px));
+        mask: radial-gradient(circle at 50% 44%, transparent var(--hole), black calc(var(--hole) + 2px));
+        transition: --hole 1.05s cubic-bezier(0.65, 0, 0.35, 1);
+      }
+      .boot-stage { position: relative; display: grid; justify-items: center; gap: 22px; margin-top: -6vh; }
+      .boot-dial { position: relative; width: min(230px, 56vw); aspect-ratio: 1; display: grid; place-items: center; }
+      .boot-ring { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; transition: opacity 0.5s, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+      .boot-ticks { fill: none; stroke: var(--color-text); stroke-opacity: 0.18; stroke-width: 3; stroke-dasharray: 1.2 8.85; animation: boot-turn 40s linear infinite; transform-origin: 100px 100px; }
+      .boot-track { fill: none; stroke: var(--color-text); stroke-opacity: 0.08; stroke-width: 2; }
+      .boot-bar { fill: none; stroke: url(#boot-grad); stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 540.35; stroke-dashoffset: 540.35; filter: drop-shadow(0 0 6px var(--color-accent)); }
+      .boot-orbit { fill: none; stroke: var(--color-text); stroke-opacity: 0.06; stroke-width: 1; }
+      .boot-sat { animation: boot-turn 6s linear infinite; transform-origin: 100px 100px; }
+      .boot-sat circle { fill: var(--color-accent); filter: drop-shadow(0 0 4px var(--color-accent)); }
+
+      .boot-mark { position: relative; width: 44%; height: 44%; overflow: visible; transition: transform 0.95s cubic-bezier(0.65, 0, 0.35, 1); filter: drop-shadow(0 10px 24px color-mix(in srgb, var(--color-void) 80%, transparent)) drop-shadow(0 0 30px color-mix(in srgb, var(--color-accent) 30%, transparent)); }
+      .boot-mark .lm-disc { transform-origin: 24px 24px; animation: boot-arrive 1s cubic-bezier(0.16, 1, 0.3, 1) both; }
+%LOGO_MARK_CSS%
+      .boot-mark .lm-spin { animation-duration: 2.4s; }
+
+      .boot-word { margin: 0; font-family: var(--font-display, system-ui, sans-serif); font-weight: 700; font-size: 1.5rem; letter-spacing: -0.045em; transition: opacity 0.4s, transform 0.6s; }
+      .boot-word span { display: inline-block; animation: boot-letter 0.7s cubic-bezier(0.16, 1, 0.3, 1) both; animation-delay: calc(0.55s + var(--i) * 0.045s); }
+      .boot-status { margin: 0; display: flex; gap: 14px; align-items: baseline; font-family: var(--font-mono, ui-monospace, monospace); font-size: 0.78rem; color: var(--color-text-dim); transition: opacity 0.4s; animation: boot-fade 0.6s 0.8s both; }
+      .boot-status [data-boot-pct] { color: var(--color-accent); font-variant-numeric: tabular-nums; }
+      .boot-status [data-boot-pct]::after { content: "%"; color: var(--color-text-dim); }
+
+      #boot.is-leaving .boot-bg { --hole: 160vmax; }
+      #boot.is-leaving .boot-ring { opacity: 0; transform: scale(1.25); }
+      #boot.is-leaving .boot-word { opacity: 0; transform: translateY(-10px); }
+      #boot.is-leaving .boot-status { opacity: 0; }
+
+      @keyframes boot-turn { to { transform: rotate(360deg); } }
+      @keyframes boot-arrive { from { opacity: 0; transform: scale(0.6) rotate(-60deg); } }
+      @keyframes boot-letter { from { opacity: 0; transform: translateY(0.6em); } }
+      @keyframes boot-fade { from { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) {
+        #boot *, .boot-bg { animation: none !important; transition: opacity 0.3s !important; }
+        #boot.is-leaving { opacity: 0; transition: opacity 0.3s; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="boot" role="progressbar" aria-label="Loading %SITE_NAME%" aria-valuemin="0" aria-valuemax="100">
+      <div class="boot-bg"></div>
+      <div class="boot-stage">
+        <div class="boot-dial">
+          <svg class="boot-ring" viewBox="0 0 200 200" aria-hidden="true">
+            <defs>
+              <linearGradient id="boot-grad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" style="stop-color: var(--color-accent)" />
+                <stop offset="1" style="stop-color: var(--holo-3)" />
+              </linearGradient>
+            </defs>
+            <circle class="boot-orbit" cx="100" cy="100" r="99" />
+            <circle class="boot-ticks" cx="100" cy="100" r="96" />
+            <circle class="boot-track" cx="100" cy="100" r="86" />
+            <circle class="boot-bar" data-boot-ring cx="100" cy="100" r="86" transform="rotate(-90 100 100)" />
+            <g class="boot-sat"><circle cx="100" cy="1" r="2.2" /></g>
+          </svg>
+          <!-- the same mark as the header logo: generated from src/components/ui/logoMark.js by vite.config.js -->
+          <svg class="boot-mark" viewBox="0 0 48 48" aria-hidden="true">%LOGO_MARK%</svg>
+        </div>
+        <p class="boot-word" aria-hidden="true">%SITE_NAME_LETTERS%</p>
+        <p class="boot-status"><span data-boot-label>Loading the site</span><span data-boot-pct>000</span></p>
+      </div>
+    </div>
+    <script>
+      /* Boot controller. Pages report stages through window.__boot (src/lib/boot.js);
+         the dial eases toward each stage and creeps while waiting, so it never stalls.
+         Fails safe: the loader always leaves, even if the app never reports in. */
+      (function () {
+        var d = document, root = d.documentElement, el = d.getElementById("boot");
+        if (!el) return;
+        root.classList.add("is-booting");
+        var reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var seen = false;
+        try { seen = sessionStorage.getItem("pg:booted") === "1"; } catch (e) {}
+        var ring = el.querySelector("[data-boot-ring]"), pct = el.querySelector("[data-boot-pct]"), label = el.querySelector("[data-boot-label]");
+        var CIRC = 540.35, p = 0, target = 0.12, done = false, left = false, t0 = performance.now(), last = t0;
+        var MIN = seen || reduced ? 0 : 1300; // first visit in a session: let the intro play once
+        var api = (window.__boot = {
+          isDone: false,
+          stage: function (t, text) { if (t > target) target = t; if (text && !done) label.textContent = text; },
+          finish: function () {
+            if (done) return;
+            setTimeout(function () {
+              done = true;
+              label.textContent = "Ready";
+              setTimeout(leave, 700); // even if the page is too busy to animate the dial to 100
+            }, Math.max(0, MIN - (performance.now() - t0)));
+          },
+        });
+        function frame(now) {
+          // time-based, so the dial moves at the same speed at any frame rate
+          var dt = Math.min(0.1, (now - last) / 1000);
+          last = now;
+          var goal = done ? 1 : target;
+          p += (goal - p) * (1 - Math.exp(-dt * (done ? 9 : 4.5)));
+          if (!done && p > goal - 0.005) p = Math.min(0.97, goal + 0.07, p + dt * 0.05); // creep while waiting
+          ring.style.strokeDashoffset = (CIRC * (1 - p)).toFixed(1);
+          var v = Math.round(p * 100);
+          pct.textContent = (v < 10 ? "00" : v < 100 ? "0" : "") + v;
+          el.setAttribute("aria-valuenow", v);
+          if (done && p > 0.995) return leave();
+          requestAnimationFrame(frame);
+        }
+        function leave() {
+          if (left) return;
+          left = true;
+          try { sessionStorage.setItem("pg:booted", "1"); } catch (e) {}
+          // the mark flies into the header logo, which is hidden until it lands
+          var mark = el.querySelector(".boot-mark"), dest = d.querySelector("[data-logo-mark]");
+          var r = dest && dest.getBoundingClientRect();
+          if (!reduced && r && r.width) {
+            var a = mark.getBoundingClientRect();
+            mark.style.transform = "translate(" + (r.left + r.width / 2 - (a.left + a.width / 2)) + "px," + (r.top + r.height / 2 - (a.top + a.height / 2)) + "px) scale(" + r.width / a.width + ")";
+            root.classList.add("boot-handoff");
+          }
+          el.classList.add("is-leaving");
+          root.classList.remove("is-booting");
+          api.isDone = true;
+          window.dispatchEvent(new Event("boot:done"));
+          setTimeout(function () { root.classList.remove("boot-handoff"); el.remove(); }, reduced ? 320 : 1050);
+        }
+        requestAnimationFrame(frame);
+        setTimeout(api.finish, 9000);
+      })();
+    </script>
+    <div id="root"></div>
+    <noscript><style>#boot { display: none; } html.is-booting { overflow: auto; }</style>This site needs JavaScript for its 3D shelf and fly-through archive.</noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

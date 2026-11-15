@@ -1,0 +1,315 @@
+.page {
+  position: relative;
+}
+
+/* ── Hero ─────────────────────────────────────────────────────────────── */
+.hero {
+  position: relative;
+  min-height: 100svh;
+  padding-top: 100px;
+  isolation: isolate;
+  overflow: hidden;
+}
+.backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+.backdrop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 70% 25%;
+  animation: settle 1.6s var(--ease-out) both;
+}
+.backdrop img[data-kind="cover"] {
+  filter: blur(46px) saturate(1.4) brightness(0.65);
+  transform: scale(1.25);
+  animation: none;
+}
+@keyframes settle {
+  from {
+    opacity: 0;
+    transform: scale(1.06);
+  }
+}
+.scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, var(--color-void) 0%, color-mix(in srgb, var(--color-void) 80%, transparent) 34%, transparent 70%),
+    linear-gradient(0deg, var(--color-void) 0%, transparent 40%),
+    linear-gradient(180deg, color-mix(in srgb, var(--color-void) 70%, transparent) 0%, transparent 25%);
+}
+
+.heroGrid {
+  display: grid;
+  gap: 24px;
+  align-items: center;
+  min-height: calc(100svh - 100px);
+}
+@media (min-width: 1000px) {
+  .heroGrid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+.copy {
+  display: grid;
+  gap: 22px;
+  max-width: 580px;
+  padding-bottom: 40px;
+  animation: rise 0.9s var(--ease-out) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+}
+
+.crumbs {
+  display: flex;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+}
+.crumbs a {
+  text-decoration: none;
+  color: var(--color-text-muted);
+}
+.crumbs a:hover {
+  color: var(--color-text);
+}
+
+.logoWrap {
+  margin: 0;
+  line-height: 0;
+}
+.logo {
+  max-width: min(520px, 88vw);
+  max-height: 190px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  object-position: left center;
+  filter: drop-shadow(0 6px 26px rgba(0, 0, 0, 0.7));
+}
+.logo[data-dark] {
+  filter: brightness(0) invert(1) drop-shadow(0 6px 24px rgba(0, 0, 0, 0.65));
+}
+.title {
+  font-size: clamp(2.4rem, 5.6vw, 5rem);
+}
+
+.facts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 20px;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-variation-settings: "wdth" 110;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-text);
+}
+.tag::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--c);
+  box-shadow: 0 0 12px var(--c);
+}
+.tag:hover {
+  color: var(--c);
+}
+.plain {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+.note {
+  padding: 2px 10px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-warning);
+  color: var(--color-warning);
+  font-size: 0.76rem;
+}
+
+.summary {
+  font-size: 1.12rem;
+  color: var(--color-text-muted);
+  max-width: 46ch;
+}
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* ── Body ─────────────────────────────────────────────────────────────── */
+.body {
+  display: grid;
+  gap: 48px;
+  padding-block: clamp(64px, 9vw, 120px) 32px;
+}
+@media (min-width: 1000px) {
+  .body {
+    grid-template-columns: minmax(0, 1.55fr) minmax(300px, 1fr);
+    gap: 80px;
+    align-items: start;
+  }
+}
+.takeaway {
+  margin-top: 18px;
+}
+.side {
+  display: grid;
+  gap: 36px;
+  padding: 28px;
+}
+.h2 {
+  margin-bottom: 24px;
+}
+.h3 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.small {
+  font-size: 0.84rem;
+  color: var(--color-text-dim);
+  margin-bottom: 16px;
+}
+
+.videos {
+  padding-block: 64px;
+}
+.videos > :last-child {
+  max-width: 1060px;
+}
+
+.alike {
+  padding-block: 64px;
+}
+.alikeHead {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 28px;
+}
+.alikeHead .h2 {
+  margin-bottom: 0;
+}
+.alikeGrid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, minmax(0, 220px));
+}
+.alikeCard {
+  display: grid;
+  gap: 12px;
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-variation-settings: "wdth" 106;
+}
+.alikeCard > :first-child {
+  transition: transform var(--dur-base) var(--ease-out);
+}
+.alikeCard:hover > :first-child {
+  transform: translateY(-8px) rotate(-1.5deg);
+}
+
+.pager {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding-block: 48px 110px;
+}
+.pageLink {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-line);
+  background: var(--color-glass);
+  text-decoration: none;
+  transition:
+    border-color var(--dur-fast),
+    background var(--dur-fast);
+}
+.pageLink:hover {
+  border-color: var(--color-line-strong);
+  background: var(--color-panel);
+}
+.pageLink > span:not(.pageBox) {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+.pageLink strong {
+  font-family: var(--font-display);
+  font-variation-settings: "wdth" 106;
+  font-size: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pageBox {
+  flex: none;
+  width: 48px;
+}
+.next {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+@media (max-width: 999px) {
+  .hero {
+    padding-top: 84px;
+  }
+  .heroGrid {
+    min-height: auto;
+  }
+  .alikeGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .pager {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Narrow screens: the copy spans the full width over the key art, so the
+   left-to-right fade can't protect it. Darken top to bottom behind the text instead. */
+@media (max-width: 999px) {
+  .scrim {
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--color-void) 72%, transparent) 0%,
+      color-mix(in srgb, var(--color-void) 58%, transparent) 45%,
+      color-mix(in srgb, var(--color-void) 82%, transparent) 75%,
+      var(--color-void) 100%
+    );
+  }
+}
