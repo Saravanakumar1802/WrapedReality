@@ -609,6 +609,5060 @@
         }
       ],
       "videoId": "gk1oQ8GTSC4"
+    },
+    "2|eKYl3uqlcXA|2638100633": {
+      "summary": "Ellie and Dina journey to Seattle seeking vengeance, navigating hostile factions and infected.",
+      "moments": [
+        {
+          "t": 8,
+          "title": "Patrol Prep",
+          "detail": "Ellie and Dina get ready for patrol duties in Jackson",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina",
+            "jackson"
+          ]
+        },
+        {
+          "t": 222,
+          "title": "Assigning Trails",
+          "detail": "Maria assigns Ellie and Dina to check the creek trails",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina",
+            "maria"
+          ]
+        },
+        {
+          "t": 485,
+          "title": "Abby's Patrol",
+          "detail": "Abby and her group ride out on patrol in the snow",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "abby",
+            "mel"
+          ]
+        },
+        {
+          "t": 1137,
+          "title": "Trail Conversation",
+          "detail": "Ellie and Dina chat about past relationships while riding horses",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina",
+            "shimmer"
+          ]
+        },
+        {
+          "t": 1493,
+          "title": "Moose Attack",
+          "detail": "Ellie and Dina investigate an infected attack on a moose",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina",
+            "infected"
+          ]
+        },
+        {
+          "t": 1962,
+          "title": "Supermarket Runners",
+          "detail": "Ellie and Dina sneak through and fight infected in a store",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina",
+            "infected"
+          ]
+        },
+        {
+          "t": 2454,
+          "title": "Eugene's Hideout",
+          "detail": "Ellie and Dina discover Eugene's hidden Firefly den",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina",
+            "eugene"
+          ]
+        },
+        {
+          "t": 2752,
+          "title": "Den Ambush",
+          "detail": "Infected attack Ellie and Dina inside Eugene's hideout",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina",
+            "infected"
+          ]
+        },
+        {
+          "t": 3119,
+          "title": "The Meeting",
+          "detail": "Abby runs into Tommy and Joel during a blizzard",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "abby",
+            "tommy",
+            "joel"
+          ]
+        },
+        {
+          "t": 3336,
+          "title": "Joel's Fate",
+          "detail": "Abby's group captures and executes Joel in a brutal trap",
+          "kind": "ending",
+          "spoiler": true,
+          "tags": [
+            "abby",
+            "joel",
+            "tommy",
+            "mel"
+          ]
+        },
+        {
+          "t": 3512,
+          "title": "The Aftermath",
+          "detail": "Ellie discovers the devastating scene after Joel's death",
+          "kind": "emotional",
+          "spoiler": true,
+          "tags": [
+            "ellie",
+            "joel",
+            "tommy"
+          ]
+        },
+        {
+          "t": 3959,
+          "title": "Leaving for Seattle",
+          "detail": "Ellie resolves to follow Tommy to Seattle for revenge",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "ellie",
+            "maria",
+            "tommy"
+          ]
+        },
+        {
+          "t": 4209,
+          "title": "Entering Seattle",
+          "detail": "Ellie and Dina cross into the ruined Seattle QZ",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina"
+          ]
+        },
+        {
+          "t": 4569,
+          "title": "Generator Power",
+          "detail": "Ellie starts an old generator to open a gated area",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina"
+          ]
+        },
+        {
+          "t": 5243,
+          "title": "Courthouse Infected",
+          "detail": "Ellie and Dina fight off infected inside the courthouse",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina",
+            "infected"
+          ]
+        },
+        {
+          "t": 5777,
+          "title": "Garage Shootout",
+          "detail": "Ellie and Dina battle infected in the parking garage",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina",
+            "infected"
+          ]
+        },
+        {
+          "t": 6226,
+          "title": "Bank Ambush",
+          "detail": "Infected attack Ellie and Dina in the abandoned bank",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina",
+            "infected"
+          ]
+        },
+        {
+          "t": 6740,
+          "title": "Synagogue Memories",
+          "detail": "Dina shares memories of her sister inside a ruined synagogue",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina"
+          ]
+        },
+        {
+          "t": 7091,
+          "title": "Dome Encounter",
+          "detail": "Ellie and Dina fight infected outside the dome building",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina",
+            "infected"
+          ]
+        },
+        {
+          "t": 7445,
+          "title": "Dead WLF Patrol",
+          "detail": "Ellie and Dina find dead WLF members killed by Tommy",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "ellie",
+            "dina",
+            "tommy"
+          ]
+        },
+        {
+          "t": 8019,
+          "title": "WLF Ambush",
+          "detail": "WLF soldiers ambush Ellie and Dina in the city ruins",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "ellie",
+            "dina",
+            "wlf",
+            "jordan"
+          ]
+        },
+        {
+          "t": 8522,
+          "title": "Cafeteria Fight",
+          "detail": "Ellie and Dina engage WLF soldiers in a firefight",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "ellie",
+            "dina",
+            "wlf"
+          ]
+        },
+        {
+          "t": 9665,
+          "title": "Explosive Traps",
+          "detail": "Ellie navigates dangerous WLF explosive tripwires",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina"
+          ]
+        },
+        {
+          "t": 9901,
+          "title": "Tripwire Caution",
+          "detail": "Ellie carefully avoids explosive wire traps in the area",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina"
+          ]
+        },
+        {
+          "t": 10257,
+          "title": "Staircase Traps",
+          "detail": "Ellie deals with wired stairs blocking their path",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "ellie",
+            "dina"
+          ]
+        }
+      ],
+      "videoId": "eKYl3uqlcXA"
+    },
+    "2|iDgs7yUZOzM|228580349": {
+      "summary": "Spider-Man battles the Symbiote threat to save Harry and the city.",
+      "moments": [
+        {
+          "t": 345,
+          "title": "Harry and the Symbiote",
+          "detail": "Harry and the symbiote fuse completely, leading to a desperate crisis.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "harry",
+            "symbiote",
+            "spider-man",
+            "story"
+          ]
+        },
+        {
+          "t": 456,
+          "title": "Symbiote Outbreak",
+          "detail": "Spider-Man fights off symbiotes attacking civilians across the city.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "combat",
+            "symbiotes",
+            "civilians"
+          ]
+        },
+        {
+          "t": 818,
+          "title": "Clearing the Nest",
+          "detail": "Peter and Miles split up to clear symbiote nests and search for the meteorite.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "peter",
+            "miles",
+            "exploration",
+            "nests"
+          ]
+        },
+        {
+          "t": 1026,
+          "title": "Hive Mind Vision",
+          "detail": "Peter gets sucked into the hive mind and experiences a terrifying vision.",
+          "kind": "puzzle",
+          "spoiler": true,
+          "tags": [
+            "peter",
+            "symbiote",
+            "vision",
+            "story"
+          ]
+        },
+        {
+          "t": 1232,
+          "title": "Subway Tunnel Battle",
+          "detail": "Spider-Man fights through symbiotes underground to find the meteorite location.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "spider-man",
+            "combat",
+            "subway",
+            "meteorite"
+          ]
+        },
+        {
+          "t": 1467,
+          "title": "Voicemail to Harry",
+          "detail": "Peter leaves a heartfelt voicemail trying to reach the real Harry.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "peter",
+            "harry",
+            "story",
+            "voicemail"
+          ]
+        },
+        {
+          "t": 1769,
+          "title": "Plan at May's House",
+          "detail": "The team gathers at May's house to plan how to steal the meteorite.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "peter",
+            "miles",
+            "mj",
+            "plan"
+          ]
+        },
+        {
+          "t": 2089,
+          "title": "Facing Venom",
+          "detail": "Peter and Miles face Venom and his followers guarding the meteorite.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "peter",
+            "miles",
+            "venom",
+            "boss"
+          ]
+        },
+        {
+          "t": 2239,
+          "title": "L Cor Exploration",
+          "detail": "Exploration around L Cor to find a way into the underground meteorite site.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "l cor",
+            "story",
+            "spider-man"
+          ]
+        },
+        {
+          "t": 2408,
+          "title": "Underground Escape",
+          "detail": "Spider-Man fights off symbiotes while trying to secure the meteorite rock.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "spider-man",
+            "combat",
+            "meteorite",
+            "escape"
+          ]
+        },
+        {
+          "t": 2721,
+          "title": "Venom Boss Fight Part 1",
+          "detail": "Miles and Peter confront Harry as Venom in an intense showdown.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "miles",
+            "peter",
+            "venom",
+            "boss"
+          ]
+        },
+        {
+          "t": 3385,
+          "title": "Rescuing Harry",
+          "detail": "The heroes manage to temporarily free Harry and plan to get him out safely.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "peter",
+            "miles",
+            "harry",
+            "story"
+          ]
+        },
+        {
+          "t": 3418,
+          "title": "Venom Boss Fight Part 2",
+          "detail": "The final battle against Venom intensifies as Peter and Miles fight back.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "peter",
+            "miles",
+            "venom",
+            "boss"
+          ]
+        },
+        {
+          "t": 3896,
+          "title": "Ending the Threat",
+          "detail": "The intense struggle reaches its climax as the symbiote threat is stopped.",
+          "kind": "ending",
+          "spoiler": true,
+          "tags": [
+            "ending",
+            "venom",
+            "boss",
+            "story"
+          ]
+        },
+        {
+          "t": 4411,
+          "title": "The New Normal",
+          "detail": "MJ hosts a new podcast episode discussing the city's recovery after the crisis.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "mj",
+            "story",
+            "podcast",
+            "epilogue"
+          ]
+        },
+        {
+          "t": 4877,
+          "title": "A Visit to Harlem",
+          "detail": "Family moments and community events in Harlem bring warmth after the storm.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "harlem",
+            "family",
+            "epilogue"
+          ]
+        },
+        {
+          "t": 5074,
+          "title": "Harry's Final Gift",
+          "detail": "Peter discovers a simulation and final project left behind by Harry.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "peter",
+            "harry",
+            "exploration",
+            "epilogue"
+          ]
+        },
+        {
+          "t": 5703,
+          "title": "Stopping Crime Together",
+          "detail": "Spider-Man teams up with allies to take down street crimes in New York.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "combat",
+            "crime",
+            "openworld"
+          ]
+        },
+        {
+          "t": 6258,
+          "title": "Gas Truck Chase",
+          "detail": "Spider-Man stops a runaway gas truck and handles a street emergency.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "combat",
+            "emergency",
+            "openworld"
+          ]
+        },
+        {
+          "t": 6413,
+          "title": "Armored Truck Robbery",
+          "detail": "Spider-Man interrupts a robbery and saves civilians from armed criminals.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "combat",
+            "robbery",
+            "civilians"
+          ]
+        },
+        {
+          "t": 6706,
+          "title": "Protecting Civilians",
+          "detail": "Spider-Man steps in to protect civilians from lingering symbiote threats.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "combat",
+            "symbiotes",
+            "civilians"
+          ]
+        },
+        {
+          "t": 6799,
+          "title": "Hunter Car Chase",
+          "detail": "Spider-Man pursues and stops Hunter vehicles causing trouble in the streets.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "combat",
+            "hunters",
+            "chase"
+          ]
+        },
+        {
+          "t": 6862,
+          "title": "Cultists in the City",
+          "detail": "Spider-Man interrupts a strange cultist gathering creating chaos in the city.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "combat",
+            "cultists",
+            "openworld"
+          ]
+        },
+        {
+          "t": 7177,
+          "title": "Final Street Fight",
+          "detail": "A final street skirmish wraps up criminal activity across New York.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "combat",
+            "openworld",
+            "action"
+          ]
+        }
+      ],
+      "videoId": "iDgs7yUZOzM"
+    },
+    "2|5d5h6DFdNQA|2940942854": {
+      "summary": "Miles Morales steps up as New York's sole Spider-Man and faces a new criminal faction called the Underground.",
+      "moments": [
+        {
+          "t": 16,
+          "title": "Prison Convoy Ambush",
+          "detail": "Miles helps Peter Parker protect a massive prison transport convoy.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "spider-man",
+            "rhino",
+            "combat"
+          ]
+        },
+        {
+          "t": 363,
+          "title": "Rhino Battle at the Mall",
+          "detail": "Rhino escapes the convoy and crashes into a mall, leading to a massive fight.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "rhino",
+            "boss fight",
+            "destruction"
+          ]
+        },
+        {
+          "t": 904,
+          "title": "Peter Leaves Town",
+          "detail": "Peter leaves Miles in charge of New York while he goes to Europe with MJ.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "peter parker",
+            "story",
+            "cutscene"
+          ]
+        },
+        {
+          "t": 1385,
+          "title": "Suit Up in Central Park",
+          "detail": "Miles finds a Christmas present from Peter containing his first super suit.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "spider-man suit",
+            "central park",
+            "exploration"
+          ]
+        },
+        {
+          "t": 1571,
+          "title": "Holographic Training",
+          "detail": "Miles tests out the new holographic training challenges left by Peter.",
+          "kind": "puzzle",
+          "spoiler": true,
+          "tags": [
+            "training",
+            "combat",
+            "stealth"
+          ]
+        },
+        {
+          "t": 2056,
+          "title": "Roxon Plaza Reactor",
+          "detail": "Simon Creger introduces the new form reactor to power Harlem safely.",
+          "kind": "exploration",
+          "spoiler": true,
+          "tags": [
+            "roxon plaza",
+            "simon creger",
+            "exploration"
+          ]
+        },
+        {
+          "t": 2200,
+          "title": "Underground Plaza Attack",
+          "detail": "The Underground attacks Roxon Plaza to steal shipments of new form.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "underground",
+            "combat",
+            "roxon"
+          ]
+        },
+        {
+          "t": 2666,
+          "title": "Christmas Dinner",
+          "detail": "Miles and his mother host family friends for Christmas dinner during a blackout.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "christmas dinner",
+            "story",
+            "cutscene"
+          ]
+        },
+        {
+          "t": 2904,
+          "title": "Friendly Neighborhood App",
+          "detail": "Miles launches his custom app to help New Yorkers directly report crimes.",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "app",
+            "friendly neighborhood",
+            "mechanics"
+          ]
+        },
+        {
+          "t": 2970,
+          "title": "Meeting Uncle Aaron",
+          "detail": "Miles visits the subway and talks with his uncle Aaron Davis.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "aaron davis",
+            "subway",
+            "story"
+          ]
+        },
+        {
+          "t": 3222,
+          "title": "Subway Station Fight",
+          "detail": "Miles fights Underground thugs while trying to restore the subway sensors.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "underground",
+            "combat",
+            "subway"
+          ]
+        },
+        {
+          "t": 3503,
+          "title": "Subway Yard Infiltration",
+          "detail": "Miles sneaks through the subway yard to stop the Underground's plans.",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "stealth",
+            "underground",
+            "yard"
+          ]
+        },
+        {
+          "t": 3761,
+          "title": "Restoring the Trains",
+          "detail": "Miles uses webs and a turntable to get the subway trains back on the tracks.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "trains",
+            "web"
+          ]
+        },
+        {
+          "t": 3921,
+          "title": "Powering the Controls",
+          "detail": "Miles uses his bioelectricity to power the broken subway generator.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "bioelectricity",
+            "puzzle",
+            "subway"
+          ]
+        },
+        {
+          "t": 4021,
+          "title": "App Explosion",
+          "detail": "Miles checks his app and sees it blowing up with requests from citizens.",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "app",
+            "requests",
+            "ending"
+          ]
+        }
+      ],
+      "videoId": "5d5h6DFdNQA"
+    },
+    "2|-KFSnCu9gHM|3013413617": {
+      "summary": "Miles Morales fights the Underground and uncovers roxson's dark secrets in Harlem.",
+      "moments": [
+        {
+          "t": 10,
+          "title": "Checking in with Uncle Aaron",
+          "detail": "Miles chats with Aaron Davis while swinging through the neighborhood.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 232,
+          "title": "Stopping the Subway Bombs",
+          "detail": "Miles intercepts Underground members planting explosives on train tracks.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 710,
+          "title": "Uncle Aaron Figured It Out",
+          "detail": "Aaron drops hints that he knows Miles is the new Spider-Man.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 965,
+          "title": "Stopping the Feast Truck Robbery",
+          "detail": "Miles protects a food truck from an attack by the Underground.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 1165,
+          "title": "Visiting the Science Center",
+          "detail": "Miles and Finn reminisce at their old middle school science exhibit.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 1312,
+          "title": "The Harlem Street Fair Rally",
+          "detail": "Miles attends his mom's election rally before an Underground attack.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 1575,
+          "title": "Mom is Injured",
+          "detail": "Miles rushes to help his mother after the explosion at the plaza.",
+          "kind": "emotional",
+          "spoiler": true,
+          "tags": []
+        },
+        {
+          "t": 1641,
+          "title": "Braithwaite Bridge Collapse",
+          "detail": "Miles battles Finn and tries to save civilians from a bridge collapse.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": []
+        },
+        {
+          "t": 2044,
+          "title": "Turned on by the Crowd",
+          "detail": "Civilians and roxson turn on Miles after the bridge disaster.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": []
+        },
+        {
+          "t": 2550,
+          "title": "Roxson Convoy Ambush",
+          "detail": "Miles intercepts a roxson arms shipment guarded by the Underground.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 2905,
+          "title": "Inside Finn's Secret Workshop",
+          "detail": "Miles explores Finn's abandoned workshop and uncovers the truth about Rick.",
+          "kind": "other",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 3143,
+          "title": "Infiltrating the Underground Hideout",
+          "detail": "Miles uses camo to slip past guards in Finn's secret workshop.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 3435,
+          "title": "Uncovering the New Form Truth",
+          "detail": "Miles learns roxson's new form fuel made workers sick like Rick.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 3662,
+          "title": "Infiltrating Roxson Labs",
+          "detail": "Miles and Uncle Aaron sneak into the roxson research labs.",
+          "kind": "other",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 4207,
+          "title": "Sabotaging the Reactor Core",
+          "detail": "Miles works with Aaron to disable and override the toxic reactor.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 4432,
+          "title": "Escaping the Reactor Explosion",
+          "detail": "Miles survives the reactor meltdown and flees the collapsing facility.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": []
+        },
+        {
+          "t": 4970,
+          "title": "Infiltrating the Underground",
+          "detail": "Miles meets Finn at a cafe to plan his entry into the Underground.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 5248,
+          "title": "Clearing out the Roxson Lab",
+          "detail": "Miles fights through roxson guards to reach another secret reactor.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 6418,
+          "title": "Entering Fisk Tower",
+          "detail": "Miles leaps across balconies to prove himself to the Underground.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 6827,
+          "title": "Sneaking Through Fisk Tower",
+          "detail": "Miles navigates vents and guards inside the Underground's base.",
+          "kind": "other",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 7725,
+          "title": "Fighting Through Underground Bases",
+          "detail": "Miles battles electrified barriers and guards in old Fisk sites.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 8183,
+          "title": "Confronting Finn at the Theater",
+          "detail": "Miles discovers Finn's plot to blow up roxon Plaza with unstable new form.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": []
+        },
+        {
+          "t": 8669,
+          "title": "Chasing the Tinkerer",
+          "detail": "Miles chases Finn across Manhattan rooftops while dodging explosions.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": []
+        }
+      ],
+      "videoId": "-KFSnCu9gHM"
+    },
+    "2|ZnXIAndt0Cs|3877873011": {
+      "summary": "Peter and Miles face Sandman, criminal factions, and new threats while juggling their personal lives.",
+      "moments": [
+        {
+          "t": 478,
+          "title": "Sandman Boss Fight Phase 1",
+          "detail": "Battle Flint Marko as Sandman transforms into a massive threat.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "sandman",
+            "combat"
+          ]
+        },
+        {
+          "t": 712,
+          "title": "Sandman Boss Fight Phase 2",
+          "detail": "Use water and electricity to weaken Sandman's gigantic form.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "combat",
+            "water"
+          ]
+        },
+        {
+          "t": 1186,
+          "title": "Sandman Boss Fight Finale",
+          "detail": "Partner with Miles to finally subdue and shatter Sandman.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "combat",
+            "ending"
+          ]
+        },
+        {
+          "t": 1763,
+          "title": "Rebuilding the FNSND App",
+          "detail": "Giky and Peter launch weather drones to restore the city app network.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "exploration",
+            "tech"
+          ]
+        },
+        {
+          "t": 2027,
+          "title": "Gun Club Interruption",
+          "detail": "Clear out armed thugs who are taking advantage of the chaos.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "action"
+          ]
+        },
+        {
+          "t": 2441,
+          "title": "Armored Truck Ambush",
+          "detail": "Stop a group of armed criminals attacking a secure transport.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "action"
+          ]
+        },
+        {
+          "t": 2848,
+          "title": "J. Jonah Jameson Rescue",
+          "detail": "Save J. Jonah Jameson from armed paparazzi and thugs.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "story",
+            "rescue"
+          ]
+        },
+        {
+          "t": 3686,
+          "title": "Stopping Street Racers",
+          "detail": "Intervene to stop reckless drivers and street racers in the city.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "action"
+          ]
+        },
+        {
+          "t": 3881,
+          "title": "Paparazzi Attack",
+          "detail": "Defend against aggressive paparazzi and thugs in the streets.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "action"
+          ]
+        },
+        {
+          "t": 4276,
+          "title": "Peter and MJ's Apartment",
+          "detail": "Explore Peter's home life and talk about the future with MJ.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "emotional"
+          ]
+        },
+        {
+          "t": 5207,
+          "title": "Midtown High Flashback",
+          "detail": "Peter and Harry sneak into Midtown High for a hit of nostalgia.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "flashback"
+          ]
+        },
+        {
+          "t": 5836,
+          "title": "Midtown High Escape",
+          "detail": "Fend off guards and escape Midtown High with the thumb drive.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "combat",
+            "stealth"
+          ]
+        },
+        {
+          "t": 6680,
+          "title": "Store Robbery Interruption",
+          "detail": "Stop thieves from stealing weapons and supplies from a local store.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "action"
+          ]
+        },
+        {
+          "t": 7339,
+          "title": "The Raft Breakout Battle",
+          "detail": "Defend the prison transport ship from an elite mercenary assault.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "combat",
+            "prison"
+          ]
+        },
+        {
+          "t": 8139,
+          "title": "Scorpion Encounter",
+          "detail": "Navigate flooded prison corridors and face off against Scorpion.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "combat",
+            "scorpion"
+          ]
+        },
+        {
+          "t": 8755,
+          "title": "Aftermath of the Raft Attack",
+          "detail": "Survey the damage and process the chaos left by the mysterious faction.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "emotional"
+          ]
+        },
+        {
+          "t": 9229,
+          "title": "Fireworks Sabotage",
+          "detail": "Stop criminals from launching illegal fireworks near a residential area.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat"
+          ]
+        },
+        {
+          "t": 9892,
+          "title": "Armored Truck Heist",
+          "detail": "Intervene to stop an ongoing armored truck robbery by thugs.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "action"
+          ]
+        },
+        {
+          "t": 10115,
+          "title": "Meeting Uncle Aaron",
+          "detail": "Reconnect with Uncle Aaron and track down his hidden tech stashes.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "exploration"
+          ]
+        },
+        {
+          "t": 10673,
+          "title": "Molotov Thugs Encounter",
+          "detail": "Defeat aggressive thugs throwing incendiaries on the city streets.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "action"
+          ]
+        },
+        {
+          "t": 11128,
+          "title": "Prowler Tech Stash",
+          "detail": "Locate and loot Uncle Aaron's hidden Prowler stash in a skyscraper.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "puzzle"
+          ]
+        },
+        {
+          "t": 11830,
+          "title": "Miss Ferguson Kidnapping Rescue",
+          "detail": "Rescue the kidnapped teacher from a warehouse full of armed captors.",
+          "kind": "boss",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "rescue",
+            "boss"
+          ]
+        },
+        {
+          "t": 12437,
+          "title": "Penthouse Prowler Stash",
+          "detail": "Find and collect more of Uncle Aaron's old tech at his former penthouse.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "puzzle"
+          ]
+        },
+        {
+          "t": 12842,
+          "title": "Missing Grandpa Search",
+          "detail": "Help a worried grandchild search Prospect Park for her lost grandpa.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "rescue"
+          ]
+        },
+        {
+          "t": 13665,
+          "title": "Cultists Fire Attack",
+          "detail": "Defend against fanatical cultists trying to burn down a building.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "action"
+          ]
+        },
+        {
+          "t": 14294,
+          "title": "Cultist Branding Ambush",
+          "detail": "Fight off cultists trying to brand people at an abandoned school.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "combat",
+            "story",
+            "ambush"
+          ]
+        }
+      ],
+      "videoId": "ZnXIAndt0Cs"
+    },
+    "2|h2bLnNLKwfM|2136406184": {
+      "summary": "Spider-Man investigates a mysterious cult and faces a dangerous new hunter targeting supervillains.",
+      "moments": [
+        {
+          "t": 25,
+          "title": "Explosives Deactivation",
+          "detail": "Spider-Man helps clear explosives and rescue workers trapped by cultists.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "rescue"
+          ]
+        },
+        {
+          "t": 333,
+          "title": "The Flame Cult Ambush",
+          "detail": "Cultists of the Flame discuss their prophecy while holding workers hostage.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "cult"
+          ]
+        },
+        {
+          "t": 489,
+          "title": "Yuri Returns as Wraith",
+          "detail": "Yuri Watanabe returns wearing a new suit and operating as Wraith.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "revelation"
+          ]
+        },
+        {
+          "t": 716,
+          "title": "Hunter Encounters Begin",
+          "detail": "Spider-Man is attacked by armed mercenaries known as Hunters.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "mercenaries"
+          ]
+        },
+        {
+          "t": 1471,
+          "title": "Kraven's Research Lab",
+          "detail": "Spider-Man discovers a lab where Kraven is studying Martin Lee's blood.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "laboratory"
+          ]
+        },
+        {
+          "t": 1832,
+          "title": "Kraven's Supervillain Targets",
+          "detail": "Spider-Man discovers Kraven's hit list targeting supervillains like Black Cat.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "revelation"
+          ]
+        },
+        {
+          "t": 2286,
+          "title": "Miles and Hailey Date",
+          "detail": "Miles prepares for a date with Hailey while discussing the ongoing crisis.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "romance"
+          ]
+        },
+        {
+          "t": 2752,
+          "title": "Hunter Blinds Discovered",
+          "detail": "Spider-Man destroys Hunter communication relays and investigates blind spots.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "stealth"
+          ]
+        },
+        {
+          "t": 3103,
+          "title": "Black Cat's Dangerous Heist",
+          "detail": "Felicia Hardy seeks a mystical wand to escape a dangerous situation.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "magical"
+          ]
+        },
+        {
+          "t": 4218,
+          "title": "Defending the Artifact",
+          "detail": "Spider-Man and Black Cat fight off Hunters trying to steal the mystic wand.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "combat"
+          ]
+        },
+        {
+          "t": 4934,
+          "title": "Heading to Coney Island",
+          "detail": "Miles tells Peter about Mysterio's new attraction at Coney Island.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "amusement"
+          ]
+        },
+        {
+          "t": 5303,
+          "title": "Mysterio's Attraction",
+          "detail": "Peter visits Quenton Beck's new mysterium attraction and experiences illusions.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "illusion"
+          ]
+        },
+        {
+          "t": 5722,
+          "title": "Mysterio's Glitched Ride",
+          "detail": "Peter navigates a glitching illusion inside Mysterio's attraction.",
+          "kind": "puzzle",
+          "spoiler": true,
+          "tags": [
+            "puzzle",
+            "illusion"
+          ]
+        },
+        {
+          "t": 5981,
+          "title": "Coney Island Date Night",
+          "detail": "Peter, MJ, and Harry enjoy the rides and games at Coney Island.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "friends"
+          ]
+        },
+        {
+          "t": 7224,
+          "title": "Tombstone's Ambush",
+          "detail": "Kraven's Hunters attack Coney Island to capture Tombstone.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "rescue"
+          ]
+        },
+        {
+          "t": 7780,
+          "title": "Harry's Exo-Suit Powers",
+          "detail": "Harry reveals he gained superpowers from his experimental medical treatment.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "revelation"
+          ]
+        },
+        {
+          "t": 8055,
+          "title": "Deploying Wind Turbines",
+          "detail": "Peter tests clean energy wind turbines using his web wings in Brooklyn.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "puzzle"
+          ]
+        },
+        {
+          "t": 8476,
+          "title": "Hunter Stakeout Ambush",
+          "detail": "Peter takes down a group of cloaked Hunters during a stakeout.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "stealth"
+          ]
+        }
+      ],
+      "videoId": "h2bLnNLKwfM"
+    },
+    "2|HGHRmN4KBks|2114331968": {
+      "summary": "Spider-Man and friends battle Kraven's hunters and investigate crimes across New York.",
+      "moments": [
+        {
+          "t": 22,
+          "title": "Podcast Intro",
+          "detail": "A podcast discusses Quenton Beck and former criminals trying to change.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "podcast",
+            "story",
+            "intro"
+          ]
+        },
+        {
+          "t": 368,
+          "title": "Spider-Bots Signal",
+          "detail": "Spider-Man receives a strange signal from mystery spider-bots on the network.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "spider-bots",
+            "story",
+            "discovery"
+          ]
+        },
+        {
+          "t": 552,
+          "title": "Foundry Tip",
+          "detail": "Felicia gives a tip about Tombstone at the steel foundry in Williamsburg.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "tombstone",
+            "combat",
+            "felicia"
+          ]
+        },
+        {
+          "t": 803,
+          "title": "Abandoned Clinic",
+          "detail": "Yuri and Spider-Man track followers of the flame to an abandoned clinic.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "yuri",
+            "story",
+            "cult"
+          ]
+        },
+        {
+          "t": 1159,
+          "title": "Tattoo Door Puzzle",
+          "detail": "Spider-Man solves a door puzzle using cultist tattoos in the clinic base.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "cult",
+            "stealth"
+          ]
+        },
+        {
+          "t": 1361,
+          "title": "Yuri vs The Flame",
+          "detail": "Confrontation with the Flame and Yuri at the hideout reveals old ties.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "yuri",
+            "flame"
+          ]
+        },
+        {
+          "t": 2350,
+          "title": "Steel Foundry Approach",
+          "detail": "Spider-Man infiltrates the heavily guarded steel foundry filled with hunters.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "stealth",
+            "hunters"
+          ]
+        },
+        {
+          "t": 2722,
+          "title": "Spider Pals Team-Up",
+          "detail": "Harry joins Spider-Man with his new power suit to rescue Tombstone.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "combat",
+            "harry",
+            "tombstone"
+          ]
+        },
+        {
+          "t": 3349,
+          "title": "Furnace Coolant Puzzle",
+          "detail": "Overload the machine with coolant to shut down the foundry furnace.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "combat",
+            "boss"
+          ]
+        },
+        {
+          "t": 3633,
+          "title": "Tombstone Rescued",
+          "detail": "Tombstone is saved from the hunters and expresses his intent to stay safe.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "tombstone",
+            "story",
+            "rescue"
+          ]
+        },
+        {
+          "t": 3981,
+          "title": "Hunter Base Blinds",
+          "detail": "Spider-Man clears hunter blinds to uncover base locations and Intel.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "stealth",
+            "hunters"
+          ]
+        },
+        {
+          "t": 5285,
+          "title": "Sasha's Encrypted File",
+          "detail": "Decrypting a file reveals conflict within Kraven's family and empire.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "lore",
+            "hunters"
+          ]
+        },
+        {
+          "t": 5635,
+          "title": "Museum Security Lockout",
+          "detail": "Miles helps Angela fix overloaded control panel relays at the cultural center.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "miles",
+            "museum"
+          ]
+        },
+        {
+          "t": 5771,
+          "title": "Music Exhibit Heist",
+          "detail": "Thieves steal artifacts while Miles creates distractions using music tech.",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "stealth",
+            "puzzle",
+            "miles"
+          ]
+        },
+        {
+          "t": 6144,
+          "title": "Stopping Museum Trucks",
+          "detail": "Miles intercepts and stops the getaway trucks to recover stolen instruments.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "miles",
+            "truck"
+          ]
+        },
+        {
+          "t": 6464,
+          "title": "Rio Morales Podcast",
+          "detail": "Councilwoman Rio Morales talks about community resilience and the museum.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "interview",
+            "podcast"
+          ]
+        },
+        {
+          "t": 6700,
+          "title": "Rooftop Ambush",
+          "detail": "Hunters set up an ambush on the museum roof against Spider-Man.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "hunters",
+            "rooftop"
+          ]
+        },
+        {
+          "t": 7028,
+          "title": "Spider-Mobile Joke",
+          "detail": "Spider-Man jokes about finally building a spider-mobile after a fight.",
+          "kind": "funny",
+          "spoiler": false,
+          "tags": [
+            "funny",
+            "dialogue",
+            "combat"
+          ]
+        },
+        {
+          "t": 7410,
+          "title": "Stopping Burglars",
+          "detail": "Spider-Man stops a late break-in and prevents thieves from escaping.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "burglars",
+            "action"
+          ]
+        }
+      ],
+      "videoId": "HGHRmN4KBks"
+    },
+    "2|vOA03zupB2g|2500973563": {
+      "summary": "Peter gets a mysterious new black suit while trying to rescue Dr. Connors from Kraven's hunters.",
+      "moments": [
+        {
+          "t": 83,
+          "title": "Searching Dr. Connor's House",
+          "detail": "Hunters are crawling around Dr. Connor's house",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "peter parker",
+            "dr. kurt connors"
+          ]
+        },
+        {
+          "t": 166,
+          "title": "Abandoned Zoo Ambush",
+          "detail": "Peter and MJ infiltrate an abandoned zoo in Jersey",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "peter parker",
+            "mj watson",
+            "vulture"
+          ]
+        },
+        {
+          "t": 394,
+          "title": "Harry's Phone Call",
+          "detail": "Harry calls MJ asking for help from an abandoned zoo",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "harry osborn",
+            "mj watson"
+          ]
+        },
+        {
+          "t": 518,
+          "title": "Finding the Enclosure Code",
+          "detail": "MJ searches for the passcode to Dr. Connor's cage",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "mj watson",
+            "kraven's hunters"
+          ]
+        },
+        {
+          "t": 976,
+          "title": "MJ's Stealth Tactics",
+          "detail": "MJ uses stealth and stun guns to navigate the hunters",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "mj watson",
+            "kraven's hunters"
+          ]
+        },
+        {
+          "t": 1126,
+          "title": "Discovering the Lizard",
+          "detail": "Peter and MJ find Dr. Kurt Connors transformed into the lizard",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "peter parker",
+            "mj watson",
+            "dr. kurt connors"
+          ]
+        },
+        {
+          "t": 1353,
+          "title": "Defending the Lab",
+          "detail": "Peter fights off hunters while MJ works on an antidote",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "peter parker",
+            "mj watson",
+            "kraven's hunters"
+          ]
+        },
+        {
+          "t": 1507,
+          "title": "The Suit's Influence",
+          "detail": "Peter succumbs to the mysterious black suit's dark power",
+          "kind": "emotional",
+          "spoiler": true,
+          "tags": [
+            "peter parker",
+            "harry osborn",
+            "mj watson"
+          ]
+        },
+        {
+          "t": 1943,
+          "title": "A New Lead",
+          "detail": "Peter and MJ investigate a pawn shop for a knife lead",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "peter parker",
+            "mj watson"
+          ]
+        },
+        {
+          "t": 2217,
+          "title": "Investigating Bonfires",
+          "detail": "Peter investigates suspicious bonfires lit by Kraven's crew",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "peter parker"
+          ]
+        },
+        {
+          "t": 2605,
+          "title": "Swanky Infiltration",
+          "detail": "Peter uses the black suit to sneak into Kraven's social club",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "peter parker"
+          ]
+        },
+        {
+          "t": 2897,
+          "title": "Feeding Dima the Tiger",
+          "detail": "Peter finds raw meat to distract Kraven's pet tiger Dima",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "peter parker",
+            "dima"
+          ]
+        },
+        {
+          "t": 3240,
+          "title": "Unleashing Black Suit Power",
+          "detail": "Peter tests out the overwhelming new power of the black suit",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "peter parker"
+          ]
+        },
+        {
+          "t": 3685,
+          "title": "Confronting Kraven",
+          "detail": "Peter faces off against Kraven to get the lizard serum",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "peter parker",
+            "kraven"
+          ]
+        },
+        {
+          "t": 4131,
+          "title": "Engineering the Antidote",
+          "detail": "Peter and Harry use a particle accelerator to make the serum",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "peter parker",
+            "harry osborn"
+          ]
+        },
+        {
+          "t": 4610,
+          "title": "Particle Accelerator Attack",
+          "detail": "Hunters attack the lab while Peter and Harry finish the serum",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "peter parker",
+            "harry osborn",
+            "kraven's hunters"
+          ]
+        },
+        {
+          "t": 5251,
+          "title": "Miles's Lead on Lee",
+          "detail": "Miles calls Peter about a lead on Mr. Negative and Martin Lee",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "peter parker",
+            "miles morales",
+            "martin lee"
+          ]
+        },
+        {
+          "t": 5825,
+          "title": "Tracking the Drone",
+          "detail": "Peter chases down a hunter drone to extract target data",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "peter parker"
+          ]
+        },
+        {
+          "t": 6352,
+          "title": "Clearing the Base",
+          "detail": "Miles clears out a hunter base to find more clues",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "miles morales",
+            "kraven's hunters"
+          ]
+        },
+        {
+          "t": 6620,
+          "title": "Chasing the Bird Drone",
+          "detail": "Miles pursues a hunter drone through the city slipstream",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "miles morales"
+          ]
+        },
+        {
+          "t": 6991,
+          "title": "Investigating Connor's House",
+          "detail": "Miles searches Dr. Connor's house for musical security clues",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "miles morales",
+            "dr. kurt connors"
+          ]
+        },
+        {
+          "t": 7278,
+          "title": "Lizard Showdown",
+          "detail": "Miles encounters the Lizard and fights off Kraven's forces",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "miles morales",
+            "the lizard",
+            "kraven"
+          ]
+        },
+        {
+          "t": 7737,
+          "title": "Warehouse Clues",
+          "detail": "Miles sneaks through a warehouse tracking the Lizard's scent",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "miles morales",
+            "kraven's hunters"
+          ]
+        },
+        {
+          "t": 8036,
+          "title": "Rerouting the Drone",
+          "detail": "Miles hacks a hunter drone to track the Lizard from above",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "miles morales"
+          ]
+        },
+        {
+          "t": 8412,
+          "title": "River Chase",
+          "detail": "Miles and Spider-Man pursue a gunship down the river",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "miles morales",
+            "peter parker",
+            "kraven's hunters"
+          ]
+        },
+        {
+          "t": 8817,
+          "title": "Sewer Fight",
+          "detail": "Spider-Man fights electrified hunters in the sewers",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "peter parker",
+            "kraven's hunters"
+          ]
+        }
+      ],
+      "videoId": "vOA03zupB2g"
+    },
+    "2|XPF-rG65PSE|1988228246": {
+      "summary": "Jin Sakai begins his journey to unite allies, forge new tools, and rescue his uncle from the Mongols.",
+      "moments": [
+        {
+          "t": 168,
+          "title": "Sensei Ishikawa's Dojo",
+          "detail": "Investigate the abandoned dojo and find bloody tracks",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "dojo",
+            "ishikawa"
+          ]
+        },
+        {
+          "t": 263,
+          "title": "Meeting Sensei Ishikawa",
+          "detail": "Find Ishikawa and learn that Tomoe has gone missing",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "ishikawa",
+            "tomoe"
+          ]
+        },
+        {
+          "t": 549,
+          "title": "Fort Nakayama Attack",
+          "detail": "Assault Fort Nakayama to search for Ishikawa's student",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "stealth",
+            "fort"
+          ]
+        },
+        {
+          "t": 1164,
+          "title": "The Hunt for Tomoe",
+          "detail": "Decide to track Tomoe and prepare to recruit Lady Masako",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "tomoe",
+            "masako"
+          ]
+        },
+        {
+          "t": 1312,
+          "title": "Clan Adachi's Estate",
+          "detail": "Explore the tragic devastation at Clan Adachi's home",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "estate",
+            "masako"
+          ]
+        },
+        {
+          "t": 1516,
+          "title": "Meeting Lady Masako",
+          "detail": "Find Lady Masako and learn her tragic fate",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "masako",
+            "adachi"
+          ]
+        },
+        {
+          "t": 2179,
+          "title": "Following Sugen",
+          "detail": "Tail the suspicious monk Sugen to his hidden allies",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "stealth",
+            "monk",
+            "sugen"
+          ]
+        },
+        {
+          "t": 2378,
+          "title": "Defeating Sugen",
+          "detail": "Fight and defeat Sugen at the bandit camp",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "sugen",
+            "combat"
+          ]
+        },
+        {
+          "t": 2965,
+          "title": "Reunion in Komatsu",
+          "detail": "Find Yuna and Taka and learn the situation at the forge",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "yuna",
+            "taka"
+          ]
+        },
+        {
+          "t": 3292,
+          "title": "Rescuing Yukio's Family",
+          "detail": "Sneak past Mongols to rescue Yukio's family by the river",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "stealth",
+            "rescue",
+            "river"
+          ]
+        },
+        {
+          "t": 3925,
+          "title": "Defending the Forge",
+          "detail": "Defend the Komatsu Forge from a heavy Mongol attack",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "forge",
+            "defense"
+          ]
+        },
+        {
+          "t": 4249,
+          "title": "Lord Shimura's Captivity",
+          "detail": "Learn about the Khan's offer to Lord Shimura",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "shimura",
+            "khan"
+          ]
+        },
+        {
+          "t": 4657,
+          "title": "Beach Ambush",
+          "detail": "Fight off attackers on Komoda Beach with Ryuzo",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "ryuzo",
+            "beach"
+          ]
+        },
+        {
+          "t": 5133,
+          "title": "Fort O'Hira Raid",
+          "detail": "Infiltrate Fort O'Hira to destroy the signal tower",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "stealth",
+            "raid",
+            "tower"
+          ]
+        },
+        {
+          "t": 5773,
+          "title": "Stealing the Boat",
+          "detail": "Attack the beach and secure a boat with Ryuzo's men",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "boat",
+            "raid"
+          ]
+        },
+        {
+          "t": 6512,
+          "title": "The Kaginawa Forged",
+          "detail": "Taka finishes forging the grappling hook for Jin",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "taka",
+            "grappling hook"
+          ]
+        },
+        {
+          "t": 6811,
+          "title": "Fort Yarikawa Infiltration",
+          "detail": "Climb the cliffs of Fort Yarikawa to free Ryuzo's men",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "stealth",
+            "climbing",
+            "fort"
+          ]
+        },
+        {
+          "t": 7443,
+          "title": "Freeing Ryuzo's Men",
+          "detail": "Signal Ryuzo and battle the Mongols to rescue the men",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "rescue",
+            "yarikawa"
+          ]
+        }
+      ],
+      "videoId": "XPF-rG65PSE"
+    },
+    "2|0voQrwaqWJg|1144777778": {
+      "summary": "Jin reunites with Lord Shimura, builds alliances, and fights to retake Castle Kaneda.",
+      "moments": [
+        {
+          "t": 137,
+          "title": "Freeing Lord Shimura",
+          "detail": "Jin reaches Lord Shimura inside the fortress and prepares to escape",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "rescue",
+            "shimura"
+          ]
+        },
+        {
+          "t": 258,
+          "title": "Clearing the Courtyard",
+          "detail": "Jin and his allies fight off Mongol guards in the fortress courtyard",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "stealth",
+            "mongols"
+          ]
+        },
+        {
+          "t": 1343,
+          "title": "Reuniting with Lord Shimura",
+          "detail": "Jin rescues his uncle and they discuss plans to retake Castle Kaneda",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "shimura",
+            "reunion"
+          ]
+        },
+        {
+          "t": 1468,
+          "title": "Assault on Castle Kaneda",
+          "detail": "Jin, Sensei Ishikawa, and Lady Masako fight to reclaim the castle",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "castle",
+            "allies"
+          ]
+        },
+        {
+          "t": 1817,
+          "title": "Lord Shimura's Offer",
+          "detail": "Lord Shimura asks Jin to adopt him as his son and heir",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "adoption",
+            "samurai"
+          ]
+        },
+        {
+          "t": 2043,
+          "title": "Riding with the Jito",
+          "detail": "Jin and Lord Shimura ride together and discuss the Khan's demands",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "ride",
+            "dialogue"
+          ]
+        },
+        {
+          "t": 2153,
+          "title": "Confronting Mongol Ravages",
+          "detail": "Jin and Lord Shimura discover a village burned by the Mongols",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "exploration",
+            "mongols"
+          ]
+        },
+        {
+          "t": 2245,
+          "title": "Retaking the Lighthouse",
+          "detail": "Jin fights alongside Yuna to relight the lighthouse and signal hope",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "lighthouse",
+            "yuna"
+          ]
+        },
+        {
+          "t": 2612,
+          "title": "Meeting Norio",
+          "detail": "Jin meets the warrior monk Norio and learns about Ceda Temple",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "norio",
+            "monk"
+          ]
+        },
+        {
+          "t": 2965,
+          "title": "Duel with the Traitor",
+          "detail": "Jin fights and defeats a traitorous Ronin in a swift duel",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "duel",
+            "ronin"
+          ]
+        },
+        {
+          "t": 3428,
+          "title": "Arriving at Umugi Cove",
+          "detail": "Jin visits Umugi Cove and meets Lady Sanjjo to find Goro",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "umugi cove",
+            "goro"
+          ]
+        },
+        {
+          "t": 3770,
+          "title": "Goro's Mission",
+          "detail": "Jin discusses Goro's plan to sail for the mainland with Lord Shimura",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "goro",
+            "smuggling"
+          ]
+        },
+        {
+          "t": 3925,
+          "title": "Assault on Fort Modake",
+          "detail": "Jin and Lord Shimura attack Fort Modake to distract the Mongol fleet",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "fort modake",
+            "attack"
+          ]
+        },
+        {
+          "t": 4496,
+          "title": "Firing the Watcher",
+          "detail": "Jin operates a Mongol watcher weapon to destroy enemy ships",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "watcher",
+            "weapon"
+          ]
+        },
+        {
+          "t": 4614,
+          "title": "Adopted by Shimura",
+          "detail": "Lord Shimura announces his wish to formally adopt Jin as his son",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "adoption",
+            "ending"
+          ]
+        }
+      ],
+      "videoId": "0voQrwaqWJg"
+    },
+    "2|utM6vQ8dtO0|254215150": {
+      "summary": "The gang survives a brutal blizzard, sets up a mountain camp, and clashes with the O'Driscoll boys while searching for missing members and supplies.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Chapter One Begins",
+          "detail": "The gang seeks shelter from a harsh blizzard in the mountains after a botched ferry job.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "opening",
+            "snow"
+          ]
+        },
+        {
+          "t": 305,
+          "title": "Setting Up Camp",
+          "detail": "The gang arrives at an abandoned mining town to set up a temporary camp and warm up.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "camp",
+            "shelter",
+            "story"
+          ]
+        },
+        {
+          "t": 753,
+          "title": "Homestead Ambush",
+          "detail": "Arthur and Dutch scout an abandoned homestead and confront a group of O'Driscoll boys inside.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "shootout",
+            "ambush"
+          ]
+        },
+        {
+          "t": 1489,
+          "title": "Rescuing Mrs. Adler",
+          "detail": "Arthur and Dutch find a terrified woman named Mrs. Adler hiding inside the homestead.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "rescue",
+            "story",
+            "characters"
+          ]
+        },
+        {
+          "t": 1729,
+          "title": "Searching for John Marston",
+          "detail": "Arthur and Javier brave the blizzard to search the mountains for a missing John Marston.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "search",
+            "snow",
+            "exploration"
+          ]
+        },
+        {
+          "t": 2231,
+          "title": "Finding John Marston",
+          "detail": "Arthur and Javier locate a freezing and mauled John Marston out in the deep snow.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "rescue",
+            "john",
+            "story"
+          ]
+        },
+        {
+          "t": 2338,
+          "title": "Escaping the Ambush",
+          "detail": "Arthur and Javier fight off pursuing O'Driscoll members while escorting John back to safety.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "shootout",
+            "escape"
+          ]
+        },
+        {
+          "t": 3022,
+          "title": "Planning the O'Driscoll Camp Raid",
+          "detail": "Dutch outlines a plan to scout and ambush the O'Driscoll camp near the lake to get supplies.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "plan",
+            "stealth",
+            "story"
+          ]
+        },
+        {
+          "t": 3385,
+          "title": "O'Driscoll Camp Raid",
+          "detail": "The gang launches a violent surprise attack on the O'Driscoll camp in the snowy mountains.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "combat",
+            "raid",
+            "shootout"
+          ]
+        },
+        {
+          "t": 4067,
+          "title": "Capturing Kieran Duffy",
+          "detail": "Arthur chases down a fleeing O'Driscoll member and captures him alive to interrogate him.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "pursuit",
+            "combat",
+            "capture"
+          ]
+        },
+        {
+          "t": 4416,
+          "title": "Interrogating the Prisoner",
+          "detail": "The gang brings the captive O'Driscoll back to camp to tie him up and extract information.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "interrogation",
+            "story",
+            "camp"
+          ]
+        }
+      ],
+      "videoId": "utM6vQ8dtO0"
+    },
+    "2|8Cw6nKNg8VA|2589490637": {
+      "summary": "Arthur Morgan and the gang survive the bitter mountain cold, rob a train, and relocate to Horseshoe Overlook.",
+      "moments": [
+        {
+          "t": 12,
+          "title": "Hunting Deer",
+          "detail": "Arthur and Charles track and hunt deer in the snow to feed camp.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "hunting",
+            "snow",
+            "bow",
+            "tracking"
+          ]
+        },
+        {
+          "t": 546,
+          "title": "Camp Conversation",
+          "detail": "Charles and Arthur talk about the harsh weather and the O'Driscoll gang.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "charles",
+            "camp",
+            "story",
+            "weather"
+          ]
+        },
+        {
+          "t": 1107,
+          "title": "Bear Attack",
+          "detail": "A grizzly bear startles the group on the trail, prompting a detour.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "bear",
+            "attack",
+            "trail",
+            "wildlife"
+          ]
+        },
+        {
+          "t": 1476,
+          "title": "Skinning Deer",
+          "detail": "Arthur helps Pearson skin the hunted deer back at the camp.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "skinning",
+            "camp",
+            "pearson",
+            "meat"
+          ]
+        },
+        {
+          "t": 1603,
+          "title": "Planning the Train Job",
+          "detail": "Dutch and Hosea argue with John about planning a train robbery.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "dutch",
+            "hosea",
+            "train",
+            "planning"
+          ]
+        },
+        {
+          "t": 1924,
+          "title": "Setting the Detonator",
+          "detail": "Arthur helps Bill set up the explosive charge by the train tracks.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "dynamite",
+            "detonator",
+            "bill",
+            "train"
+          ]
+        },
+        {
+          "t": 2127,
+          "title": "Train Robbery Ambush",
+          "detail": "The gang ambushes Leviticus Cornwall's private train in the snow.",
+          "kind": "other",
+          "spoiler": true,
+          "tags": [
+            "train",
+            "robbery",
+            "action",
+            "ambush"
+          ]
+        },
+        {
+          "t": 2619,
+          "title": "Opening the Safe",
+          "detail": "Arthur and the gang search Cornwall's private car and crack the safe.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "safe",
+            "train",
+            "robbery",
+            "bonds"
+          ]
+        },
+        {
+          "t": 2937,
+          "title": "Leaving the Mountains",
+          "detail": "The gang finally leaves the snowy mountains and heads east toward Valentine.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "horseshoe overlook",
+            "camp",
+            "traveling",
+            "heartlands"
+          ]
+        },
+        {
+          "t": 3118,
+          "title": "Broken Wagon Wheel",
+          "detail": "The gang fixes a broken wagon wheel while traveling along the river.",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "wagon",
+            "wheel",
+            "repair",
+            "river"
+          ]
+        },
+        {
+          "t": 3260,
+          "title": "Charles's Past",
+          "detail": "Charles talks with Arthur about his past and growing up on the run.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "charles",
+            "past",
+            "story",
+            "conversation"
+          ]
+        },
+        {
+          "t": 3547,
+          "title": "Arriving at Horseshoe Overlook",
+          "detail": "The gang arrives at Horseshoe Overlook and sets up their new camp.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "horseshoe overlook",
+            "camp",
+            "arrival",
+            "base"
+          ]
+        },
+        {
+          "t": 3779,
+          "title": "New Beginnings",
+          "detail": "The gang settles into Horseshoe Overlook as Dutch makes new plans.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "horseshoe overlook",
+            "camp",
+            "dutch",
+            "plans"
+          ]
+        }
+      ],
+      "videoId": "8Cw6nKNg8VA"
+    },
+    "2|0c0bkZf0Fzg|1541117750": {
+      "summary": "Play Grand Theft Auto V Online with live commentary and missions.",
+      "moments": [
+        {
+          "t": 3,
+          "title": "Stream Start",
+          "detail": "The host begins the live stream and sets up the game session.",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "stream",
+            "live",
+            "intro"
+          ]
+        },
+        {
+          "t": 228,
+          "title": "OBS Audio Fix",
+          "detail": "The players adjust OBS audio settings to fix an echo issue.",
+          "kind": "tip",
+          "spoiler": false,
+          "tags": [
+            "audio",
+            "obs",
+            "settings"
+          ]
+        },
+        {
+          "t": 425,
+          "title": "Joining Session",
+          "detail": "The players join the session together and prepare for action.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "session",
+            "invite",
+            "online"
+          ]
+        },
+        {
+          "t": 636,
+          "title": "Driving to Mission",
+          "detail": "The players drive through water to reach the mission location.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "driving",
+            "mission",
+            "water"
+          ]
+        },
+        {
+          "t": 756,
+          "title": "Gang Attack",
+          "detail": "The players are ambushed by enemies during a shootout.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "shootout",
+            "gang"
+          ]
+        },
+        {
+          "t": 1108,
+          "title": "Rocket Battle",
+          "detail": "The players use rocket launchers to eliminate targets under time pressure.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "rockets",
+            "target"
+          ]
+        },
+        {
+          "t": 1307,
+          "title": "Police Chase",
+          "detail": "The player accidentally drives into a police station and gets four stars.",
+          "kind": "funny",
+          "spoiler": false,
+          "tags": [
+            "police",
+            "chase",
+            "funny"
+          ]
+        },
+        {
+          "t": 1408,
+          "title": "Joining Heist Prep",
+          "detail": "The host sends a new invite for prep work and joins the session.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "heist",
+            "prep",
+            "invite"
+          ]
+        },
+        {
+          "t": 1758,
+          "title": "Escaping Cops",
+          "detail": "The players try to escape from the police during a delivery mission.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "police",
+            "escape",
+            "chase"
+          ]
+        },
+        {
+          "t": 1979,
+          "title": "Ambulance Delivery",
+          "detail": "The players struggle to deliver the ambulance while avoiding damage.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "ambulance",
+            "delivery",
+            "crash"
+          ]
+        },
+        {
+          "t": 2142,
+          "title": "Dead Courier Mission",
+          "detail": "The players discuss and start the Dead Courier mission.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "mission",
+            "courier"
+          ]
+        },
+        {
+          "t": 2270,
+          "title": "Equipping Gear",
+          "detail": "The players prepare their weapons and loadouts before the mission.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "weapons",
+            "gear",
+            "loadout"
+          ]
+        },
+        {
+          "t": 2588,
+          "title": "Data Retrieval",
+          "detail": "The recovery team heads out to retrieve the data files.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "data",
+            "recovery",
+            "mission"
+          ]
+        },
+        {
+          "t": 2814,
+          "title": "Hospital Shootout",
+          "detail": "The players engage in a heavy shootout inside the hospital area.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "shootout",
+            "hospital",
+            "combat"
+          ]
+        },
+        {
+          "t": 3281,
+          "title": "Helicopter Pickup",
+          "detail": "The player looks for a helicopter to escape the police pursuit.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "helicopter",
+            "escape",
+            "police"
+          ]
+        },
+        {
+          "t": 3436,
+          "title": "Delivery Drop",
+          "detail": "The players make their way to the delivery drop while fighting cops.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "delivery",
+            "drop",
+            "combat"
+          ]
+        },
+        {
+          "t": 3711,
+          "title": "Driving the Car",
+          "detail": "The players drive the upgraded vehicle toward the next objective.",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "driving",
+            "car",
+            "vehicle"
+          ]
+        },
+        {
+          "t": 4142,
+          "title": "Securing Cars",
+          "detail": "The players infiltrate the area and secure the cars for delivery.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "infiltrate",
+            "cars",
+            "combat"
+          ]
+        },
+        {
+          "t": 4346,
+          "title": "Respraying Vehicles",
+          "detail": "The players take the vehicles to get repainted and repaired.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "repair",
+            "respray",
+            "cars"
+          ]
+        },
+        {
+          "t": 4978,
+          "title": "Planning Next Heist",
+          "detail": "The players return to the heist room to plan the next phase.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "heist",
+            "room",
+            "planning"
+          ]
+        },
+        {
+          "t": 5366,
+          "title": "Preparing New Mission",
+          "detail": "The players ready up for the next data-related online mission.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "mission",
+            "ready",
+            "setup"
+          ]
+        },
+        {
+          "t": 5621,
+          "title": "Hacking Cars Online",
+          "detail": "The players track down and hack targets while under enemy fire.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "hacking",
+            "targets",
+            "combat"
+          ]
+        },
+        {
+          "t": 5901,
+          "title": "Water Chase",
+          "detail": "The players navigate vehicles through water and deal with enemies.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "water",
+            "chase",
+            "combat"
+          ]
+        },
+        {
+          "t": 6490,
+          "title": "Airport Heist Prep",
+          "detail": "The players head to the airport for the next major objective.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "airport",
+            "heist",
+            "prep"
+          ]
+        },
+        {
+          "t": 6853,
+          "title": "Flying Car Action",
+          "detail": "The player uses the special hover vehicle at the airport runway.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "hover",
+            "car",
+            "airport"
+          ]
+        },
+        {
+          "t": 7151,
+          "title": "Plane Hacking",
+          "detail": "The players chase down a moving plane to complete the hack.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "plane",
+            "hacking",
+            "chase"
+          ]
+        },
+        {
+          "t": 7476,
+          "title": "Mission Success",
+          "detail": "The players successfully complete the mission and get paid.",
+          "kind": "ending",
+          "spoiler": false,
+          "tags": [
+            "success",
+            "reward",
+            "ending"
+          ]
+        }
+      ],
+      "videoId": "0c0bkZf0Fzg"
+    },
+    "2|LhssbA4R17c|1250865893": {
+      "summary": "The players tackle missions and heists in GTA V Online with commentary.",
+      "moments": [
+        {
+          "t": 262,
+          "title": "Military Base Infiltration",
+          "detail": "Players infiltrate the military base and look for the target tower",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "military",
+            "base"
+          ]
+        },
+        {
+          "t": 624,
+          "title": "Downloading Flight Data",
+          "detail": "Players hack and download flight data while avoiding enemies",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "hack",
+            "download"
+          ]
+        },
+        {
+          "t": 726,
+          "title": "Police Chase Escape",
+          "detail": "Players escape a massive police chase after the mission",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "police",
+            "chase"
+          ]
+        },
+        {
+          "t": 1148,
+          "title": "Silent Approach Mission",
+          "detail": "Players prepare and execute a stealthy approach mission",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "stealth",
+            "mission"
+          ]
+        },
+        {
+          "t": 1584,
+          "title": "Server Room Shootout",
+          "detail": "Players get into a heavy shootout inside the server room",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "combat",
+            "shootout",
+            "enemies"
+          ]
+        },
+        {
+          "t": 1920,
+          "title": "Server Hacking Phase",
+          "detail": "Players hack the terminals while holding off waves of guards",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "hack",
+            "terminal"
+          ]
+        },
+        {
+          "t": 2333,
+          "title": "Escaping the Facility",
+          "detail": "Players fight their way out of the facility towards the exit",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "escape",
+            "facility"
+          ]
+        },
+        {
+          "t": 2821,
+          "title": "Mission Rewards",
+          "detail": "Players check their cash rewards after finishing the job",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "rewards",
+            "money"
+          ]
+        },
+        {
+          "t": 3222,
+          "title": "Facility Assault",
+          "detail": "Players advance cautiously through heavily guarded facility areas",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "assault",
+            "enemies"
+          ]
+        },
+        {
+          "t": 3584,
+          "title": "Locating the War Room",
+          "detail": "Players search for the correct path to the war room",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "path",
+            "room"
+          ]
+        },
+        {
+          "t": 3917,
+          "title": "War Room Battle",
+          "detail": "Players eliminate the final guards and enemies in the war room",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "combat",
+            "boss",
+            "battle"
+          ]
+        },
+        {
+          "t": 4125,
+          "title": "Timed Escape Drive",
+          "detail": "Players drive away quickly against a five-minute timer",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "escape",
+            "drive"
+          ]
+        }
+      ],
+      "videoId": "LhssbA4R17c"
+    },
+    "2|KqQ3PG0oVoo|3276260801": {
+      "summary": "Players tackle the Diamond Casino Heist and deal with post-heist business in Grand Theft Auto Online.",
+      "moments": [
+        {
+          "t": 6460,
+          "title": "Rear Entrance Arrival",
+          "detail": "The crew arrives at the rear casino entrance posing as exterminator staff",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "heist",
+            "casino",
+            "arrival"
+          ]
+        },
+        {
+          "t": 6601,
+          "title": "Staff Lobby Entry",
+          "detail": "Navigating the staff lobby disguised as exterminators to avoid security",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "stealth",
+            "disguise",
+            "infiltration"
+          ]
+        },
+        {
+          "t": 6732,
+          "title": "Discovered by Guards",
+          "detail": "The disguises fail and security forces the crew into a firefight",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "security",
+            "alert"
+          ]
+        },
+        {
+          "t": 7189,
+          "title": "Cargo Elevator Ascent",
+          "detail": "Using the elevator to reach the upper levels of the casino quietly",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "stealth",
+            "elevator",
+            "ascent"
+          ]
+        },
+        {
+          "t": 7515,
+          "title": "Drilling the Vault Doors",
+          "detail": "Drilling multiple vault discs to break into the casino's core secure area",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "drilling",
+            "vault",
+            "puzzle"
+          ]
+        },
+        {
+          "t": 7615,
+          "title": "Vault Hack and Loot",
+          "detail": "Hacking systems to delay nerve gas while grabbing the loot from the vault",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "hacking",
+            "loot",
+            "vault"
+          ]
+        },
+        {
+          "t": 7802,
+          "title": "Escaping the Vault Room",
+          "detail": "Fighting through reinforced security rooms to find the exit path",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "escape",
+            "shootout"
+          ]
+        },
+        {
+          "t": 7927,
+          "title": "Police Response Outside",
+          "detail": "Exiting the building into a heavy police presence and news helicopters",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "police",
+            "shootout",
+            "escape"
+          ]
+        },
+        {
+          "t": 8436,
+          "title": "Reaching Getaway Cars",
+          "detail": "Fighting through police lines to reach the prepositioned getaway vehicles",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "getaway",
+            "cars",
+            "police"
+          ]
+        },
+        {
+          "t": 8748,
+          "title": "Losing the Cops",
+          "detail": "Driving away from the police pursuit to successfully reach the buyer",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "chase",
+            "police",
+            "escape"
+          ]
+        },
+        {
+          "t": 9267,
+          "title": "Diamond Heist Success",
+          "detail": "The crew celebrates the massive payout and successful diamond heist score",
+          "kind": "ending",
+          "spoiler": true,
+          "tags": [
+            "celebration",
+            "payout",
+            "ending"
+          ]
+        },
+        {
+          "t": 9789,
+          "title": "Moving to the Freakshop",
+          "detail": "Arriving at the new Freakshop base of operations with the crew members",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "freakshop",
+            "base",
+            "story"
+          ]
+        },
+        {
+          "t": 10160,
+          "title": "Lost MC Clubhouse Attack",
+          "detail": "Attacking the Lost MC clubhouse to disrupt the rival gang's territory",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "gang",
+            "clubhouse"
+          ]
+        },
+        {
+          "t": 10657,
+          "title": "Investigating Clubhouse",
+          "detail": "Taking photos and searching the rival clubhouse for intel and loot",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "investigation",
+            "clubhouse",
+            "intel"
+          ]
+        }
+      ],
+      "videoId": "KqQ3PG0oVoo"
+    },
+    "2|fmHle5YQHlA|3742916659": {
+      "summary": "Kratos and Atreus meet the World Serpent and journey to Tyrs Temple to reach Alfheim.",
+      "moments": [
+        {
+          "t": 136,
+          "title": "Meeting Jörmungandr",
+          "detail": "Kratos and Atreus communicate with the massive World Serpent in the lake.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "jörmungandr",
+            "world serpent",
+            "giants"
+          ]
+        },
+        {
+          "t": 271,
+          "title": "Brok's Shop",
+          "detail": "Brok arrives and offers to improve the Leviathan Axe for Kratos.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "brok",
+            "leviathan axe",
+            "shop"
+          ]
+        },
+        {
+          "t": 715,
+          "title": "Sindri Meeting",
+          "detail": "Sindri appears, inspects the axe, and promises to make improvements.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "sindri",
+            "leviathan axe",
+            "brok"
+          ]
+        },
+        {
+          "t": 1144,
+          "title": "Mountain Ascent Combat",
+          "detail": "Kratos and Atreus battle foes while navigating up the mountain path.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "mountain",
+            "enemies"
+          ]
+        },
+        {
+          "t": 1645,
+          "title": "The Black Breath",
+          "detail": "The path is blocked by a mysterious dark magic known as the black breath.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "black breath",
+            "magic",
+            "path blocked"
+          ]
+        },
+        {
+          "t": 1712,
+          "title": "Help from the Stranger",
+          "detail": "A mysterious stranger offers guidance and reveals how to bypass the black breath.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "stranger",
+            "black breath",
+            "alfheim"
+          ]
+        },
+        {
+          "t": 1836,
+          "title": "Tyrs Temple",
+          "detail": "Kratos and Atreus explore Tyrs Temple and discuss the World Serpent's past.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "tyrs temple",
+            "world serpent",
+            "lore"
+          ]
+        },
+        {
+          "t": 2017,
+          "title": "Turning the Bridge",
+          "detail": "Kratos uses his strength to turn the massive bridge aligned with the lake towers.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "bridge",
+            "tyrs temple"
+          ]
+        },
+        {
+          "t": 2235,
+          "title": "The Bifrosting Room",
+          "detail": "The group enters the chamber used to travel between the nine realms using the Bifrost.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "bifrost",
+            "realms",
+            "tyrs temple"
+          ]
+        },
+        {
+          "t": 2366,
+          "title": "Aligning the Bridge",
+          "detail": "Kratos and Atreus solve the wheel puzzle to align the bridge toward Alfheim.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "alfheim",
+            "realm travel"
+          ]
+        },
+        {
+          "t": 2510,
+          "title": "Entering the Light",
+          "detail": "Kratos and Atreus witness the light of Alfheim before unexpected trouble occurs.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "alfheim",
+            "light",
+            "bifrost"
+          ]
+        }
+      ],
+      "videoId": "fmHle5YQHlA"
+    },
+    "2|OGKlUu_XON0|649670006": {
+      "summary": "Kratos and Atreus seek to revive Mimir's head and learn how to reach Jötunheim.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Returning to the Witch",
+          "detail": "Kratos and Atreus make their way back to the witch's house with the head.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 761,
+          "title": "Freya's True Identity",
+          "detail": "The witch is revealed to be Freya, who revives Mimir's head for them.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": []
+        },
+        {
+          "t": 1027,
+          "title": "Meeting Mimir",
+          "detail": "The revived head, Mimir, agrees to help them reach Jötunheim.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 1140,
+          "title": "Waking the World Serpent",
+          "detail": "Mimir directs Kratos to blow the horn to speak with the World Serpent.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 1356,
+          "title": "The Water Drops Further",
+          "detail": "Lowered water levels reveal new paths and the location of the magical chisel.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 1615,
+          "title": "Fire Realm Trial",
+          "detail": "Kratos and Atreus face combat challenges in a fiery area.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 2052,
+          "title": "Mimir's Tale of Asgard",
+          "detail": "Mimir shares stories about Thor's sons and their foolish rivalry.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 2185,
+          "title": "Freya's Past with Odin",
+          "detail": "Mimir explains how Freya ended up married to Odin and her history.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 2326,
+          "title": "Defending the Path",
+          "detail": "Kratos battles enemies while navigating toward the special chisel.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": []
+        },
+        {
+          "t": 2482,
+          "title": "The Stonemason's Tale",
+          "detail": "Mimir tells the tragic story of the giant stonemason Thamur and Thor.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": []
+        },
+        {
+          "t": 2578,
+          "title": "Boss: Reanimated Corpse",
+          "detail": "Kratos and Atreus fight a tough enemy encountered near the chisel.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": []
+        },
+        {
+          "t": 2697,
+          "title": "Finding the Chisel Tip",
+          "detail": "The party locates the remnants of Thamur and the magical chisel tip.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": []
+        }
+      ],
+      "videoId": "OGKlUu_XON0"
+    },
+    "2|USR-em1wzKc|4186203007": {
+      "summary": "Kratos and Atreus navigate Fimbulwinter, encounter Odin, and Atreus travels to Asgard in secret.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Fimbulwinter and Home",
+          "detail": "Atreus returns from burying Fenrir and discusses the looming Ragnarok with Kratos.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "kratos",
+            "fenrir"
+          ]
+        },
+        {
+          "t": 201,
+          "title": "Burial and Arguments",
+          "detail": "Atreus buries Fenrir, then argues with Kratos about hiding and seeking answers.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "kratos"
+          ]
+        },
+        {
+          "t": 1544,
+          "title": "Into the Wilderness",
+          "detail": "Kratos and Mimir track Atreus into the snowy woods after he wanders off alone.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "kratos",
+            "mimir",
+            "atreus"
+          ]
+        },
+        {
+          "t": 2214,
+          "title": "Bear Encounter",
+          "detail": "Kratos and Mimir track down Atreus, who is suddenly attacked by a vicious bear.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "kratos",
+            "mimir",
+            "atreus",
+            "bear"
+          ]
+        },
+        {
+          "t": 2453,
+          "title": "Transformation Revealed",
+          "detail": "Atreus turns back from a bear and demands answers about his abilities and future.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "atreus",
+            "kratos"
+          ]
+        },
+        {
+          "t": 3069,
+          "title": "An Unexpected Visitor",
+          "detail": "Kratos, Atreus, and Mimir are paid a surprise visit at their home by Odin and Thor.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "kratos",
+            "atreus",
+            "mimir",
+            "odin"
+          ]
+        },
+        {
+          "t": 3560,
+          "title": "Fight with Thor",
+          "detail": "Kratos engages in a brutal boss fight against the God of Thunder, Thor.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "kratos",
+            "thor"
+          ]
+        },
+        {
+          "t": 4404,
+          "title": "Journey to the Temple",
+          "detail": "Kratos and Atreus head out into the dangerous wilderness to investigate a giant shrine.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "kratos",
+            "atreus"
+          ]
+        },
+        {
+          "t": 5650,
+          "title": "Stalker Attack",
+          "detail": "Kratos and Atreus fight off a dangerous Stalker creature in the snowy woods.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "kratos",
+            "atreus",
+            "stalker"
+          ]
+        },
+        {
+          "t": 6070,
+          "title": "Inside the Secret Shrine",
+          "detail": "Atreus shows Kratos a hidden giant shrine detailing Skoll, Hati, and Ragnarok.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "kratos"
+          ]
+        },
+        {
+          "t": 6619,
+          "title": "Meeting Sindri and Brock",
+          "detail": "The group meets up with Sindri and Brock in the realm between realms safely.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "sindri",
+            "brock",
+            "atreus",
+            "kratos"
+          ]
+        },
+        {
+          "t": 6915,
+          "title": "Rescuing Tyr",
+          "detail": "Kratos and Atreus fight through guards to free the imprisoned Norse God of War, Tyr.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "kratos",
+            "atreus",
+            "tyr"
+          ]
+        },
+        {
+          "t": 7841,
+          "title": "Returning with Tyr",
+          "detail": "The group escapes back to the cabin with Tyr, who is recovering from his long imprisonment.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "tyr",
+            "kratos",
+            "atreus",
+            "mimir"
+          ]
+        },
+        {
+          "t": 8679,
+          "title": "Visiting Jormungandr",
+          "detail": "Atreus and Mimir visit the World Serpent in Midgard to find answers about the future.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "mimir",
+            "jormungandr"
+          ]
+        },
+        {
+          "t": 10503,
+          "title": "Arrival in Asgard",
+          "detail": "Atreus arrives in the majestic realm of Asgard and begins climbing the massive wall.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "skiler"
+          ]
+        },
+        {
+          "t": 11774,
+          "title": "Defending the Wall",
+          "detail": "Atreus fights off Einherjar warriors while trying to scale the wall into Asgard.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "einherjar"
+          ]
+        },
+        {
+          "t": 12280,
+          "title": "Meeting Heimdall",
+          "detail": "Atreus meets Heimdall, who reads his mind and tests him before granting entry.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "heimdall"
+          ]
+        },
+        {
+          "t": 12786,
+          "title": "Meeting Odin",
+          "detail": "Atreus meets the Allfather Odin in Asgard and agrees to work with him for answers.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "odin"
+          ]
+        },
+        {
+          "t": 13143,
+          "title": "Dwarven Workshop Visit",
+          "detail": "Odin takes Atreus to visit Dulin at a dwarven workshop to check on machine designs.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "odin",
+            "dulin"
+          ]
+        },
+        {
+          "t": 13461,
+          "title": "Exploring Asgard's Rooms",
+          "detail": "Atreus explores Modi's old room in Asgard and talks with the guards outside.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "ingrid"
+          ]
+        },
+        {
+          "t": 13714,
+          "title": "The Broken Mask Mystery",
+          "detail": "Odin shows Atreus the broken mask and explains his ultimate quest for knowledge.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "odin"
+          ]
+        }
+      ],
+      "videoId": "USR-em1wzKc"
+    },
+    "2|eVZSd_qdfsA|376294717": {
+      "summary": "Kratos, Freya, and Mimir journey to find the Norns and later deal with the fallout of Atreus releasing Garm in Helheim.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Atreus and Thor in Muspelheim",
+          "detail": "Atreus and Thor discuss their mission and search for a mask piece in Muspelheim.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "thor",
+            "muspelheim"
+          ]
+        },
+        {
+          "t": 473,
+          "title": "Visiting a Norse Shrine",
+          "detail": "Atreus and Angrboda examine a shrine and discuss prophecies and giants.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "angrboda",
+            "shrine"
+          ]
+        },
+        {
+          "t": 1238,
+          "title": "Finding the Mask Piece",
+          "detail": "Atreus and Thor find a mask piece in the lava, completing a phrase.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "thor",
+            "mask"
+          ]
+        },
+        {
+          "t": 1888,
+          "title": "Seeking the Norns",
+          "detail": "Kratos, Freya, and Mimir discuss fate and prepare to seek out the Norns.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "kratos",
+            "freya",
+            "mimir",
+            "norns"
+          ]
+        },
+        {
+          "t": 2423,
+          "title": "Returning to Midgard",
+          "detail": "Kratos and Freya travel across the frozen lake of Midgard with their wolves.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "kratos",
+            "freya",
+            "midgard",
+            "wolves"
+          ]
+        },
+        {
+          "t": 2615,
+          "title": "Ambushed by Raiders",
+          "detail": "Kratos and Freya fight off incoming fire and enemies in Midgard.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "kratos",
+            "freya",
+            "combat",
+            "midgard"
+          ]
+        },
+        {
+          "t": 3753,
+          "title": "Entering the Norns' Hideaway",
+          "detail": "Kratos, Freya, and Mimir enter the mystical home of the Norns.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "kratos",
+            "freya",
+            "mimir",
+            "norns"
+          ]
+        },
+        {
+          "t": 4203,
+          "title": "Meeting the Norns",
+          "detail": "The group speaks with the Norns, who reveal truths about fate and Heimdall.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "kratos",
+            "freya",
+            "mimir",
+            "norns"
+          ]
+        },
+        {
+          "t": 4810,
+          "title": "Forging the Draupnir Spear",
+          "detail": "The group visits the forge to create the Draupnir Spear with a god's blessing.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "kratos",
+            "freya",
+            "sindri",
+            "spear"
+          ]
+        },
+        {
+          "t": 5128,
+          "title": "Testing the Draupnir Spear",
+          "detail": "Kratos tests out his new Draupnir Spear in combat against enemies.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "kratos",
+            "spear",
+            "combat"
+          ]
+        },
+        {
+          "t": 5513,
+          "title": "Navigating with the Spear",
+          "detail": "Kratos uses the Draupnir Spear to blow up weak spots and clear paths.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "kratos",
+            "spear",
+            "exploration"
+          ]
+        },
+        {
+          "t": 6252,
+          "title": "Atreus in Asgard",
+          "detail": "Atreus trains and talks with Thor and Odin in Asgard about his mission.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "thor",
+            "odin",
+            "asgard"
+          ]
+        },
+        {
+          "t": 6548,
+          "title": "Odin's Revelation",
+          "detail": "Odin reveals his past and his obsession with the rift to Atreus.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "odin",
+            "atreus",
+            "rift",
+            "asgard"
+          ]
+        },
+        {
+          "t": 6741,
+          "title": "Exploring Helheim",
+          "detail": "Atreus and Heimdall explore the freezing depths of Helheim fighting hell walkers.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "heimdall",
+            "helheim",
+            "combat"
+          ]
+        },
+        {
+          "t": 8221,
+          "title": "Releasing Garm",
+          "detail": "Atreus and Heimdall encounter Garm and Atreus decides to free the hound.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "atreus",
+            "heimdall",
+            "garm",
+            "helheim"
+          ]
+        },
+        {
+          "t": 8389,
+          "title": "Confrontation in Helheim",
+          "detail": "Heimdall and Atreus argue after Garm escapes, leading to a tense confrontation.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "atreus",
+            "heimdall",
+            "garm",
+            "helheim"
+          ]
+        },
+        {
+          "t": 8721,
+          "title": "Atreus Leaves Asgard",
+          "detail": "Atreus decides to leave Asgard and return home to Kratos and the others.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "atreus",
+            "odin",
+            "asgard"
+          ]
+        },
+        {
+          "t": 8954,
+          "title": "Hel Walkers Attack Midgard",
+          "detail": "Hell walkers spill into Midgard as Kratos and Freya fight to close the realm tear.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "kratos",
+            "freya",
+            "midgard",
+            "combat"
+          ]
+        },
+        {
+          "t": 9228,
+          "title": "Admitting the Mistake",
+          "detail": "Atreus returns and confesses to Kratos and Freya that he freed Garm.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "atreus",
+            "kratos",
+            "freya",
+            "garm"
+          ]
+        }
+      ],
+      "videoId": "eVZSd_qdfsA"
+    },
+    "2|7BguCfR1BM8|3579370932": {
+      "summary": "Atreus returns to Asgard for the mask, leading to a shocking betrayal and the path to war.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Return to Sindri's House",
+          "detail": "Atreus recuperates and discusses strategy with the group after fleeing Asgard.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "atreus",
+            "sindri"
+          ]
+        },
+        {
+          "t": 1689,
+          "title": "Odin's Proposal",
+          "detail": "Kratos and Mimir discuss Odin's true intentions and the threat of prophecy.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "kratos",
+            "mimir"
+          ]
+        },
+        {
+          "t": 2076,
+          "title": "Return to Asgard",
+          "detail": "Atreus returns to Asgard and meets Fenrir before seeing Odin.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "atreus",
+            "fenrir"
+          ]
+        },
+        {
+          "t": 2613,
+          "title": "Thor in Helheim",
+          "detail": "Atreus finds Thor in Helheim and tries to convince him to join the mission.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "thor",
+            "atreus"
+          ]
+        },
+        {
+          "t": 3241,
+          "title": "Exploring Niflheim",
+          "detail": "Atreus and Thor navigate Niflheim to locate the missing piece of the mask.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "niflheim",
+            "thor"
+          ]
+        },
+        {
+          "t": 4737,
+          "title": "The Mask Recovered",
+          "detail": "Atreus gets the mask piece, but Odin confronts them and a tense argument starts.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "atreus",
+            "odin"
+          ]
+        },
+        {
+          "t": 4969,
+          "title": "Back at Sindri's Home",
+          "detail": "Atreus reunites with the group and shares news about the mask and Asgard.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "atreus",
+            "sindri",
+            "group"
+          ]
+        },
+        {
+          "t": 5223,
+          "title": "Brok's Death",
+          "detail": "Odin infiltrates and kills Brok in a shocking twist before escaping.",
+          "kind": "ending",
+          "spoiler": true,
+          "tags": [
+            "ending",
+            "death",
+            "brok",
+            "odin"
+          ]
+        },
+        {
+          "t": 5417,
+          "title": "Preparing for War",
+          "detail": "The group mourns Brok and rallies together to prepare for war against Odin.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "war",
+            "kratos",
+            "atreus"
+          ]
+        }
+      ],
+      "videoId": "7BguCfR1BM8"
+    },
+    "2|Gfn2p1dJtSw|708363672": {
+      "summary": "Kratos and Atreus travel to Muspelheim to recruit Surtr for the war against Asgard.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Journey to Muspelheim",
+          "detail": "Travel to Muspelheim to find the last fire giant Surtr.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "muspelheim",
+            "surtr",
+            "fire giant"
+          ]
+        },
+        {
+          "t": 592,
+          "title": "Phantom Battle",
+          "detail": "Fight a fierce phantom enemy in the fiery realm.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "phantom",
+            "boss"
+          ]
+        },
+        {
+          "t": 1392,
+          "title": "Meeting Surtr",
+          "detail": "Kratos and Atreus find Surtr and try to recruit him for war.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "surtr",
+            "fire giant",
+            "story"
+          ]
+        },
+        {
+          "t": 1761,
+          "title": "Surtr's Refusal",
+          "detail": "Surtr refuses to join the fight to protect his wife Smara.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "surtr",
+            "smara",
+            "story"
+          ]
+        },
+        {
+          "t": 1906,
+          "title": "The Proposal",
+          "detail": "Surtr agrees to use the blades to become the war monster.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "surtr",
+            "blades",
+            "story"
+          ]
+        },
+        {
+          "t": 2060,
+          "title": "Spark of the World",
+          "detail": "Journey to the spark where Muspelheim and Niflheim meet.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "spark of the world",
+            "muspelheim",
+            "niflheim"
+          ]
+        },
+        {
+          "t": 2123,
+          "title": "Combining Souls",
+          "detail": "Surtr's heart is combined with primordial fire for Ragnarok.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "surtr",
+            "smara",
+            "ragnarok"
+          ]
+        },
+        {
+          "t": 2333,
+          "title": "Defend the Ritual",
+          "detail": "Fight off incoming enemies while the ritual takes place.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "defense",
+            "wave"
+          ]
+        },
+        {
+          "t": 2846,
+          "title": "Surtr Transformed",
+          "detail": "Surtr transforms into a massive monster ready for Asgard.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "surtr",
+            "transformation",
+            "ragnarok"
+          ]
+        },
+        {
+          "t": 2880,
+          "title": "Return to Camp",
+          "detail": "The group returns to camp to prepare for the final invasion.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "camp",
+            "preparation",
+            "story"
+          ]
+        },
+        {
+          "t": 2985,
+          "title": "Night Before Battle",
+          "detail": "Kratos and Atreus share a quiet moment before the war.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "camp",
+            "atreus",
+            "story"
+          ]
+        },
+        {
+          "t": 3121,
+          "title": "Faye's Story",
+          "detail": "Kratos and Faye discuss mortality, grief, and the future.",
+          "kind": "emotional",
+          "spoiler": true,
+          "tags": [
+            "faye",
+            "kratos",
+            "emotional"
+          ]
+        },
+        {
+          "t": 3545,
+          "title": "Ashes Request",
+          "detail": "Faye asks Kratos to spread her ashes from the highest peak.",
+          "kind": "emotional",
+          "spoiler": true,
+          "tags": [
+            "faye",
+            "ashes",
+            "emotional"
+          ]
+        },
+        {
+          "t": 3742,
+          "title": "The General Chosen",
+          "detail": "Freya accepts her role as general to lead the final invasion.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "freya",
+            "general",
+            "story"
+          ]
+        }
+      ],
+      "videoId": "Gfn2p1dJtSw"
+    },
+    "2|h-T5U4NeS-I|414761557": {
+      "summary": "Kratos explores the mysterious Valhalla realm in this gameplay video.",
+      "moments": [
+        {
+          "t": 32,
+          "title": "Introduction",
+          "detail": "Kratos enters the mysterious realm of Valhalla",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "kratos",
+            "valhalla",
+            "entry"
+          ]
+        },
+        {
+          "t": 215,
+          "title": "Combat Basics",
+          "detail": "Kratos inspects his gear and skill tree modifications",
+          "kind": "other",
+          "spoiler": false,
+          "tags": [
+            "gear",
+            "skills",
+            "combat"
+          ]
+        },
+        {
+          "t": 555,
+          "title": "The Invitation",
+          "detail": "Kratos learns about the mysterious challenge awaiting him",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "invitation",
+            "challenge",
+            "secrets"
+          ]
+        },
+        {
+          "t": 707,
+          "title": "Gear Selection",
+          "detail": "Kratos chooses his shield and prepares for combat",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "shield",
+            "preparation",
+            "loadout"
+          ]
+        },
+        {
+          "t": 883,
+          "title": "First Battle",
+          "detail": "Kratos tests his combat abilities against enemies",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "fighting",
+            "action"
+          ]
+        },
+        {
+          "t": 1254,
+          "title": "Resurrection",
+          "detail": "Kratos experiences the revival mechanic after falling",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "resurrection",
+            "process",
+            "rebirth"
+          ]
+        },
+        {
+          "t": 1542,
+          "title": "Challenging Fight",
+          "detail": "Kratos struggles against tough enemies in a difficult encounter",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "difficulty",
+            "challenge"
+          ]
+        },
+        {
+          "t": 1923,
+          "title": "Memories of the Past",
+          "detail": "Kratos reflects on his past and the man he used to be",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "memories",
+            "past",
+            "reflection"
+          ]
+        },
+        {
+          "t": 2236,
+          "title": "Blade of Chaos",
+          "detail": "Kratos unleashes powerful attacks with his glowing blades",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "blades",
+            "combat",
+            "power"
+          ]
+        },
+        {
+          "t": 2561,
+          "title": "Upgrades and Loot",
+          "detail": "Kratos reviews his stats and chooses helpful upgrades",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "upgrades",
+            "loot",
+            "stats"
+          ]
+        },
+        {
+          "t": 2854,
+          "title": "Intense Combat",
+          "detail": "Kratos faces another fierce group of enemies in battle",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "enemies",
+            "struggle"
+          ]
+        },
+        {
+          "t": 3329,
+          "title": "Blade Action",
+          "detail": "Kratos continues fighting using his preferred weapon style",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "blades",
+            "weapon",
+            "action"
+          ]
+        }
+      ],
+      "videoId": "h-T5U4NeS-I"
+    },
+    "2|7BguCfR1BM8|1882934556": {
+      "summary": "Atreus journeys between Asgard and Midgard while a shocking tragedy strikes his family.",
+      "moments": [
+        {
+          "t": 0,
+          "title": "Atreus Returns to Sindri's House",
+          "detail": "Atreus returns to Sindri's house to figure out his next move after Heimdall's death.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "sindri",
+            "return"
+          ]
+        },
+        {
+          "t": 1689,
+          "title": "Odin's Secret Deal Revealed",
+          "detail": "Odin offers peace only if no more Acer blood is spilled, but Kratos refuses.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "kratos",
+            "odin",
+            "deal"
+          ]
+        },
+        {
+          "t": 2109,
+          "title": "Meeting Fenrir in Midgard",
+          "detail": "Atreus visits Fenrir and discusses his noble intentions with Angrboda before leaving.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atrues",
+            "fenrir",
+            "angrboda"
+          ]
+        },
+        {
+          "t": 2270,
+          "title": "Atreus Back in Asgard",
+          "detail": "Atreus returns to Asgard to complete the mask and investigate the situation.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "asgard",
+            "mask"
+          ]
+        },
+        {
+          "t": 2436,
+          "title": "Searching for Thor",
+          "detail": "Atreus tracks down Thor to head to Niflheim together on Odin's orders.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "thor",
+            "niflheim"
+          ]
+        },
+        {
+          "t": 2613,
+          "title": "Arriving in Helheim with Thor",
+          "detail": "Thor and Atreus arrive in Helheim to find the next piece of the mask.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "thor",
+            "atreus",
+            "helheim"
+          ]
+        },
+        {
+          "t": 3241,
+          "title": "Exploring Niflheim's Mist",
+          "detail": "Atreus and Thor explore the foggy and dangerous paths of Niflheim's workshop.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "atrues",
+            "thor",
+            "niflheim"
+          ]
+        },
+        {
+          "t": 4298,
+          "title": "Fighting Hel Walkers",
+          "detail": "Thor and Atreus battle hordes of Hel walkers in the frozen mist.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "atrues",
+            "thor",
+            "combat"
+          ]
+        },
+        {
+          "t": 4737,
+          "title": "Retrieving the Mask Piece",
+          "detail": "Atreus successfully secures the final piece of the mask in Niflheim.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "atreus",
+            "mask",
+            "niflheim"
+          ]
+        },
+        {
+          "t": 4770,
+          "title": "Confrontation in Asgard",
+          "detail": "Frey and Sif confront Odin about Heimdall's death and family safety.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "freyja",
+            "sif",
+            "odin"
+          ]
+        },
+        {
+          "t": 4931,
+          "title": "Atreus Returns Home",
+          "detail": "Atreus escapes Asgard and reunites with Kratos and the group back home.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "atreus",
+            "kratos",
+            "reunion"
+          ]
+        },
+        {
+          "t": 5031,
+          "title": "Debating the Next Move",
+          "detail": "The group debates whether to use the mask, attack Asgard, or blow the horn.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "kratos",
+            "atreus",
+            "group"
+          ]
+        },
+        {
+          "t": 5223,
+          "title": "The Tragic Betrayal",
+          "detail": "Odin kills Brok in a shocking betrayal, devastating the group and forcing war.",
+          "kind": "ending",
+          "spoiler": true,
+          "tags": [
+            "brok",
+            "odin",
+            "death"
+          ]
+        },
+        {
+          "t": 5501,
+          "title": "Gathering the Allies",
+          "detail": "Kratos and Atreus prepare to hunt down Odin and rally their allies for war.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "kratos",
+            "atreus",
+            "war"
+          ]
+        }
+      ],
+      "videoId": "7BguCfR1BM8"
+    },
+    "2|Gfn2p1dJtSw|3608093280": {
+      "summary": "Kratos and Atreus travel to Muspelheim to recruit Surtr for Ragnarok.",
+      "moments": [
+        {
+          "t": 107,
+          "title": "Journey to Muspelheim",
+          "detail": "Kratos and Atreus head to Muspelheim to find the last fire giant.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "muspelheim",
+            "exploration",
+            "fire giant"
+          ]
+        },
+        {
+          "t": 678,
+          "title": "Phantom Battle",
+          "detail": "Fight a challenging phantom creature on the way to Surt's Forge.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "boss",
+            "phantom"
+          ]
+        },
+        {
+          "t": 1426,
+          "title": "Surtr Encounter",
+          "detail": "Kratos and Atreus find Surtr, leading to a hostile encounter with the guardian.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "surtr",
+            "muspelheim"
+          ]
+        },
+        {
+          "t": 1761,
+          "title": "Negotiating with Surtr",
+          "detail": "Surtr initially refuses to help, explaining his reluctance to involve his wife.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "surtr",
+            "dialogue"
+          ]
+        },
+        {
+          "t": 1996,
+          "title": "To the Spark of the World",
+          "detail": "Surtr agrees to help after seeing the blades, leading them to the spark.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "spark of the world"
+          ]
+        },
+        {
+          "t": 2123,
+          "title": "Surtr's Transformation",
+          "detail": "Surtr uses the blades and his wife's heart to transform into his true form.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "surtr",
+            "ragnarok"
+          ]
+        },
+        {
+          "t": 2333,
+          "title": "Defending the Spark",
+          "detail": "Fight off incoming enemies while Surtr completes his transformation process.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "action",
+            "defense"
+          ]
+        },
+        {
+          "t": 2846,
+          "title": "Surtr Agrees to Help",
+          "detail": "Surtr transforms and confirms he will answer the call to attack Asgard.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "surtr",
+            "ragnarok"
+          ]
+        },
+        {
+          "t": 2912,
+          "title": "Choosing a General",
+          "detail": "Freya is offered the role of leading the army into the upcoming siege.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "freya",
+            "leadership"
+          ]
+        },
+        {
+          "t": 3019,
+          "title": "A Quiet Night",
+          "detail": "Kratos and Freya share a quiet, reflective moment before the final battle.",
+          "kind": "emotional",
+          "spoiler": true,
+          "tags": [
+            "emotional",
+            "freya",
+            "kratos"
+          ]
+        },
+        {
+          "t": 3265,
+          "title": "Reflections on Mortality",
+          "detail": "A deeply emotional scene discussing grief, love, and eventual parting.",
+          "kind": "emotional",
+          "spoiler": true,
+          "tags": [
+            "emotional",
+            "story",
+            "reflection"
+          ]
+        },
+        {
+          "t": 3742,
+          "title": "The Valkyries Unite",
+          "detail": "The Valkyries reunite and prepare to fight as sisters alongside the army.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "valkyries",
+            "preparation"
+          ]
+        },
+        {
+          "t": 3773,
+          "title": "Orders to the Temple",
+          "detail": "The group receives their final orders and prepares to head to the temple.",
+          "kind": "ending",
+          "spoiler": false,
+          "tags": [
+            "ending",
+            "story",
+            "preparation"
+          ]
+        }
+      ],
+      "videoId": "Gfn2p1dJtSw"
+    },
+    "2|fmHle5YQHlA|1747046021": {
+      "summary": "Kratos and Atreus encounter the World Serpent and journey toward the mountain.",
+      "moments": [
+        {
+          "t": 37,
+          "title": "Meeting the World Serpent",
+          "detail": "Kratos and Atreus discover the giant serpent in the lake.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "world serpent",
+            "lake",
+            "mountain"
+          ]
+        },
+        {
+          "t": 301,
+          "title": "Brokk's Workshop Upgrade",
+          "detail": "Brokk introduces his workshop and offers an upgrade to the axe.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "brokk",
+            "workshop",
+            "axe upgrade"
+          ]
+        },
+        {
+          "t": 654,
+          "title": "Poison Scorn Poles Encounter",
+          "detail": "Atreus and Kratos clear out noxious scorn poles in the foggy path.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "scorn poles",
+            "poison",
+            "combat"
+          ]
+        },
+        {
+          "t": 746,
+          "title": "Sindri Meets Kratos",
+          "detail": "Sindri appears, criticizes the axe handle, and works on it.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "sindri",
+            "axe",
+            "dwarves"
+          ]
+        },
+        {
+          "t": 1040,
+          "title": "Revenants and Raging Beasts",
+          "detail": "Kratos and Atreus battle fierce enemies along the mountain path.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "revenants",
+            "enemies"
+          ]
+        },
+        {
+          "t": 1645,
+          "title": "The Black Breath Barrier",
+          "detail": "A mysterious dark barrier blocks the path forward to the mountain.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "black breath",
+            "barrier",
+            "witch"
+          ]
+        },
+        {
+          "t": 1805,
+          "title": "Týr's Temple Revealed",
+          "detail": "The characters explore the newly revealed Týr's Temple on the lake.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "týr's temple",
+            "lake",
+            "exploration"
+          ]
+        },
+        {
+          "t": 2017,
+          "title": "Turning the Great Bridge",
+          "detail": "Atreus uses his strength to push and align the massive bridge.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "bridge",
+            "strength"
+          ]
+        },
+        {
+          "t": 2235,
+          "title": "The Bifrost and World Tree",
+          "detail": "The group learns how to use the Bifrost to travel between realms.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "bifrost",
+            "world tree",
+            "realm travel"
+          ]
+        },
+        {
+          "t": 2366,
+          "title": "Aligning the Realm Bridge",
+          "detail": "Kratos turns the wheel to align the bridge to the destination realm.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "puzzle",
+            "realm bridge",
+            "wheel"
+          ]
+        },
+        {
+          "t": 2510,
+          "title": "Journey to Alfheim",
+          "detail": "The travelers open the bridge and step into the realm of Alfheim.",
+          "kind": "ending",
+          "spoiler": true,
+          "tags": [
+            "alfheim",
+            "light",
+            "realm travel"
+          ]
+        }
+      ],
+      "videoId": "fmHle5YQHlA"
     }
   }
 }
