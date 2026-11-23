@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T14:09:31.821Z",
+  "fetchedAt": "2026-11-23T16:43:08.497Z",
   "bySlug": {
     "the-last-of-us-part-ii": [
       {
@@ -412,6 +412,13 @@
         "publishedAt": "2025-01-05T11:44:35Z",
         "description": "Welcome to the ultimate gaming adventure with LOGAN! Here, every click on the subscribe button is a leap into a universe of epic gameplays and jaw-dropping action. Don't just stand at the doorbell, ring it by smashing that bell icon! Get ready for a rollercoaster ride through pixelated paradises and digital dungeons. Buckle up, hit subscribe, and let's blast off into the gaming stratosphere!",
         "duration": 11077
+      },
+      {
+        "id": "4dNytoFnBdM",
+        "title": "GTA 6 Akkavin aalaparai🏎️ | PART-5 |PS5 |🔴 LIVE 🔴 |WrapedReality",
+        "publishedAt": "2026-11-23T04:23:38Z",
+        "description": "",
+        "duration": 7194
       }
     ],
     "god-of-war": [
@@ -1063,7 +1070,15 @@
     "prototype-2": [],
     "crysis-2": [],
     "disneys-hercules": [],
-    "grand-theft-auto-vice-city": [],
+    "grand-theft-auto-vice-city": [
+      {
+        "id": "BsQBSALfQ4o",
+        "title": "Vice City Is Calling 🌴 GTA VI Is Almost Here #gta6 #rockstargames",
+        "publishedAt": "2026-11-06T12:31:08Z",
+        "description": "",
+        "duration": 31
+      }
+    ],
     "grand-theft-auto-san-andreas": [],
     "deathloop": [],
     "hitman-2": [],
@@ -1084,16 +1099,94 @@
   },
   "uploads": [
     {
+      "id": "_JS5kGhjx-A",
+      "title": "GTA 6 Akkavin aalaparai🏎️ | PART-7 |PS5 |🔴 LIVE 🔴 |WrapedReality",
+      "publishedAt": "2026-11-23T13:15:17Z",
+      "duration": 4178
+    },
+    {
+      "id": "4dNytoFnBdM",
+      "title": "GTA 6 Akkavin aalaparai🏎️ | PART-5 |PS5 |🔴 LIVE 🔴 |WrapedReality",
+      "publishedAt": "2026-11-23T04:23:38Z",
+      "duration": 7194
+    },
+    {
+      "id": "_RZQTb2iEbE",
+      "title": "GTA 6 BANK HEIST PREP | PART-6 |PS5 |🔴 LIVE 🔴 |WrapedReality",
+      "publishedAt": "2026-11-22T21:49:56Z",
+      "duration": 12501
+    },
+    {
+      "id": "ZQVZSV2wVzo",
+      "title": "GTA 6 Akkavin aalaparai🏎️ | PART-4 |PS5 |🔴 LIVE 🔴 |WrapedReality",
+      "publishedAt": "2026-11-21T17:27:05Z",
+      "duration": 19450
+    },
+    {
+      "id": "V0RK_c_r6GM",
+      "title": "GTA 6 FREE ROAM🏎️ | PART-3 |PS5 |🔴 LIVE 🔴 |WrapedReality",
+      "publishedAt": "2026-11-20T18:20:28Z",
+      "duration": 18660
+    },
+    {
+      "id": "An0dNO95_FA",
+      "title": "GTA 6 Sambavam🔥 | PART-2 |PS5 |🔴 LIVE 🔴 |WrapedReality",
+      "publishedAt": "2026-11-19T19:37:40Z",
+      "duration": 2941
+    },
+    {
+      "id": "XC1Sx7XhSvk",
+      "title": "GTA 6 Sambavam🔥 | PART-2 |PS5 |🔴 LIVE 🔴 |WrapedReality",
+      "publishedAt": "2026-11-19T16:39:16Z",
+      "duration": 27962
+    },
+    {
+      "id": "29_DcSapT1M",
+      "title": "GTA 6 Sambavam🔥 | PART-1 |PS5 |🔴 LIVE 🔴 |WrapedReality",
+      "publishedAt": "2026-11-18T23:40:03Z",
+      "duration": 15060
+    },
+    {
+      "id": "nB_ITiFJndI",
+      "title": "Let's Goooo 🔥",
+      "publishedAt": "2026-11-18T18:31:14Z",
+      "duration": 16
+    },
+    {
+      "id": "iGpwRxmvEkI",
+      "title": "13 years of waiting… ends TOMORROW. 🔥 #gta6 #gaming #rockstar",
+      "publishedAt": "2026-11-18T13:23:33Z",
+      "duration": 15
+    },
+    {
       "id": "4xbe2QnUFKE",
       "title": "3 Days to Go ⏩ #gaming #gta6",
       "publishedAt": "2026-11-15T13:44:57Z",
       "duration": 17
     },
     {
+      "id": "APbMTmc761A",
+      "title": "PRE-LOAD Starts🔥 #gta #rockstargames",
+      "publishedAt": "2026-11-09T18:33:54Z",
+      "duration": 16
+    },
+    {
       "id": "zAU2QHda1-g",
       "title": "GTA 6 Lucia in Real Life 😳 #GTA6 #Lucia",
       "publishedAt": "2026-11-09T13:29:04Z",
       "duration": 19
+    },
+    {
+      "id": "t8Wtz8ZxgM8",
+      "title": "GTA 6 Is Coming… Are You Ready? 🔥 #Shorts #gta",
+      "publishedAt": "2026-11-08T16:15:07Z",
+      "duration": 31
+    },
+    {
+      "id": "BsQBSALfQ4o",
+      "title": "Vice City Is Calling 🌴 GTA VI Is Almost Here #gta6 #rockstargames",
+      "publishedAt": "2026-11-06T12:31:08Z",
+      "duration": 31
     },
     {
       "id": "OBx6PGVE1ZE",

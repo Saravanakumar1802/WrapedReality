@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-11-16T14:13:18.112Z",
+    "generatedAt": "2026-11-23T16:48:44.510Z",
     "count": 83,
     "embeddings": true,
     "model": "Xenova/all-MiniLM-L6-v2",
@@ -14,8 +14,8 @@
     "hasVideos": true,
     "hasCovers": true,
     "coverCount": 82,
-    "videoCount": 139,
-    "momentCount": 456
+    "videoCount": 141,
+    "momentCount": 525
   },
   "journey": [
     "need-for-speed-payback",
@@ -42,6 +42,7 @@
     "dragon-ball-sparking-zero",
     "black-myth-wukong",
     "game-of-thrones-kingsroad",
+    "grand-theft-auto-vice-city",
     "uncharted-the-nathan-drake-collection",
     "uncharted-legacy-of-thieves-collection",
     "horizon-zero-dawn",
@@ -92,7 +93,6 @@
     "prototype-2",
     "crysis-2",
     "disneys-hercules",
-    "grand-theft-auto-vice-city",
     "grand-theft-auto-san-andreas",
     "deathloop",
     "hitman-2",
@@ -5436,6 +5436,13 @@
           "publishedAt": "2025-01-05T11:44:35Z",
           "duration": 11077,
           "summary": "Players tackle the Diamond Casino Heist and deal with post-heist business in Grand Theft Auto Online."
+        },
+        {
+          "id": "4dNytoFnBdM",
+          "title": "GTA 6 Akkavin aalaparai🏎️ | PART-5 |PS5 |🔴 LIVE 🔴 |WrapedReality",
+          "publishedAt": "2026-11-23T04:23:38Z",
+          "duration": 7194,
+          "summary": null
         }
       ],
       "firstVideoAt": "2024-12-21T21:08:58Z",
@@ -7975,7 +7982,344 @@
       "igdbGenres": [],
       "igdbThemes": [],
       "takeaway": [],
-      "moments": [],
+      "moments": [
+        {
+          "t": 14,
+          "label": "Stone Egg Discovery",
+          "detail": "Looking at the stone egg where Wukong was born.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "rock",
+            "egg"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 104,
+          "label": "Memories of Wukong",
+          "detail": "Entering the memories of the old monkey.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "monkey",
+            "memories"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 157,
+          "label": "Celestial Court Recall",
+          "detail": "Discussing Wukong's early days and celestial rebellion.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "court",
+            "rebellion"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 281,
+          "label": "White Tiger Ridge",
+          "detail": "Reflecting on Wukong and the lady of White Tiger Ridge.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "ridge",
+            "tricks"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 448,
+          "label": "The Mind Revealed",
+          "detail": "Discovering the truth about the six relics and Wukong's mind.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "relics",
+            "mind"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 511,
+          "label": "Wukong's Fate",
+          "detail": "Learning that Wukong is truly gone for good.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "fate",
+            "successor"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 639,
+          "label": "Parting Ways",
+          "detail": "Leaving behind Wukong's broken shell and taking the task.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "shell",
+            "task"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 789,
+          "label": "Venturing Forward",
+          "detail": "Navigating through new areas and facing the heat.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "journey",
+            "heat"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 1222,
+          "label": "Intense Combat",
+          "detail": "Engaging in a fierce battle against tough enemies.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "fight",
+            "action"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 1516,
+          "label": "Fire and Fury",
+          "detail": "Surviving intense fire attacks and chaotic fights.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "fire",
+            "action"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 1962,
+          "label": "Another Bomb Threat",
+          "detail": "Encountering dangerous explosives in the heat of battle.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "bomb",
+            "danger"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 2319,
+          "label": "Heat of Battle",
+          "detail": "Continuing the relentless fight amidst screaming heat.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "action",
+            "enemies"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 2711,
+          "label": "Surviving the Heat",
+          "detail": "Pressing forward through relentless waves of combat.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "survival",
+            "action"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 3058,
+          "label": "Back to Normal",
+          "detail": "Returning to a calm state after the intense trials.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "story",
+            "normal",
+            "calm"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 3377,
+          "label": "Red Flag Spotted",
+          "detail": "Discovering a red flag and exploring the ground.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "exploration",
+            "flag",
+            "discovery"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 3537,
+          "label": "Full Health Recovery",
+          "detail": "Restoring health and preparing for another party of foes.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "health",
+            "recovery"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 4325,
+          "label": "Out of Control Boss Fight",
+          "detail": "Facing an overwhelming and chaotic boss encounter.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "boss",
+            "combat",
+            "intense"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 4565,
+          "label": "Pushing Through",
+          "detail": "Continuing the arduous battle against relentless foes.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "fight",
+            "action"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 4772,
+          "label": "Aftermath of Battle",
+          "detail": "Assessing the situation after intense combat sequences.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "aftermath",
+            "action"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 4910,
+          "label": "Good Night",
+          "detail": "Wrapping up the gameplay session and saying goodbye.",
+          "kind": "ending",
+          "spoiler": false,
+          "tags": [
+            "ending",
+            "stream",
+            "wrap"
+          ],
+          "videoId": "6awVGjHy51s",
+          "source": "ai"
+        },
+        {
+          "t": 0,
+          "label": "Fiery Encounter",
+          "detail": "The Destined One faces a heated battle against an opponent.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "boss",
+            "combat",
+            "heat"
+          ],
+          "videoId": "7jynVTZ3tYM",
+          "source": "ai"
+        },
+        {
+          "t": 96,
+          "label": "Master's Monologue",
+          "detail": "A character vents about their past, freedom, and forced servitude.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "dialogue",
+            "lore"
+          ],
+          "videoId": "7jynVTZ3tYM",
+          "source": "ai"
+        },
+        {
+          "t": 128,
+          "label": "Slaughter of Kin",
+          "detail": "The speaker expresses bitter anger over the killing of their kind.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "story",
+            "emotional",
+            "betrayal"
+          ],
+          "videoId": "7jynVTZ3tYM",
+          "source": "ai"
+        },
+        {
+          "t": 166,
+          "label": "Intense Heat",
+          "detail": "The battle continues amidst intense heat and dialogue.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "combat",
+            "action",
+            "heat"
+          ],
+          "videoId": "7jynVTZ3tYM",
+          "source": "ai"
+        }
+      ],
       "videos": [
         {
           "id": "rygkuHbUbbM",
@@ -8038,7 +8382,7 @@
           "title": "BLACK MYTH WUKONG | Chinese Mythology PART-9| PS5 |🔴 LIVE 🔴 |WrapedReality",
           "publishedAt": "2026-03-01T11:36:00Z",
           "duration": 4921,
-          "summary": null
+          "summary": "Exploring memories and battling intense foes in Black Myth Wukong."
         },
         {
           "id": "SbJAZmGt9IA",
@@ -8052,7 +8396,7 @@
           "title": "The Coldest Entry in Black Myth Wukong 🥶",
           "publishedAt": "2026-03-08T14:13:31Z",
           "duration": 179,
-          "summary": null
+          "summary": "The Destined One confronts a chilling enemy amid fiery heat in Black Myth Wukong."
         },
         {
           "id": "b58kzZEXYk4",
@@ -8657,7 +9001,277 @@
       "igdbGenres": [],
       "igdbThemes": [],
       "takeaway": [],
-      "moments": [],
+      "moments": [
+        {
+          "t": 1038,
+          "label": "An Alibi in the Longhouse",
+          "detail": "Delson sneaks into the longhouse to establish an alibi before getting caught.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "delson",
+            "longhouse",
+            "alibi"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 1327,
+          "label": "Conduit Awakening",
+          "detail": "Delson's first encounter with a crashed conduit leads to his powers awakening.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "delson",
+            "conduit",
+            "powers",
+            "crash"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 1599,
+          "label": "First Fight with Smoke Powers",
+          "detail": "Delson fights his way through the tribe area using his new smoke abilities.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "delson",
+            "smoke",
+            "powers",
+            "fight"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 1707,
+          "label": "Hank's Past and Escape",
+          "detail": "Hank Daughtry explains his history in prison and his escape with Delson.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "hank",
+            "prison",
+            "escape",
+            "story"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 1943,
+          "label": "Augustine's Interrogation",
+          "detail": "Augustine questions Delson and threatens Betty to get information.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "augustine",
+            "betty",
+            "interrogation",
+            "threat"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 2231,
+          "label": "Aftermath at the Longhouse",
+          "detail": "Delson wakes up to find the devastation Augustine left behind at the longhouse.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "delson",
+            "betty",
+            "aftermath",
+            "longhouse"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 2430,
+          "label": "Road Trip to Seattle",
+          "detail": "Delson and Reggie decide to head to Seattle to find Augustine and a cure.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "delson",
+            "reggie",
+            "seattle",
+            "road trip"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 2596,
+          "label": "Entering Seattle",
+          "detail": "Delson and Reggie arrive in Seattle and witness the D.U.P. occupation.",
+          "kind": "exploration",
+          "spoiler": false,
+          "tags": [
+            "seattle",
+            "dup",
+            "exploration",
+            "arrival"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 2738,
+          "label": "Testing New Tricks",
+          "detail": "Delson tests out his smoke powers and practices combat against D.U.P. units.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "delson",
+            "combat",
+            "smoke",
+            "dup"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 2975,
+          "label": "The Bridge is Going Down",
+          "detail": "The D.U.P. announces the immediate decommissioning of the 520 bridge.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "bridge",
+            "dup",
+            "evacuation",
+            "story"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 3006,
+          "label": "Bridge Ambush",
+          "detail": "Delson fights D.U.P. soldiers on the bridge while evacuating civilians.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "delson",
+            "bridge",
+            "combat",
+            "dup"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 3102,
+          "label": "The Bridge Collapse",
+          "detail": "The bridge collapses during the D.U.P. attack, separating Delson and Reggie.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "bridge",
+            "collapse",
+            "reggie",
+            "dulsion"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 3362,
+          "label": "Lifting the RV",
+          "detail": "Delson helps clear a blocked path by lifting debris off an RV.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "delson",
+            "rv",
+            "puzzle",
+            "clear path"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 3530,
+          "label": "Checkpoint Skirmish",
+          "detail": "Delson attacks a D.U.P. checkpoint and takes down the towers.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "delson",
+            "checkpoint",
+            "combat",
+            "towers"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 3724,
+          "label": "Destroying the Command Center",
+          "detail": "Delson destroys a D.U.P. mobile command center by overheating its vents.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "delson",
+            "command center",
+            "combat",
+            "dup"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 4361,
+          "label": "Cracking the Core Relay",
+          "detail": "Delson uses his new abilities to break open a locked core relay.",
+          "kind": "puzzle",
+          "spoiler": false,
+          "tags": [
+            "delson",
+            "core relay",
+            "puzzle",
+            "power"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 4664,
+          "label": "Discussing the D.U.P. Occupation",
+          "detail": "Delson and Reggie discuss how the D.U.P. controls Seattle through martial law.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "delson",
+            "reggie",
+            "dup",
+            "seattle"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        },
+        {
+          "t": 4928,
+          "label": "The Space Needle Lead",
+          "detail": "Reggie uncovers information about the D.U.P. central communications at the Space Needle.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "reggie",
+            "space needle",
+            "communication",
+            "lead"
+          ],
+          "videoId": "oWWUZdtOtYY",
+          "source": "ai"
+        }
+      ],
       "videos": [
         {
           "id": "G0mZpYrze94",
@@ -8671,7 +9285,7 @@
           "title": "InFamous Second Son || Part 1 || Evil GAMEPLAY🔥",
           "publishedAt": "2022-02-07T03:09:23Z",
           "duration": 4994,
-          "summary": null
+          "summary": "Delson Rowe discovers he's a conduit with smoke powers and travels to Seattle with his brother Reggie."
         },
         {
           "id": "noY0Ir2_6jc",
@@ -11448,21 +12062,413 @@
       "igdbGenres": [],
       "igdbThemes": [],
       "takeaway": [],
-      "moments": [],
+      "moments": [
+        {
+          "t": 1041,
+          "label": "Gathering the Dragon Balls",
+          "detail": "Goku and friends discuss the power of the Dragon Balls.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "dragon balls",
+            "wish",
+            "story"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 1338,
+          "label": "Raditz Arrives",
+          "detail": "Raditz confronts Goku and reveals Goku's true Saiyan heritage.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "raditz",
+            "goku",
+            "story"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 1607,
+          "label": "Goku vs. Raditz",
+          "detail": "Goku and Piccolo team up to fight Raditz in a desperate battle.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "raditz",
+            "goku",
+            "piccolo"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 2756,
+          "label": "Great Ape Vegeta",
+          "detail": "Vegeta transforms into a Great Ape to crush the Earth's defenders.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "vegeta",
+            "great ape",
+            "boss"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 3035,
+          "label": "Super Saiyan Goku",
+          "detail": "Goku awakens the legendary Super Saiyan form against Frieza.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "goku",
+            "super saiyan",
+            "frieza"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 3313,
+          "label": "Trunks Arrives",
+          "detail": "A mysterious youth with a sword appears on Earth.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "trunks",
+            "story",
+            "cutscene"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 3506,
+          "label": "Goku vs. Androids",
+          "detail": "The battle against the Androids begins as new threats emerge.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "androids",
+            "goku",
+            "combat"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 5715,
+          "label": "Super Vegeta's Power",
+          "detail": "Vegeta shows off his royal strength and new power.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "vegeta",
+            "super vegeta",
+            "combat"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 6186,
+          "label": "Vegeta vs. Cell",
+          "detail": "Vegeta confronts Semi-Perfect Cell to test his new strength.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "vegeta",
+            "cell",
+            "boss"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 6738,
+          "label": "Cell Reaches Perfection",
+          "detail": "Cell achieves his final, perfect form despite Vegeta's warnings.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "cell",
+            "perfect cell",
+            "story"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 8189,
+          "label": "Majin Vegeta Emerges",
+          "detail": "Vegeta succumbs to Babidi's magic and becomes Majin Vegeta.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "majin vegeta",
+            "babidi",
+            "story"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 8695,
+          "label": "Super Vegito Fights Buu",
+          "detail": "Goku and Vegeta use potara earrings to fuse into Super Vegito.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "vegito",
+            "majin buu",
+            "boss"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 9181,
+          "label": "Spirit Bomb vs. Buu",
+          "detail": "Goku gathers energy from the universe to defeat Majin Buu.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "goku",
+            "majin buu",
+            "spirit bomb"
+          ],
+          "videoId": "r7DCaDyYWqY",
+          "source": "ai"
+        },
+        {
+          "t": 288,
+          "label": "Goku vs. Raditz",
+          "detail": "Goku faces his brother Raditz with Piccolo's help.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "goku",
+            "raditz",
+            "piccolo",
+            "boss"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 421,
+          "label": "Ginyu Body Change",
+          "detail": "Captain Ginyu swaps bodies with Goku during the fight.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "ginyu",
+            "goku",
+            "body swap",
+            "story"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 717,
+          "label": "Goku vs. Frieza",
+          "detail": "Goku battles Frieza on Namek, powering up to Super Saiyan.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "goku",
+            "frieza",
+            "super saiyan",
+            "boss"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 1129,
+          "label": "Frieza's 100% Power",
+          "detail": "Frieza reaches his maximum 100% full power against Goku.",
+          "kind": "story",
+          "spoiler": true,
+          "tags": [
+            "frieza",
+            "goku",
+            "power up",
+            "story"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 1589,
+          "label": "Goku vs. Android 19",
+          "detail": "Goku fights Android 19 before falling ill to his heart condition.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "goku",
+            "android 19",
+            "combat",
+            "androids"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 2089,
+          "label": "Android 16 Joins the Fight",
+          "detail": "Android 16 steps up to fight Cell to protect Android 17.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "android 16",
+            "cell",
+            "story",
+            "androids"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 2252,
+          "label": "Goku vs. Androids",
+          "detail": "Goku spars and tests his skills against the Androids.",
+          "kind": "combat",
+          "spoiler": false,
+          "tags": [
+            "goku",
+            "androids",
+            "combat",
+            "gameplay"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 2671,
+          "label": "Goku vs. Android 16",
+          "detail": "Goku faces off against a fierce Android 16 in battle.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "goku",
+            "android 16",
+            "boss",
+            "androids"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 3112,
+          "label": "Gohan vs. Perfect Cell",
+          "detail": "Gohan steps up to fight Perfect Cell in the Cell Games.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "gohan",
+            "cell",
+            "boss",
+            "cell games"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 3381,
+          "label": "Cell Juniors Attack",
+          "detail": "The Cell Juniors unleash chaos on the Z Fighters.",
+          "kind": "combat",
+          "spoiler": true,
+          "tags": [
+            "cell juniors",
+            "combat",
+            "cell games"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 3581,
+          "label": "Goku's Sacrifice",
+          "detail": "Goku sacrifices himself by teleporting Self-Destructing Cell away.",
+          "kind": "emotional",
+          "spoiler": true,
+          "tags": [
+            "goku",
+            "cell",
+            "sacrifice",
+            "emotional"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 3866,
+          "label": "Majin Vegeta vs. Goku",
+          "detail": "Majin Vegeta battles Goku in an intense grudge match.",
+          "kind": "boss",
+          "spoiler": true,
+          "tags": [
+            "vegeta",
+            "goku",
+            "majin",
+            "boss"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 4140,
+          "label": "Super Saiyan 3 Transformation",
+          "detail": "Goku unveils the legendary Super Saiyan 3 transformation.",
+          "kind": "story",
+          "spoiler": false,
+          "tags": [
+            "goku",
+            "super saiyan 3",
+            "transformation",
+            "story"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        },
+        {
+          "t": 4236,
+          "label": "Fusion and Conclusion",
+          "detail": "The story approaches its conclusion with fusion and wrap up.",
+          "kind": "ending",
+          "spoiler": false,
+          "tags": [
+            "fusion",
+            "ending",
+            "story",
+            "gameplay"
+          ],
+          "videoId": "f-BJB5t9Q3c",
+          "source": "ai"
+        }
+      ],
       "videos": [
         {
           "id": "r7DCaDyYWqY",
           "title": "Dragon Ball: Sparking! ZERO – FULL STORY Gameplay PS5 | Saiyan to Majin Buu Saga (4K) |🔴 LIVE 🔴 |",
           "publishedAt": "2026-02-07T21:20:18Z",
           "duration": 10202,
-          "summary": null
+          "summary": "Experience the epic story of Dragon Ball Z from the Saiyan Saga through the Majin Buu Saga."
         },
         {
           "id": "f-BJB5t9Q3c",
           "title": "DRAGON BALL SPARKING ZERO SON GOKU | PS5 |🔴 LIVE 🔴 |WrapedReality",
           "publishedAt": "2026-02-14T15:37:27Z",
           "duration": 4277,
-          "summary": null
+          "summary": "Son Goku's epic battles through the Dragon Ball Z saga in Dragon Ball Sparking Zero."
         },
         {
           "id": "XDPNHV16wIg",
@@ -14162,8 +15168,16 @@
       "igdbThemes": [],
       "takeaway": [],
       "moments": [],
-      "videos": [],
-      "firstVideoAt": null,
+      "videos": [
+        {
+          "id": "BsQBSALfQ4o",
+          "title": "Vice City Is Calling 🌴 GTA VI Is Almost Here #gta6 #rockstargames",
+          "publishedAt": "2026-11-06T12:31:08Z",
+          "duration": 31,
+          "summary": null
+        }
+      ],
+      "firstVideoAt": "2026-11-06T12:31:08Z",
       "playedOrder": null,
       "stats": {},
       "scores": {
